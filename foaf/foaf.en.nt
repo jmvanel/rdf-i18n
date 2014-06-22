@@ -25,7 +25,7 @@
     <http://xmlns.com/foaf/0.1/Person>     <http://www.w3.org/2000/01/rdf-schema#comment> "A person." .
     <http://xmlns.com/foaf/0.1/Person>     <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
     <http://xmlns.com/foaf/0.1/PersonalProfileDocument>     <http://www.w3.org/2000/01/rdf-schema#comment> "A personal profile RDF document." .
-    <http://xmlns.com/foaf/0.1/PersonalProfileDocument>     <http://www.w3.org/2000/01/rdf-schema#label> "PersonalProfileDocument" .
+    <http://xmlns.com/foaf/0.1/PersonalProfileDocument>     <http://www.w3.org/2000/01/rdf-schema#label> "Personal Profile Document" .
     <http://xmlns.com/foaf/0.1/Project>     <http://www.w3.org/2000/01/rdf-schema#comment> "A project (a collective endeavour of some kind)." .
     <http://xmlns.com/foaf/0.1/Project>     <http://www.w3.org/2000/01/rdf-schema#label> "Project" .
     <http://xmlns.com/foaf/0.1/account>     <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an account held by this agent." .
@@ -51,11 +51,11 @@
     <http://xmlns.com/foaf/0.1/dnaChecksum>     <http://www.w3.org/2000/01/rdf-schema#comment> "A checksum for the DNA of some thing. Joke." .
     <http://xmlns.com/foaf/0.1/dnaChecksum>     <http://www.w3.org/2000/01/rdf-schema#label> "DNA checksum" .
     <http://xmlns.com/foaf/0.1/familyName>     <http://www.w3.org/2000/01/rdf-schema#comment> "The family name of some person." .
-    <http://xmlns.com/foaf/0.1/familyName>     <http://www.w3.org/2000/01/rdf-schema#label> "familyName" .
+    <http://xmlns.com/foaf/0.1/familyName>     <http://www.w3.org/2000/01/rdf-schema#label> "family name" .
     <http://xmlns.com/foaf/0.1/family_name>     <http://www.w3.org/2000/01/rdf-schema#comment> "The family name of some person." .
-    <http://xmlns.com/foaf/0.1/family_name>     <http://www.w3.org/2000/01/rdf-schema#label> "family_name" .
+    <http://xmlns.com/foaf/0.1/family_name>     <http://www.w3.org/2000/01/rdf-schema#label> "family name" .
     <http://xmlns.com/foaf/0.1/firstName>     <http://www.w3.org/2000/01/rdf-schema#comment> "The first name of a person." .
-    <http://xmlns.com/foaf/0.1/firstName>     <http://www.w3.org/2000/01/rdf-schema#label> "firstName" .
+    <http://xmlns.com/foaf/0.1/firstName>     <http://www.w3.org/2000/01/rdf-schema#label> "first name" .
     <http://xmlns.com/foaf/0.1/focus>     <http://www.w3.org/2000/01/rdf-schema#comment> "The underlying or 'focal' entity associated with some SKOS-described concept." .
     <http://xmlns.com/foaf/0.1/focus>     <http://www.w3.org/2000/01/rdf-schema#label> "focus" .
     <http://xmlns.com/foaf/0.1/fundedBy>     <http://www.w3.org/2000/01/rdf-schema#comment> "An organization funding a project or person." .
@@ -85,7 +85,7 @@
     <http://xmlns.com/foaf/0.1/knows>     <http://www.w3.org/2000/01/rdf-schema#comment> "A person known by this person (indicating some level of reciprocated interaction between the parties)." .
     <http://xmlns.com/foaf/0.1/knows>     <http://www.w3.org/2000/01/rdf-schema#label> "knows" .
     <http://xmlns.com/foaf/0.1/lastName>     <http://www.w3.org/2000/01/rdf-schema#comment> "The last name of a person." .
-    <http://xmlns.com/foaf/0.1/lastName>     <http://www.w3.org/2000/01/rdf-schema#label> "lastName" .
+    <http://xmlns.com/foaf/0.1/lastName>     <http://www.w3.org/2000/01/rdf-schema#label> "last name" .
     <http://xmlns.com/foaf/0.1/logo>     <http://www.w3.org/2000/01/rdf-schema#comment> "A logo representing some thing." .
     <http://xmlns.com/foaf/0.1/logo>     <http://www.w3.org/2000/01/rdf-schema#label> "logo" .
     <http://xmlns.com/foaf/0.1/made>     <http://www.w3.org/2000/01/rdf-schema#comment> "Something that was made by this agent." .
@@ -99,7 +99,7 @@
     <http://xmlns.com/foaf/0.1/member>     <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a member of a Group" .
     <http://xmlns.com/foaf/0.1/member>     <http://www.w3.org/2000/01/rdf-schema#label> "member" .
     <http://xmlns.com/foaf/0.1/membershipClass>     <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the class of individuals that are a member of a Group" .
-    <http://xmlns.com/foaf/0.1/membershipClass>     <http://www.w3.org/2000/01/rdf-schema#label> "membershipClass" .
+    <http://xmlns.com/foaf/0.1/membershipClass>     <http://www.w3.org/2000/01/rdf-schema#label> "membership class" .
     <http://xmlns.com/foaf/0.1/msnChatID>     <http://www.w3.org/2000/01/rdf-schema#comment> "An MSN chat ID" .
     <http://xmlns.com/foaf/0.1/msnChatID>     <http://www.w3.org/2000/01/rdf-schema#label> "MSN chat ID" .
     <http://xmlns.com/foaf/0.1/myersBriggs>     <http://www.w3.org/2000/01/rdf-schema#comment> "A Myers Briggs (MBTI) personality classification." .
@@ -110,7 +110,7 @@
     <http://xmlns.com/foaf/0.1/nick>     <http://www.w3.org/2000/01/rdf-schema#comment> "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)." .
     <http://xmlns.com/foaf/0.1/nick>     <http://www.w3.org/2000/01/rdf-schema#label> "nickname" .
     <http://xmlns.com/foaf/0.1/openid>     <http://www.w3.org/2000/01/rdf-schema#comment> "An OpenID for an Agent." .
-    <http://xmlns.com/foaf/0.1/openid>     <http://www.w3.org/2000/01/rdf-schema#label> "openid" .
+    <http://xmlns.com/foaf/0.1/openid>     <http://www.w3.org/2000/01/rdf-schema#label> "OpenID" .
     <http://xmlns.com/foaf/0.1/page>     <http://www.w3.org/2000/01/rdf-schema#comment> "A page or document about this thing." .
     <http://xmlns.com/foaf/0.1/page>     <http://www.w3.org/2000/01/rdf-schema#label> "page" .
     <http://xmlns.com/foaf/0.1/pastProject>     <http://www.w3.org/2000/01/rdf-schema#comment> "A project this person has previously worked on." .
@@ -124,7 +124,7 @@
     <http://xmlns.com/foaf/0.1/publications>     <http://www.w3.org/2000/01/rdf-schema#comment> "A link to the publications of this person." .
     <http://xmlns.com/foaf/0.1/publications>     <http://www.w3.org/2000/01/rdf-schema#label> "publications" .
     <http://xmlns.com/foaf/0.1/schoolHomepage>     <http://www.w3.org/2000/01/rdf-schema#comment> "A homepage of a school attended by the person." .
-    <http://xmlns.com/foaf/0.1/schoolHomepage>     <http://www.w3.org/2000/01/rdf-schema#label> "schoolHomepage" .
+    <http://xmlns.com/foaf/0.1/schoolHomepage>     <http://www.w3.org/2000/01/rdf-schema#label> "school homepage" .
     <http://xmlns.com/foaf/0.1/sha1>     <http://www.w3.org/2000/01/rdf-schema#comment> "A sha1sum hash, in hex." .
     <http://xmlns.com/foaf/0.1/sha1>     <http://www.w3.org/2000/01/rdf-schema#label> "sha1sum (hex)" .
     <http://xmlns.com/foaf/0.1/skypeID>     <http://www.w3.org/2000/01/rdf-schema#comment> "A Skype ID" .
@@ -144,7 +144,7 @@
     <http://xmlns.com/foaf/0.1/topic>     <http://www.w3.org/2000/01/rdf-schema#comment> "A topic of some page or document." .
     <http://xmlns.com/foaf/0.1/topic>     <http://www.w3.org/2000/01/rdf-schema#label> "topic" .
     <http://xmlns.com/foaf/0.1/topic_interest>     <http://www.w3.org/2000/01/rdf-schema#comment> "A thing of interest to this person." .
-    <http://xmlns.com/foaf/0.1/topic_interest>     <http://www.w3.org/2000/01/rdf-schema#label> "topic_interest" .
+    <http://xmlns.com/foaf/0.1/topic_interest>     <http://www.w3.org/2000/01/rdf-schema#label> "topic of interest" .
     <http://xmlns.com/foaf/0.1/weblog>     <http://www.w3.org/2000/01/rdf-schema#comment> "A weblog of some thing (whether person, group, company etc.)." .
     <http://xmlns.com/foaf/0.1/weblog>     <http://www.w3.org/2000/01/rdf-schema#label> "weblog" .
     <http://xmlns.com/foaf/0.1/workInfoHomepage>     <http://www.w3.org/2000/01/rdf-schema#comment> "A work info homepage of some person; a page about their work for some organization." .
