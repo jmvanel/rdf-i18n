@@ -90,11 +90,11 @@
     <http://xmlns.com/foaf/0.1/logo>     <http://www.w3.org/2000/01/rdf-schema#label> "Logo" .
     <http://xmlns.com/foaf/0.1/made>     <http://www.w3.org/2000/01/rdf-schema#comment> "Something that was made by this agent." .
     <http://xmlns.com/foaf/0.1/made>     <http://www.w3.org/2000/01/rdf-schema#label> "Made" .
-    <http://xmlns.com/foaf/0.1/maker>     <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that  made this thing." .
+    <http://xmlns.com/foaf/0.1/maker>     <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that made this thing." .
     <http://xmlns.com/foaf/0.1/maker>     <http://www.w3.org/2000/01/rdf-schema#label> "Maker" .
-    <http://xmlns.com/foaf/0.1/mbox>     <http://www.w3.org/2000/01/rdf-schema#comment> "A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." .
+    <http://xmlns.com/foaf/0.1/mbox>     <http://www.w3.org/2000/01/rdf-schema#comment> "A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." .
     <http://xmlns.com/foaf/0.1/mbox>     <http://www.w3.org/2000/01/rdf-schema#label> "Personal Mailbox" .
-    <http://xmlns.com/foaf/0.1/mbox_sha1sum>     <http://www.w3.org/2000/01/rdf-schema#comment> "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox." .
+    <http://xmlns.com/foaf/0.1/mbox_sha1sum>     <http://www.w3.org/2000/01/rdf-schema#comment> "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox." .
     <http://xmlns.com/foaf/0.1/mbox_sha1sum>     <http://www.w3.org/2000/01/rdf-schema#label> "sha1sum of a Personal Mailbox URI Name" .
     <http://xmlns.com/foaf/0.1/member>     <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a member of a Group" .
     <http://xmlns.com/foaf/0.1/member>     <http://www.w3.org/2000/01/rdf-schema#label> "Member" .
@@ -115,7 +115,7 @@
     <http://xmlns.com/foaf/0.1/page>     <http://www.w3.org/2000/01/rdf-schema#label> "Page" .
     <http://xmlns.com/foaf/0.1/pastProject>     <http://www.w3.org/2000/01/rdf-schema#comment> "A project this person has previously worked on." .
     <http://xmlns.com/foaf/0.1/pastProject>     <http://www.w3.org/2000/01/rdf-schema#label> "Past Project" .
-    <http://xmlns.com/foaf/0.1/phone>     <http://www.w3.org/2000/01/rdf-schema#comment> "A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)." .
+    <http://xmlns.com/foaf/0.1/phone>     <http://www.w3.org/2000/01/rdf-schema#comment> "A phone, specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)." .
     <http://xmlns.com/foaf/0.1/phone>     <http://www.w3.org/2000/01/rdf-schema#label> "Phone" .
     <http://xmlns.com/foaf/0.1/plan>     <http://www.w3.org/2000/01/rdf-schema#comment> "A .plan comment, in the tradition of finger and '.plan' files." .
     <http://xmlns.com/foaf/0.1/plan>     <http://www.w3.org/2000/01/rdf-schema#label> "Plan" .
