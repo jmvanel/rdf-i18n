@@ -4,236 +4,236 @@
 # traduction de la documentation du vocabulaire FOAF - © J.M Vanel 2014 - License Creative Commons.
 
 foaf:fundedBy
-rdfs:comment "Une organisation finançant un projet ou une personne . "@fr ;
-      rdfs:label " financé par "@fr .
+rdfs:comment "Une organisation finançant un projet ou une personne ."@fr ;
+      rdfs:label "financé par"@fr .
 foaf:img
-      rdfs:comment " Une image qui peut être utilisé pour représenter quelque chose ( c. ces représentations qui sont particulièrement représentatifs de quelque chose, par exemple une photo de sur une page d'accueil . ) "@fr ;
+      rdfs:comment "Une image qui peut être utilisé pour représenter quelque chose ( c. ces représentations qui sont particulièrement représentatifs de quelque chose, par exemple une photo de sur une page d'accueil . )"@fr ;
       rdfs:label "image"@fr .
 foaf:birthday
-      rdfs:comment " L'anniversaire de cette agent, représenté sous forme de chaîne mm - dd, par exemple, '12 - 31 ' . "@fr ;
+      rdfs:comment "L'anniversaire de cette agent, représenté sous forme de chaîne mm - dd, par exemple, '12 - 31 ' ."@fr ;
       rdfs:label "anniversaire"@fr .
 foaf:givenName
-      rdfs:comment " Le nom donné d'une personne . "@fr ;
-      rdfs:label " Prénom "@fr .
+      rdfs:comment "Le nom donné d'une personne ."@fr ;
+      rdfs:label "Prénom"@fr .
 foaf:currentProject
-      rdfs:comment " Un projet en cours sur lequel cette personne travaille . "@fr ;
-      rdfs:label " projet en cours "@fr .
+      rdfs:comment "Un projet en cours sur lequel cette personne travaille ."@fr ;
+      rdfs:label "projet en cours"@fr .
 foaf:homepage
-      rdfs:comment " Une page d'accueil pour quelque chose . "@fr ;
-      rdfs:label " page d'accueil"@fr .
+      rdfs:comment "Une page d'accueil pour quelque chose ."@fr ;
+      rdfs:label "page d'accueil"@fr .
 foaf:OnlineEcommerceAccount
-      rdfs:comment " un compte e- commerce en ligne . "@fr ;
-      rdfs:label " compte E - commerce en ligne "@fr .
+      rdfs:comment "un compte e- commerce en ligne ."@fr ;
+      rdfs:label "compte E - commerce en ligne"@fr .
 foaf:geekcode
-      rdfs:comment " Un geekcode textuel pour cette personne, voir http://www.geekcode.com/geek.html "@fr ;
-      rdfs:label " geekcode "@fr .
+      rdfs:comment "Un geekcode textuel pour cette personne, voir http://www.geekcode.com/geek.html"@fr ;
+      rdfs:label "geekcode"@fr .
 foaf:knows
-      rdfs:comment " Une personne connue par cette personne ( qui indique un certain niveau d'interaction réciproque entre les parties ) . "@fr ;
+      rdfs:comment "Une personne connue par cette personne ( qui indique un certain niveau d'interaction réciproque entre les parties ) ."@fr ;
       rdfs:label "connait"@fr .
 foaf:mbox
-      rdfs:comment " Une boîte aux lettres personnelle , soit une boîte aux lettres Internet associée à un propriétaire exactement , le premier propriétaire de cette boîte aux lettres Il s'agit d'un ' inverse propriété statique fonctionnelle , en ce qu'il est ( dans le temps et le changement ) au plus un individu . . qui a jamais une valeur particulière pour foaf:mbox "@fr ;
-      rdfs:label " boîte aux lettres personnelle "@fr .
+      rdfs:comment "Une boîte aux lettres personnelle , soit une boîte aux lettres Internet associée à un propriétaire exactement , le premier propriétaire de cette boîte aux lettres Il s'agit d'un ' inverse propriété statique fonctionnelle , en ce qu'il est ( dans le temps et le changement ) au plus un individu . . qui a jamais une valeur particulière pour foaf:mbox"@fr ;
+      rdfs:label "boîte aux lettres personnelle"@fr .
 foaf:name
-      rdfs:comment " Un nom pour quelque chose . "@fr ;
+      rdfs:comment "Un nom pour quelque chose ."@fr ;
       rdfs:label "nom"@fr .
 foaf:sha1
-      rdfs:comment " Un hachage SHA-1 de , dans l'hexagone . "@fr ;
-      rdfs:label " SHA-1 ( hexadécimal) "@fr .
+      rdfs:comment "Un hachage SHA-1 de , dans l'hexagone ."@fr ;
+      rdfs:label "SHA-1 ( hexadécimal)"@fr .
 foaf:Organisation
-      rdfs:comment " Une organisation . "@fr ;
-      rdfs:label " Organisation "@fr .
+      rdfs:comment "Une organisation ."@fr ;
+      rdfs:label "Organisation"@fr .
 foaf:accountServiceHomepage
-      rdfs:comment " Indique une page d'accueil du service fournira pour ce compte en ligne . "@fr ;
-      rdfs:label " compte un service d'accueil "@fr .
+      rdfs:comment "Indique une page d'accueil du service fournira pour ce compte en ligne ."@fr ;
+      rdfs:label "compte un service d'accueil"@fr .
 foaf:yahooChatID
-      rdfs:comment " Une discussion Yahoo ID ";
-      rdfs:label " Yahoo ID de chat "@fr ;
-      rdfs:label " Concept "@fr .
+      rdfs:comment "Une discussion Yahoo ID ";
+      rdfs:label "Yahoo ID de chat"@fr ;
+      rdfs:label "Concept"@fr .
 foaf:OnlineAccount
-      rdfs:comment " Un compte en ligne . "@fr ;
-      rdfs:label " compte en ligne"@fr .
+      rdfs:comment "Un compte en ligne ."@fr ;
+      rdfs:label "compte en ligne"@fr .
 foaf:primaryTopic
-      rdfs:comment " Le principal sujet de certaines page ou un document . "@fr ;
-      rdfs:label " sujet principal "@fr .
+      rdfs:comment "Le principal sujet de certaines page ou un document ."@fr ;
+      rdfs:label "sujet principal"@fr .
 foaf:icqChatID
-      rdfs:comment " Un ID  de causerie ICQ ";
+      rdfs:comment "Un ID  de causerie ICQ ";
       rdfs:label "ID chat ICQ"@fr .
 foaf:dnaChecksum
-      rdfs:comment " Une somme de contrôle pour l'ADN de quelque chose . Plaisanterie ! ";
-      rdfs:label " ADN contrôle "@fr .
+      rdfs:comment "Une somme de contrôle pour l'ADN de quelque chose . Plaisanterie ! ";
+      rdfs:label "ADN contrôle"@fr .
 foaf:thumbnail
-      rdfs:comment " Une image miniature dérivée. "@fr ;
-      rdfs:label " miniature "@fr .
+      rdfs:comment "Une image miniature dérivée."@fr ;
+      rdfs:label "miniature"@fr .
 foaf:publications
-      rdfs:comment " Un lien vers les publications de cette personne. "@fr ;
-      rdfs:label " publications "@fr .
+      rdfs:comment "Un lien vers les publications de cette personne."@fr ;
+      rdfs:label "publications"@fr .
 foaf:OnlineGamingAccount
-      rdfs:comment " Un compte de jeu en ligne . "@fr ;
-      rdfs:label " compte de jeu en ligne "@fr .
+      rdfs:comment "Un compte de jeu en ligne ."@fr ;
+      rdfs:label "compte de jeu en ligne"@fr .
 foaf:age
-      rdfs:comment " L'âge en années d' un agent . "@fr ;
+      rdfs:comment "L'âge en années d' un agent ."@fr ;
       rdfs:label "âge"@fr .
 foaf:Project
-      rdfs:comment " Un projet (un effort collectif d'un certain type ) . "@fr ;
+      rdfs:comment "Un projet (un effort collectif d'un certain type ) ."@fr ;
       rdfs:label "projet"@fr .
 foaf:holdsAccount
-      rdfs:comment " Indique un compte détenu par cet agent . "@fr ;
-      rdfs:label " compte "@fr .
+      rdfs:comment "Indique un compte détenu par cet agent ."@fr ;
+      rdfs:label "compte"@fr .
 foaf:theme
-      rdfs:comment " Un thème . "@fr ;
+      rdfs:comment "Un thème ."@fr ;
       rdfs:label "thème"@fr .
 foaf:Document
-      rdfs:comment " un document . "@fr ;
+      rdfs:comment "un document ."@fr ;
       rdfs:label "Document"@fr .
 foaf:accountName
-      rdfs:comment " Indique le nom ( identifiant ) associée à ce compte en ligne . "@fr ;
-      rdfs:label " nom de compte "@fr .
+      rdfs:comment "Indique le nom ( identifiant ) associée à ce compte en ligne ."@fr ;
+      rdfs:label "nom de compte"@fr .
 foaf:LabelProperty
-      rdfs:comment " Un foaf:LabelProperty est une propriété RDF avec des valeurs texual qui servent les étiquettes . "@fr ;
-      rdfs:label " Étiquette de la propriété "@fr .
+      rdfs:comment "Un foaf:LabelProperty est une propriété RDF avec des valeurs texual qui servent les étiquettes ."@fr ;
+      rdfs:label "Étiquette de la propriété"@fr .
 foaf:phone
-      rdfs:comment " Un téléphone , spécifiée en utilisant tél complet : schéma d'URI (réf. : http://www.w3.org/Addressing/schemes.html # tél ) . "@fr ;
+      rdfs:comment "Un téléphone , spécifiée en utilisant tél complet : schéma d'URI (réf. : http://www.w3.org/Addressing/schemes.html # tél ) ."@fr ;
       rdfs:label "téléphone"@fr .
 foaf:workInfoHomepage
-      rdfs:comment " Une info travail page d'accueil d'une personne ; une page de leur travail pour une organisation . "@fr ;
+      rdfs:comment "Une info travail page d'accueil d'une personne ; une page de leur travail pour une organisation ."@fr ;
       rdfs:label "page d'accueil employeur"@fr ;
-      rdfs:label " chose "@fr .
+      rdfs:label "chose"@fr .
 foaf:member
-      rdfs:comment " Indique un membre d'un groupe "@fr ;
+      rdfs:comment "Indique un membre d'un groupe"@fr ;
       rdfs:label "membre"@fr .
 foaf:made
-      rdfs:comment " Quelque chose qui a été fait par cet agent . "@fr ;
+      rdfs:comment "Quelque chose qui a été fait par cet agent ."@fr ;
       rdfs:label "a fait"@fr .
 foaf:workplaceHomepage
-      rdfs:comment " Une page d'accueil en milieu de travail d'une personne ; la page d'accueil de l'organisation pour laquelle ils travaillent . "@fr ;
-      rdfs:label " page d'accueil du lieu de travail"@fr .
+      rdfs:comment "Une page d'accueil en milieu de travail d'une personne ; la page d'accueil de l'organisation pour laquelle ils travaillent ."@fr ;
+      rdfs:label "page d'accueil du lieu de travail"@fr .
 foaf:sexe
-      rdfs:comment " Le sexe de cet agent ( généralement , mais pas nécessairement masculin ou  féminin  ) . "@fr ;
+      rdfs:comment "Le sexe de cet agent ( généralement , mais pas nécessairement masculin ou  féminin  ) ."@fr ;
       rdfs:label "genre"@fr .
 foaf:family_name
-      rdfs:comment " Le nom d'une personne . "@fr ;
+      rdfs:comment "Le nom d'une personne ."@fr ;
       rdfs:label "Nom"@fr .
 foaf:mbox_sha1sum
-      rdfs:comment " Le SHA-1 de l'URI d'une boîte aux lettres Internet associée à un propriétaire exactement , le premier propriétaire de la boîte aux lettres . "@fr ;
-      rdfs:label " SHA-1 d'une boîte aux lettres personnelle nom URI "@fr .
+      rdfs:comment "Le SHA-1 de l'URI d'une boîte aux lettres Internet associée à un propriétaire exactement , le premier propriétaire de la boîte aux lettres ."@fr ;
+      rdfs:label "SHA-1 d'une boîte aux lettres personnelle nom URI"@fr .
 foaf:topic_interest
-      rdfs:comment " Un sujet d'intérêt pour cette personne . "@fr ;
-      rdfs:label " topic_interest "@fr .
+      rdfs:comment "Un sujet d'intérêt pour cette personne ."@fr ;
+      rdfs:label "topic_interest"@fr .
 foaf:nomFamille
-      rdfs:comment " Le nom d'une personne . "@fr ;
-      rdfs:label "nom "@fr .
+      rdfs:comment "Le nom d'une personne ."@fr ;
+      rdfs:label "nom"@fr .
 foaf:lapage
-      rdfs:comment " Une page ou un document sur cette chose . "@fr ;
-      rdfs:label " page"@fr .
+      rdfs:comment "Une page ou un document sur cette chose ."@fr ;
+      rdfs:label "page"@fr .
 foaf:nick
-      rdfs:comment " Un surnom informel court caractérisant un agent ( comprend des identificateurs de connexion , IRC et autres surnoms de chat ) . "@fr ;
-      rdfs:label " surnom "@fr .
+      rdfs:comment "Un surnom informel court caractérisant un agent ( comprend des identificateurs de connexion , IRC et autres surnoms de chat ) ."@fr ;
+      rdfs:label "surnom"@fr .
 foaf:Agent
-      rdfs:comment " Un agent (par exemple personne, un groupe , un logiciel ou d'un objet physique) . "@fr ;
+      rdfs:comment "Un agent (par exemple personne, un groupe , un logiciel ou d'un objet physique) ."@fr ;
       rdfs:label "agent"@fr .
 foaf:interest
-      rdfs:comment " Une page sur un sujet d'intérêt pour cette personne . "@fr ;
+      rdfs:comment "Une page sur un sujet d'intérêt pour cette personne ."@fr ;
       rdfs:label "intérêt"@fr .
 foaf:based_near
-      rdfs:comment """Un endroit près duquel quelque chose est basé, avec une notion humaine de "près" . """@fr ;
-      rdfs:label " basé près "@fr .
+      rdfs:comment """Un endroit près duquel quelque chose est basé, avec une notion humaine de "près". """@fr ;
+      rdfs:label "basé près"@fr .
 foaf:schoolHomepage
-      rdfs:comment " Une page d'accueil d'un établissement scolaire fréquenté par la personne . "@fr ;
-      rdfs:label " page d'accueil d'école "@fr .
+      rdfs:comment "Une page d'accueil d'un établissement scolaire fréquenté par la personne ."@fr ;
+      rdfs:label "page d'accueil d'école"@fr .
 foaf:PersonalProfileDocument
-      rdfs:comment " Un document RDF de profil personnel . "@fr ;
-      rdfs:label " PersonalProfileDocument "@fr .
+      rdfs:comment "Un document RDF de profil personnel ."@fr ;
+      rdfs:label "PersonalProfileDocument"@fr .
 foaf:logo
-      rdfs:comment " Un logo représentant quelque chose . "@fr ;
-      rdfs:label " logo "@fr .
+      rdfs:comment "Un logo représentant quelque chose ."@fr ;
+      rdfs:label "logo"@fr .
 foaf:aimChatID
-      rdfs:comment " Une conversation AIM ID ";
-      rdfs:label " AIM discussion ID "@fr .
+      rdfs:comment "Une conversation AIM ID ";
+      rdfs:label "AIM discussion ID"@fr .
 foaf:weblog
-      rdfs:comment " Un weblog de ​​quelque chose ( si personne , groupe, entreprise , etc.) "@fr ;
-      rdfs:label " weblog "@fr .
+      rdfs:comment "Un weblog de ​​quelque chose ( si personne , groupe, entreprise , etc.)"@fr ;
+      rdfs:label "weblog"@fr .
 foaf:represent
-      rdfs:comment " Une chose représentée dans cette représentation . "@fr ;
-      rdfs:label " dépeint "@fr .
+      rdfs:comment "Une chose représentée dans cette représentation ."@fr ;
+      rdfs:label "dépeint"@fr .
 foaf:pastProject
-      rdfs:comment " Un projet où cette personne a déjà travaillé. "@fr ;
-      rdfs:label " projet passé "@fr .
+      rdfs:comment "Un projet où cette personne a déjà travaillé."@fr ;
+      rdfs:label "projet passé"@fr .
 foaf:Person
-      rdfs:comment " Une personne . "@fr ;
+      rdfs:comment "Une personne ."@fr ;
       rdfs:label "Personne"@fr .
 foaf:family_name
-      rdfs:comment " Le nom de famille d'une personne . "@fr ;
-      rdfs:label " nom_de_famille "@fr .
+      rdfs:comment "Le nom de famille d'une personne ."@fr ;
+      rdfs:label "nom_de_famille"@fr .
 foaf:SkypeID
-      rdfs:comment " Une Skype ID ";
-      rdfs:label " Skype ID "@fr .
+      rdfs:comment "Une Skype ID ";
+      rdfs:label "Skype ID"@fr .
 foaf:Plan
-      rdfs:comment " Un plan commentaire , dans la tradition du doigt et fichiers du régime."@fr ;
+      rdfs:comment "Un plan commentaire , dans la tradition du doigt et fichiers du régime."@fr ;
       rdfs:label "plan"@fr .
 foaf:maker
-      rdfs:comment " Un agent qui a fait cette chose . "@fr ;
+      rdfs:comment "Un agent qui a fait cette chose ."@fr ;
       rdfs:label "agent"@fr .
 foaf:familyName
-      rdfs:comment " Le nom de famille d'une personne . "@fr ;
-      rdfs:label " nom de famille "@fr .
+      rdfs:comment "Le nom de famille d'une personne ."@fr ;
+      rdfs:label "nom de famille"@fr .
 foaf:membershipClass
-      rdfs:comment " Indique la classe des individus qui sont membres d'un groupe "@fr ;
-      rdfs:label " membershipClass "@fr .
+      rdfs:comment "Indique la classe des individus qui sont membres d'un groupe"@fr ;
+      rdfs:label "membershipClass"@fr .
 foaf:firstName
-      rdfs:comment " Le prénom d'une personne . "@fr ;
-      rdfs:label " prenom "@fr .
+      rdfs:comment "Le prénom d'une personne ."@fr ;
+      rdfs:label "prenom"@fr .
 foaf:givenname
-      rdfs:comment " Le nom donné d'une personne . "@fr ;
-      rdfs:label " Prénom "@fr .
+      rdfs:comment "Le nom donné d'une personne ."@fr ;
+      rdfs:label "Prénom"@fr .
 foaf:tipjar
-      rdfs:comment " Un document de tipjar pour cet agent, décrivant des moyens de paiement et de récompense . "@fr ;
-      rdfs:label " tipjar "@fr.
+      rdfs:comment "Un document de tipjar pour cet agent, décrivant des moyens de paiement et de récompense ."@fr ;
+      rdfs:label "tipjar"@fr.
 
 <http://www.w3.org/2000/10/swap/pim/contact#Person>
-      rdfs:label " personne "@fr.
+      rdfs:label "personne"@fr.
 
 <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
       rdfs:label "une chose spatiale"@fr .
 
 foaf:status
-      rdfs:comment " Une chaîne exprime ce que l'utilisateur est heureux pour le grand public ( normalement ) pour connaître leur activité actuelle . "@fr ;
+      rdfs:comment "Une chaîne exprime ce que l'utilisateur est heureux pour le grand public ( normalement ) pour connaître leur activité actuelle ."@fr ;
       rdfs:label "statut"@fr .
 foaf:focus
-      rdfs:comment " Le ou entité sous-jacente ' prioritaire', associée à un concept SKOS - décrit . "@fr ;
+      rdfs:comment "Le ou entité sous-jacente ' prioritaire', associée à un concept SKOS - décrit ."@fr ;
       rdfs:label "focus"@fr .
 foaf:subject
-      rdfs:comment " un sujet de la page ou du document. "@fr ;
+      rdfs:comment "un sujet de la page ou du document."@fr ;
       rdfs:label "sujet"@fr .
 foaf:jabberID
-      rdfs:comment " Un ID de jabber pour quelque chose . "@fr ;
-      rdfs:label " jabber ID "@fr .
+      rdfs:comment "Un ID de jabber pour quelque chose ."@fr ;
+      rdfs:label "jabber ID"@fr .
 foaf:account
-      rdfs:comment " Indique un compte détenu par cet agent . "@fr ;
-      rdfs:label " compte "@fr .
+      rdfs:comment "Indique un compte détenu par cet agent ."@fr ;
+      rdfs:label "compte"@fr .
 foaf:isPrimaryTopicOf
-      rdfs:comment " Un document que cette chose est le sujet principal de . "@fr ;
-      rdfs:label " est le sujet principal de "@fr .
+      rdfs:comment "Un document que cette chose est le sujet principal de ."@fr ;
+      rdfs:label "est le sujet principal de"@fr .
 foaf:openid
-      rdfs:comment " Une OpenID pour un agent . "@fr ;
-      rdfs:label " OpenID "@fr .
+      rdfs:comment "Une OpenID pour un agent ."@fr ;
+      rdfs:label "OpenID"@fr .
 foaf:OnlineChatAccount
-      rdfs:comment " Un compte de chat en ligne . "@fr ;
-      rdfs:label " compte de Chat en ligne "@fr .
+      rdfs:comment "Un compte de chat en ligne ."@fr ;
+      rdfs:label "compte de Chat en ligne"@fr .
 foaf:myersBriggs
-      rdfs:comment " Une classification de personnalité Myers-Briggs ( MBTI ) . "@fr ;
-      rdfs:label " myersBriggs "@fr .
+      rdfs:comment "Une classification de personnalité Myers-Briggs ( MBTI ) ."@fr ;
+      rdfs:label "myersBriggs"@fr .
 foaf:title
-      rdfs:comment " Titre ( M. , Mme , Mlle , Dr , etc ) "@fr ;
+      rdfs:comment "Titre ( M. , Mme , Mlle , Dr , etc )"@fr ;
       rdfs:label "titre"@fr .
 foaf:Image
-      rdfs:comment " Une image "@fr ;
+      rdfs:comment "Une image"@fr ;
       rdfs:label "Image"@fr .
 foaf:depiction
-      rdfs:comment " Une représentation de quelque chose . "@fr ;
+      rdfs:comment "Une représentation de quelque chose ."@fr ;
       rdfs:label "représentation"@fr .
 foaf:msnChatID
-      rdfs:comment " Un ID causerie MSN";
+      rdfs:comment "Un ID causerie MSN";
       rdfs:label "ID chat MSN"@fr .
 foaf:Group
-      rdfs:comment " Une classe d'agents . "@fr ;
+      rdfs:comment "Une classe d'agents ."@fr ;
       rdfs:label "Groupe"@fr .
