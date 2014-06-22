@@ -19,6 +19,8 @@ But there may be scripts to provide other formats.
 
 The files for each vocabulary are located in a directory names after the common prefix for this vocabulary.
 A convenient reference for prefixes is http://prefix.cc .
+For example the file for french canadian for vocabulary SIOC will be in:
+    sioc/sioc.fr_CA.ttl
 
 It is possible to use Google translate as a starting point.
 When doing this, it's better to use the N-triples syntax; the Google translator would spoil the abbreviated URI's in Turtle.
