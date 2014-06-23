@@ -5,8 +5,7 @@ Translations of classical RDF vocabularies
 
 ## Purpose ##
 For those vocabularies and ontologies that have only
-rdfs:label and rdfs:comment in english, we add translations in other
-languages.
+rdfs:label and rdfs:comment in english (internal documentation), we add translations in other languages.
 
 You may ask: "why bother do this?".
 I see at least 2 use cases:
@@ -17,6 +16,8 @@ labels and tooltips are necessary
 
 We provide just Turtle files.
 But there may be scripts to provide other formats.
+
+NOTE: some vocabularies already have I18N information, like DOAP which has internal documentation in english, french, czech, japanese, and spanish.
 
 ## Content ##
 The files for each vocabulary are located in a directory named after the common prefix for this vocabulary.

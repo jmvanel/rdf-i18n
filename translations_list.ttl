@@ -1,0 +1,27 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix lingvoj: <http://www.lingvoj.org/ontology#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<translation-foaf-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de FOAF en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    <http://xmlns.com/foaf/spec> ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <foaf/foaf.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2014-06-22" .
+        
+<better-foaf-en>
+        rdfs:label                  "enhancements of FOAF internal doc"@en ;
+        lingvoj:originalResource    <http://xmlns.com/foaf/spec> ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:translatedResource  <foaf/foaf.en.ttl> ;
+        lingvoj:translator          <http://users.ecs.soton.ac.uk/hg/foaf.rdf> ;
+        dcterms:issued  "2014-06-21" .
+
+

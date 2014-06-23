@@ -1,0 +1,251 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix lingvoj: <http://www.lingvoj.org/ontology#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+foaf:knows  rdfs:comment  "A person known by this person (indicating some level of reciprocated interaction between the parties)." ;
+        rdfs:label    "Knows" .
+
+foaf:firstName  rdfs:comment  "The first name of a person." ;
+        rdfs:label    "First Name" .
+
+foaf:icqChatID  rdfs:comment  "An ICQ chat ID" ;
+        rdfs:label    "ICQ Chat ID" .
+
+foaf:birthday  rdfs:comment  "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'." ;
+        rdfs:label    "Birthday" .
+
+foaf:givenname  rdfs:comment  "The given name of some person." ;
+        rdfs:label    "Given Name" .
+
+foaf:focus  rdfs:comment  "The underlying or 'focal' entity associated with some SKOS-described concept." ;
+        rdfs:label    "Focus" .
+
+foaf:phone  rdfs:comment  "A phone, specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)." ;
+        rdfs:label    "Phone" .
+
+foaf:accountServiceHomepage
+        rdfs:comment  "Indicates a homepage of the service provider for this online account." ;
+        rdfs:label    "Account Service Homepage" .
+
+foaf:openid  rdfs:comment  "An OpenID for an Agent." ;
+        rdfs:label    "OpenID" .
+
+foaf:isPrimaryTopicOf
+        rdfs:comment  "A document that this thing is the primary topic of." ;
+        rdfs:label    "Primary Topic of" .
+
+foaf:givenName  rdfs:comment  "The given name of some person." ;
+        rdfs:label    "Given Name" .
+
+foaf:depicts  rdfs:comment  "A thing depicted in this representation." ;
+        rdfs:label    "Depicts" .
+
+foaf:Project  rdfs:comment  "A project (a collective endeavour of some kind)." ;
+        rdfs:label    "Project" .
+
+foaf:account  rdfs:comment  "Indicates an account held by this agent." ;
+        rdfs:label    "Account" .
+
+foaf:skypeID  rdfs:comment  "A Skype ID" ;
+        rdfs:label    "Skype ID" .
+
+foaf:Image  rdfs:comment  "An image." ;
+        rdfs:label    "Image" .
+
+foaf:page  rdfs:comment  "A page or document about this thing." ;
+        rdfs:label    "Page" .
+
+foaf:OnlineEcommerceAccount
+        rdfs:comment  "An online e-commerce account." ;
+        rdfs:label    "Online E-commerce Account" .
+
+foaf:lastName  rdfs:comment  "The last name of a person." ;
+        rdfs:label    "Last Name" .
+
+foaf:yahooChatID  rdfs:comment  "A Yahoo chat ID" ;
+        rdfs:label    "Yahoo Chat ID" .
+
+foaf:membershipClass  rdfs:comment  "Indicates the class of individuals that are a member of a Group" ;
+        rdfs:label    "Membership Class" .
+
+foaf:homepage  rdfs:comment  "A homepage for some thing." ;
+        rdfs:label    "Homepage" .
+
+foaf:topic_interest  rdfs:comment  "A thing of interest to this person." ;
+        rdfs:label    "Topic of Interest" .
+
+foaf:dnaChecksum  rdfs:comment  "A checksum for the DNA of some thing. Joke." ;
+        rdfs:label    "DNA Checksum" .
+
+foaf:gender  rdfs:comment  "The gender of this Agent (typically but not necessarily 'male' or 'female')." ;
+        rdfs:label    "Gender" .
+
+foaf:mbox_sha1sum  rdfs:comment  "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox." ;
+        rdfs:label    "sha1sum of a Personal Mailbox URI Name" .
+
+foaf:logo  rdfs:comment  "A logo representing some thing." ;
+        rdfs:label    "Logo" .
+
+foaf:img  rdfs:comment  "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)." ;
+        rdfs:label    "Image" .
+
+foaf:fundedBy  rdfs:comment  "An organization funding a project or person." ;
+        rdfs:label    "Funded By" .
+
+foaf:interest  rdfs:comment  "A page about a topic of interest to this person." ;
+        rdfs:label    "Interest" .
+
+<http://www.w3.org/2004/02/skos/core#Concept>
+        rdfs:label  "Concept" .
+
+foaf:familyName  rdfs:comment  "The family name of some person." ;
+        rdfs:label    "Family Name" .
+
+foaf:status  rdfs:comment  "A string expressing what the user is happy for the general public (normally) to know about their current activity." ;
+        rdfs:label    "Status" .
+
+foaf:msnChatID  rdfs:comment  "An MSN chat ID" ;
+        rdfs:label    "MSN Chat ID" .
+
+foaf:sha1  rdfs:comment  "A sha1sum hash, in hex." ;
+        rdfs:label    "sha1sum (hex)" .
+
+foaf:PersonalProfileDocument
+        rdfs:comment  "A personal profile RDF document." ;
+        rdfs:label    "Personal Profile Document" .
+
+foaf:workInfoHomepage
+        rdfs:comment  "A work info homepage of some person; a page about their work for some organization." ;
+        rdfs:label    "Work info Homepage" .
+
+foaf:currentProject  rdfs:comment  "A current project this person works on." ;
+        rdfs:label    "Current Project" .
+
+foaf:mbox  rdfs:comment  "A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." ;
+        rdfs:label    "Personal Mailbox" .
+
+foaf:schoolHomepage  rdfs:comment  "A homepage of a school attended by the person." ;
+        rdfs:label    "School Homepage" .
+
+owl:Thing  rdfs:label  "Thing" .
+
+foaf:Organization  rdfs:comment  "An organization." ;
+        rdfs:label    "Organization" .
+
+foaf:maker  rdfs:comment  "An agent that made this thing." ;
+        rdfs:label    "Maker" .
+
+foaf:holdsAccount  rdfs:comment  "Indicates an account held by this agent." ;
+        rdfs:label    "Account" .
+
+foaf:pastProject  rdfs:comment  "A project this person has previously worked on." ;
+        rdfs:label    "Past Project" .
+
+foaf:jabberID  rdfs:comment  "A jabber ID for something." ;
+        rdfs:label    "Jabber ID" .
+
+foaf:OnlineChatAccount
+        rdfs:comment  "An online chat account." ;
+        rdfs:label    "Online Chat Account" .
+
+foaf:accountName  rdfs:comment  "Indicates the name (identifier) associated with this online account." ;
+        rdfs:label    "Account Name" .
+
+foaf:name  rdfs:comment     "A name for some thing." ;
+        rdfs:label          "Name" ;
+        rdfs:subPropertyOf  rdfs:label .
+
+foaf:OnlineAccount  rdfs:comment  "An online account." ;
+        rdfs:label    "Online Account" .
+
+foaf:tipjar  rdfs:comment  "A tipjar document for this agent, describing means for payment and reward." ;
+        rdfs:label    "Tipjar" .
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+        rdfs:label  "Spatial Thing" .
+
+foaf:primaryTopic  rdfs:comment  "The primary topic of some page or document." ;
+        rdfs:label    "Primary Topic" .
+
+foaf:myersBriggs  rdfs:comment  "A Myers Briggs (MBTI) personality classification." ;
+        rdfs:label    "Myers Briggs" .
+
+foaf:age  rdfs:comment  "The age in years of some agent." ;
+        rdfs:label    "Age" .
+
+foaf:Agent  rdfs:comment  "An agent (eg. person, group, software or physical artifact)." ;
+        rdfs:label    "Agent" .
+
+foaf:OnlineGamingAccount
+        rdfs:comment  "An online gaming account." ;
+        rdfs:label    "Online Gaming Account" .
+
+<http://www.w3.org/2000/10/swap/pim/contact#Person>
+        rdfs:label  "Person" .
+
+foaf:depiction  rdfs:comment  "A depiction of some thing." ;
+        rdfs:label    "Depiction" .
+
+foaf:workplaceHomepage
+        rdfs:comment  "A workplace homepage of some person; the homepage of an organization they work for." ;
+        rdfs:label    "Workplace Homepage" .
+
+foaf:weblog  rdfs:comment  "A weblog of some thing (whether person, group, company etc.)." ;
+        rdfs:label    "Weblog" .
+
+foaf:title  rdfs:comment  "Title (Mr, Mrs, Ms, Dr. etc)" ;
+        rdfs:label    "Title" .
+
+foaf:thumbnail  rdfs:comment  "A derived thumbnail image." ;
+        rdfs:label    "Thumbnail" .
+
+foaf:Person  rdfs:comment  "A person." ;
+        rdfs:label    "Person" .
+
+foaf:nick  rdfs:comment  "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)." ;
+        rdfs:label    "Nickname" .
+
+foaf:made  rdfs:comment  "Something that was made by this agent." ;
+        rdfs:label    "Made" .
+
+foaf:LabelProperty  rdfs:comment  "A foaf:LabelProperty is any RDF property with textual values that serve as labels." ;
+        rdfs:label    "Label Property" .
+
+foaf:based_near  rdfs:comment  "A location that something is based near, for some broadly human notion of near." ;
+        rdfs:label    "Based Near" .
+
+foaf:surname  rdfs:comment  "The surname of some person." ;
+        rdfs:label    "Surname" .
+
+foaf:plan  rdfs:comment  "A .plan comment, in the tradition of finger and '.plan' files." ;
+        rdfs:label    "Plan" .
+
+foaf:aimChatID  rdfs:comment  "An AIM chat ID" ;
+        rdfs:label    "AIM Chat ID" .
+
+foaf:Group  rdfs:comment  "A class of Agents." ;
+        rdfs:label    "Group" .
+
+foaf:geekcode  rdfs:comment  "A textual geekcode for this person, see http://www.geekcode.com/geek.html" ;
+        rdfs:label    "Geekcode" .
+
+foaf:Document  rdfs:comment  "A document." ;
+        rdfs:label    "Document" .
+
+foaf:topic  rdfs:comment  "A topic of some page or document." ;
+        rdfs:label    "Topic" .
+
+foaf:family_name  rdfs:comment  "The family name of some person." ;
+        rdfs:label    "Family Name" .
+
+foaf:member  rdfs:comment  "Indicates a member of a Group" ;
+        rdfs:label    "Member" .
+
+foaf:theme  rdfs:comment  "A theme." ;
+        rdfs:label    "Theme" .
+
+foaf:publications  rdfs:comment  "A link to the publications of this person." ;
+        rdfs:label    "Publications" .
