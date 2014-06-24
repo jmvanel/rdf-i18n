@@ -24,4 +24,13 @@
         lingvoj:translator          <http://users.ecs.soton.ac.uk/hg/foaf.rdf> ;
         dcterms:issued  "2014-06-21" .
 
+<translation-foaf-en-to-tr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Translation of FOAF in Turkish by Umutcan Şimşek"@en ;
+        lingvoj:originalResource    <http://xmlns.com/foaf/spec> ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/tr> ;
+        lingvoj:translatedResource  <foaf/foaf.tr.ttl> ;
+        lingvoj:translator          <Umutcan#me> ; # Umutcan, please add you FOAF
+        dcterms:issued  "2014-06-23" .
 

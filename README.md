@@ -78,3 +78,8 @@ A related question is: are there established RDF predicates to say :
 A translation document for FOAF vocabulary in French is 
 http://github.com/jmvanel/rdf-i18n/raw/master/foaf/foaf.fr.ttl
 
+Indeed there is one, called lingvoj (http://www.lingvoj.org/ontology).
+
+And each new translation should be added by the translator person to this document using the lingvoj vocabulary :
+[translations_list.ttl](translations_list.ttl)
+
