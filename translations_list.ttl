@@ -4,6 +4,8 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+# Jean-Marc, don't we need a base URI here?
+
 
 <translation-foaf-en-to-fr>
         a                           lingvoj:Translation ;
@@ -31,6 +33,6 @@
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/tr> ;
         lingvoj:translatedResource  <foaf/foaf.tr.ttl> ;
-        lingvoj:translator          <Umutcan#me> ; # Umutcan, please add you FOAF
+        lingvoj:translator          <http://www.umutcansimsek.com/umutcansimsek.rdf#me> ;
         dcterms:issued  "2014-06-23" .
 
