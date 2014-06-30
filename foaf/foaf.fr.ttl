@@ -165,7 +165,7 @@ foaf:Person
 foaf:family_name
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
       rdfs:label "nom_de_famille"@fr .
-foaf:SkypeID
+foaf:skypeID
       rdfs:comment "Une ID Skype";
       rdfs:label "Skype ID"@fr .
 foaf:Plan
@@ -175,6 +175,9 @@ foaf:maker
       rdfs:comment "Un agent qui a fait cette chose ."@fr ;
       rdfs:label "agent"@fr .
 foaf:familyName
+      rdfs:comment "Le nom de famille d'une personne ."@fr ;
+      rdfs:label "nom de famille"@fr .
+foaf:lastName
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
       rdfs:label "nom de famille"@fr .
 foaf:membershipClass

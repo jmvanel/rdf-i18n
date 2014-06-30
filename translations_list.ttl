@@ -31,6 +31,6 @@
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/tr> ;
         lingvoj:translatedResource  <foaf/foaf.tr.ttl> ;
-        lingvoj:translator          <Umutcan#me> ; # Umutcan, please add you FOAF
+        lingvoj:translator          <Umutcan#me> ; # Umutcan, please add your FOAF
         dcterms:issued  "2014-06-23" .
 
