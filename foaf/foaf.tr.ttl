@@ -70,81 +70,81 @@ foaf:lastName  rdfs:comment  "Bir kişinin soyadı." ;
 foaf:yahooChatID  rdfs:comment  "Bir Yahoo Sohbet Kimliği" ;
         rdfs:label    "Yahoo Sohbet Kimliği" .
 
-foaf:membershipClass  rdfs:comment  "Indicates the class of individuals that are a member of a Group" ;
-        rdfs:label    "Membership Class" .
+foaf:membershipClass  rdfs:comment  "Bir Grubun üyesi olan bireylerin sınıfını belirtir." ;
+        rdfs:label    "Üyelik Sınıfı" .
 
-foaf:homepage  rdfs:comment  "A homepage for some thing." ;
-        rdfs:label    "Homepage" .
+foaf:homepage  rdfs:comment  "Bir şeyin anasayfası." ;
+        rdfs:label    "Anasayfa" .
 
-foaf:topic_interest  rdfs:comment  "A thing of interest to this person." ;
-        rdfs:label    "Topic of Interest" .
+foaf:topic_interest  rdfs:comment  "Bir kişinin ilgilendiği şey." ;
+        rdfs:label    "İlgi Alanı" .
 
-foaf:dnaChecksum  rdfs:comment  "A checksum for the DNA of some thing. Joke." ;
-        rdfs:label    "DNA Checksum" .
+foaf:dnaChecksum  rdfs:comment  "Bir şeyin DNA'sının özet değeri. Şaka." ;
+        rdfs:label    "DNA Özet Değeri" .
 
-foaf:gender  rdfs:comment  "The gender of this Agent (typically but not necessarily 'male' or 'female')." ;
-        rdfs:label    "Gender" .
+foaf:gender  rdfs:comment  "Bu Varlığın cinsiyeti (genellikle 'erkek' veya 'kadın', fakat şart değil)." ;
+        rdfs:label    "Cinsiyet" .
 
-foaf:mbox_sha1sum  rdfs:comment  "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox." ;
-        rdfs:label    "sha1sum of a Personal Mailbox URI Name" .
+foaf:mbox_sha1sum  rdfs:comment  "Yalnızca bir kişiye ait bir e-posta adresinin SHA1 özet değeri." ;
+        rdfs:label    "kişisel E-posta Adresi SHA1 Özet Değeri" .
 
-foaf:logo  rdfs:comment  "A logo representing some thing." ;
+foaf:logo  rdfs:comment  "Bir şeyi temsil eden bir logo." ;
         rdfs:label    "Logo" .
 
-foaf:img  rdfs:comment  "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)." ;
-        rdfs:label    "Image" .
+foaf:img  rdfs:comment  "Bir şeyi temsil etmek için kullanılabilecek bir görsel. (ör. özellikle bir şeyi temsil eden bir gösterim, ör. bir web sayfasındaki bir kişinin fotoğrafı)." ;
+        rdfs:label    "Görsel" .
 
-foaf:fundedBy  rdfs:comment  "An organization funding a project or person." ;
-        rdfs:label    "Funded By" .
+foaf:fundedBy  rdfs:comment  "Bir kişiyi veya bir projeyi finanse eden bir organizasyon" ;
+        rdfs:label    "Finanse Eden" .
 
-foaf:interest  rdfs:comment  "A page about a topic of interest to this person." ;
-        rdfs:label    "Interest" .
+foaf:interest  rdfs:comment  "Bir kişinin bir ilgi alanıyla ilgili bir sayfa." ;
+        rdfs:label    "İlgi" .
 
 <http://www.w3.org/2004/02/skos/core#Concept>
-        rdfs:label  "Concept" .
+        rdfs:label  "Kavram" .
 
-foaf:familyName  rdfs:comment  "The family name of some person." ;
-        rdfs:label    "Family Name" .
+foaf:familyName  rdfs:comment  "Bir kişinin soyadı." ;
+        rdfs:label    "Soyad" .
 
-foaf:status  rdfs:comment  "A string expressing what the user is happy for the general public (normally) to know about their current activity." ;
-        rdfs:label    "Status" .
+foaf:status  rdfs:comment  "Kişinin o anki aktivitesini insanlara bildirmek için kullanılan ve duygudurumunu gösteren bir metin." ;
+        rdfs:label    "Durum" .
 
-foaf:msnChatID  rdfs:comment  "An MSN chat ID" ;
-        rdfs:label    "MSN Chat ID" .
+foaf:msnChatID  rdfs:comment  "Bir MSN sohbet kimliği" ;
+        rdfs:label    "MSN Sohbet Kimliği " .
 
-foaf:sha1  rdfs:comment  "A sha1sum hash, in hex." ;
-        rdfs:label    "sha1sum (hex)" .
+foaf:sha1  rdfs:comment  "Hex formatında bir SHA1 özet değeri" ;
+        rdfs:label    "SHA1 Özet Değeri (hex)" .
 
 foaf:PersonalProfileDocument
-        rdfs:comment  "A personal profile RDF document." ;
-        rdfs:label    "Personal Profile Document" .
+        rdfs:comment  "Bir kişinin kişisel profilini içeren RDF belgesi" ;
+        rdfs:label    "Kişisel Profil Belgesi" .
 
 foaf:workInfoHomepage
-        rdfs:comment  "A work info homepage of some person; a page about their work for some organization." ;
-        rdfs:label    "Work info Homepage" .
+        rdfs:comment  "Bir kişinin işiyle alakalı bir web sayfası; bir organizasyon için yapılan bir iş ile ilgili sayfa." ;
+        rdfs:label    "İş bilgisi için Web Sayfası" .
 
-foaf:currentProject  rdfs:comment  "A current project this person works on." ;
-        rdfs:label    "Current Project" .
+foaf:currentProject  rdfs:comment  "Bir kişinin üzerinde o an çalıştığı bir proje." ;
+        rdfs:label    "Şu anki Proje" .
 
-foaf:mbox  rdfs:comment  "A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." ;
-        rdfs:label    "Personal Mailbox" .
+foaf:mbox  rdfs:comment  " Bir kişisel posta kutusu, ör. sadece bir kişiye, sahip olan ilk kişiye, ait bir e-posta adresi. Bu bir 'static inverse functional property'dir. Yani belirli bir foaf:mbox değerine sahip en fazla bir birey vardır." ;
+        rdfs:label    "Kişisel Posta Kutusu" .
 
-foaf:schoolHomepage  rdfs:comment  "A homepage of a school attended by the person." ;
-        rdfs:label    "School Homepage" .
+foaf:schoolHomepage  rdfs:comment  "Kişinin gittiği bir okula ait web sayfası." ;
+        rdfs:label    "Okul Web Sayfası" .
 
-owl:Thing  rdfs:label  "Thing" .
+owl:Thing  rdfs:label  "Şey" .
 
-foaf:Organization  rdfs:comment  "An organization." ;
-        rdfs:label    "Organization" .
+foaf:Organization  rdfs:comment  "Bir organizasyon." ;
+        rdfs:label    "Organizasyon" .
 
-foaf:maker  rdfs:comment  "An agent that made this thing." ;
-        rdfs:label    "Maker" .
+foaf:maker  rdfs:comment  "Bu şeyi oluşturan varlık." ;
+        rdfs:label    "Oluşturan" .
 
-foaf:holdsAccount  rdfs:comment  "Indicates an account held by this agent." ;
-        rdfs:label    "Account" .
+foaf:holdsAccount  rdfs:comment  "Bu varlık tarafından elde tutulan bir hesabı belirtir." ;
+        rdfs:label    "Hesap" .
 
-foaf:pastProject  rdfs:comment  "A project this person has previously worked on." ;
-        rdfs:label    "Past Project" .
+foaf:pastProject  rdfs:comment  "Bu kişinin daha önce üzerinde çalıştığı bir projeyi belirtir." ;
+        rdfs:label    "Geçmiş Proje" .
 
 foaf:jabberID  rdfs:comment  "A jabber ID for something." ;
         rdfs:label    "Jabber ID" .
