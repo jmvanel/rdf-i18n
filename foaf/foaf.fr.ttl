@@ -178,8 +178,8 @@ foaf:familyName
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
       rdfs:label "nom de famille"@fr .
 foaf:lastName
-      rdfs:comment "Le nom de famille d'une personne ."@fr ;
-      rdfs:label "nom de famille"@fr .
+      rdfs:comment "Le nom en dernière position d'une personne (préférer foaf:familyName)."@fr ;
+      rdfs:label "nom famille"@fr .
 foaf:membershipClass
       rdfs:comment "Indique la classe des individus qui sont membres d'un groupe"@fr ;
       rdfs:label "membershipClass"@fr .
