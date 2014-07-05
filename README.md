@@ -49,13 +49,12 @@ To generate such a file, one way to do, with CWM, for example for SIOC:
 
 To generate such a file, another way to do, with EulerGUI + CWM, for example for SIOC:
 
-	eulergui sioc:
+	eulergui sioc: --query filter_label_and_comment.n3
 	# enter in CWM arguments: --n3=prs
-	# add the following query
-	# run CWM
+	# run CWM with CWM button on top left
 	# save the content of bottom pannel
 
-The query to filter rdfs:label and rdfs:comment ;
+The query to filter rdfs:label and rdfs:comment : 
 
 	@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 	{ ?S 
