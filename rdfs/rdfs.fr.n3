@@ -1,0 +1,48 @@
+@prefix : <http://www.w3.org/2000/01/rdf-schema#> .
+    
+    :Class     :comment "La classe des classes.";
+         :label "classe" .
+    
+    :Container     :comment "La classe des conteneurs RDF.";
+         :label "Container" .
+    
+    :ContainerMembershipProperty     :comment "La classe de propriétés d'appartenance de conteneur, rdf: _1, rdf:. _2, ... qui sont tous des sous-propriétés de «membre» ";
+         :label "propriété d'appartenance de conteneur" .
+    
+    :Datatype     :comment "La classe de types de données RDF.";
+         :label "Type de données" .
+    
+    :Literal     :comment "La classe des valeurs littérales, par exemple, . chaînes et les entiers textuelles. ";
+         :label "littérale" .
+    
+    :Resource     :comment "La ressource de classe, tout.";
+         :label "ressources" .
+    
+    :comment     :comment "Une description de la ressource sujet. ";
+         :label "commentaire" .
+    
+    :domain     :comment "Un domaine de la propriété en question. ";
+         :label "domaine" .
+    
+    :isDefinedBy     :comment "La définition de la ressource sujet. ";
+         :label "est défini par" .
+    
+    :label     :comment "Un nom lisible par l'homme.";
+         :label "label" .
+    
+    :member     :comment "Un membre de la ressource sujet. ";
+         :label "membre" .
+    
+    :range     :comment "Une gamme de la propriété en question. ";
+         :label "gamme" .
+    
+    :seeAlso     :comment "de plus amples informations à propos de la ressource sujet. ";
+         :label "voir aussi" .
+    
+    :subClassOf     :comment "Le sujet est une sous-classe d'une classe. ";
+         :label "sous-classe" .
+    
+    :subPropertyOf     :comment "Le sujet est une sous-propriété de la propriété. ";
+         :label "sous-propriété de" .
+    
+#ENDS
