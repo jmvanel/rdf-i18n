@@ -29,13 +29,12 @@
   ( ?ID3 "(.*)-n$" ) string:scrape ?ID4 .
   # _:d e:trace ( "?ID4" ?ID4).
   # (?ID4) xsd:int ?ID5 .
-  (?ID4 xsd:int) log:dtlit ?ID5 .
+  (?ID4 xsd:int) ! log:dtlit e:numeral ?ID5 .
   # _:d e:trace ( "?ID5" ?ID5).
   ?SYNSET wn20schema:synsetId ?SYNSET_ID .
-  (?SYNSET_ID xsd:int) log:dtlit ?SYNSET_ID_INT .
   # _:d e:trace ( "?SYNSET" ?SYNSET).
   (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
-  ?SYNSET_ID_INT math:equalTo ?ID5 .
+  ?SYNSET_ID math:equalTo ?ID5 .
 } => {
   ?SYNSET rdfs:label ?LABEL_FR_FR .
 } .

@@ -1,8 +1,19 @@
-- raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~sagot/wolf.html : wolf-1.0b4.xml.ttl 
+# raw RDF version of WOLF french WordNet
+
+raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~sagot/wolf.html : wolf-1.0b4.xml.ttl 
     (obtained by Gloze canonical XML-RDF mapping through EulerGUI,
     and slightly edited the "root" and WOLF URI)
 
+# mashup with english WordNet in RDF
+
+The command for Euler is:
+
+    eye --nope --query rawWOLF2wordnetRDF.n3 wolf-1.0b4.xml.ttl ~/data/nlp/wordnet-synset.ttl > wordnet-synset_fr.ttl
+
 NOTE: the ID is not exactly the same in WOLF french WordNet and in original english WordNet in RDF;
+see 
+[test.ttl](test.ttl)
+
 	WOLF french WordNet in RDF is:
             [ # ...
                             <http://alpage.inria.fr/sagot/wolf#DEF>      "the extreme end of something; especially something pointed" ;
@@ -12,9 +23,11 @@ NOTE: the ID is not exactly the same in WOLF french WordNet and in original engl
                                                                     "pointe" ;
                                                             <http://alpage.inria.fr/sagot/wolf#lnote>  "2/1:fr.roen;gwa2012(0.10332735028424223922);ManVal2012OK"
                                                           ] ;
-	which corresponds in WordNet in RDF to :
+which corresponds in WordNet in RDF to :
 
-wn30:synset-tip-noun-1 a wn20schema:NounSynset .
-wn30:synset-tip-noun-1 rdfs:label "tip"@en-us .
-wn30:synset-tip-LITERALnoun-1 wn20schema:synsetId 108663156 .
+	wn30:synset-tip-noun-1 a wn20schema:NounSynset .
+	wn30:synset-tip-noun-1 rdfs:label "tip"@en-us .
+	wn30:synset-tip-LITERALnoun-1 wn20schema:synsetId 108663156 .
+
+# Turn the synsets into RDF properties
 
