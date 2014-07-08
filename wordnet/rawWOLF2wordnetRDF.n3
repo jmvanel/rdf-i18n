@@ -22,6 +22,7 @@
   # _:d e:trace ( "?LABEL_FR"  ?LABEL_FR).
 
   # transform e.g.  "eng-30-08663156-n" into "108663156"
+
   ( ?ID "eng-30-" ) func:substring-after ?ID2 .
   # _:d e:trace ( "?ID2" ?ID2).
   ( "1" ?ID2 ) string:concatenation ?ID3 .
@@ -31,10 +32,11 @@
   # (?ID4) xsd:int ?ID5 .
   (?ID4 xsd:int) ! log:dtlit e:numeral ?ID5 .
   # _:d e:trace ( "?ID5" ?ID5).
+
   ?SYNSET wn20schema:synsetId ?SYNSET_ID .
   # _:d e:trace ( "?SYNSET" ?SYNSET).
-  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
   ?SYNSET_ID math:equalTo ?ID5 .
+  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
 } => {
   ?SYNSET rdfs:label ?LABEL_FR_FR .
 } .

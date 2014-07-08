@@ -8,14 +8,18 @@ raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~
 
 The command for Euler is:
 
-    eye --nope --query rawWOLF2wordnetRDF.n3 wolf-1.0b4.xml.small.ttl \
+    /opt/eye/bin/eye.sh --nope --query rawWOLF2wordnetRDF.n3 wolf-1.0b4.xml.small.ttl \
 	~/data/nlp/wordnet-synset.ttl > wordnet-synset_fr.ttl
+
+wordnet-synset.ttl comes from here: 
+http://eculture.cs.vu.nl/git/public/?p=vocs/wordnet.git;a=tree;f=rdf;hb=HEAD 
 
 NOTE: the ID is not exactly the same in WOLF french WordNet and in original english WordNet in RDF;
 see 
 [test.ttl](test.ttl)
 
-	WOLF french WordNet in RDF is:
+WOLF french WordNet in RDF is:
+
             [ # ...
                             <http://alpage.inria.fr/sagot/wolf#DEF>      "the extreme end of something; especially something pointed" ;
                                         <http://alpage.inria.fr/sagot/wolf#ID>       "eng-30-08663156-n" ;
@@ -33,4 +37,5 @@ which corresponds in WordNet in RDF to :
 # Turn the synsets into RDF properties
 The command for Euler is:
 
-    eye --nope --pass wordnetRDF2properties.n3 wordnet-synset_fr.ttl wolf-1.0b4.xml.small.ttl
+    /opt/eye/bin/eye.sh --nope --query wordnetRDF2properties.n3 wordnet-synset_fr.ttl \
+	~/data/nlp/wordnet-synset.ttl > wordnet-synset_as_properties.ttl
