@@ -8,7 +8,8 @@ raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~
 
 The command for Euler is:
 
-    eye --nope --query rawWOLF2wordnetRDF.n3 wolf-1.0b4.xml.ttl ~/data/nlp/wordnet-synset.ttl > wordnet-synset_fr.ttl
+    eye --nope --query rawWOLF2wordnetRDF.n3 wolf-1.0b4.xml.small.ttl \
+	~/data/nlp/wordnet-synset.ttl > wordnet-synset_fr.ttl
 
 NOTE: the ID is not exactly the same in WOLF french WordNet and in original english WordNet in RDF;
 see 
@@ -27,7 +28,9 @@ which corresponds in WordNet in RDF to :
 
 	wn30:synset-tip-noun-1 a wn20schema:NounSynset .
 	wn30:synset-tip-noun-1 rdfs:label "tip"@en-us .
-	wn30:synset-tip-LITERALnoun-1 wn20schema:synsetId 108663156 .
+	wn30:synset-tip-noun-1 wn20schema:synsetId 108663156 .
 
 # Turn the synsets into RDF properties
+The command for Euler is:
 
+    eye --nope --pass wordnetRDF2properties.n3 wordnet-synset_fr.ttl wolf-1.0b4.xml.small.ttl
