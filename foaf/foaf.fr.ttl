@@ -165,7 +165,7 @@ foaf:Person
 foaf:family_name
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
       rdfs:label "nom_de_famille"@fr .
-foaf:SkypeID
+foaf:skypeID
       rdfs:comment "Une ID Skype";
       rdfs:label "Skype ID"@fr .
 foaf:Plan
@@ -177,6 +177,9 @@ foaf:maker
 foaf:familyName
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
       rdfs:label "nom de famille"@fr .
+foaf:lastName
+      rdfs:comment "Le nom en dernière position d'une personne (préférer foaf:familyName)."@fr ;
+      rdfs:label "nom famille"@fr .
 foaf:membershipClass
       rdfs:comment "Indique la classe des individus qui sont membres d'un groupe"@fr ;
       rdfs:label "membershipClass"@fr .

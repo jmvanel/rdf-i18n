@@ -36,3 +36,12 @@
         lingvoj:translator          <http://www.umutcansimsek.com/umutcansimsek.rdf#me> ;
         dcterms:issued  "2014-06-23" .
 
+<translation-rdfs-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de RDFS en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    rdfs: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <rdfs/rdfs.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2014-07-05" .

@@ -1,0 +1,27 @@
+@prefix wolf: <http://alpage.inria.fr/sagot/wolf#>. 
+@prefix wn20schema: <http://www.w3.org/2006/03/wn/wn20/schema/>. 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>. 
+@prefix string: <http://www.w3.org/2000/10/swap/string#>. 
+@prefix fn: <http://www.w3.org/2006/xpath-functions#>. 
+@prefix func: <http://www.w3.org/2007/rif-builtin-function#>. 
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> . 
+@prefix log: <http://www.w3.org/2000/10/swap/log#> . 
+@prefix math: <http://www.w3.org/2000/10/swap/math#> . 
+
+@prefix e: <http://eulersharp.sourceforge.net/2003/03swap/log-rules#> . 
+@prefix prolog: <http://eulersharp.sourceforge.net/2003/03swap/prolog#> . 
+
+{ ?S wolf:SYNONYM ?SYN .
+  ?SYN wolf:LITERAL ?LIT .
+  ?LIT rdf:value ?LABEL_FR .
+  ?S wolf:ID ("literal"^^prolog:atom ?A1 ?DT)^prolog:univ .
+  ("eng-30-"^^prolog:atom ?A2 ?A1)	prolog:atom_concat true .
+  (?A3 "-n"^^prolog:atom ?A2)		prolog:atom_concat true .
+  ("1"^^prolog:atom ?A3 ?A4)		prolog:atom_concat true .
+  (?A4 ?SYNSET_ID) prolog:atom_number true.
+  ?SYNSET wn20schema:synsetId ?SYNSET_ID .
+  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
+} => {
+  ?SYNSET rdfs:label ?LABEL_FR_FR .
+} .

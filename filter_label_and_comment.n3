@@ -1,0 +1,8 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+{ ?S 
+    rdfs:label ?L ;
+    rdfs:comment ?C .
+} => { ?S 
+    rdfs:label ?L ;
+    rdfs:comment ?C .
+} .

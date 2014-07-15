@@ -1,0 +1,13 @@
+@prefix wn20schema: <http://www.w3.org/2006/03/wn/wn20/schema/>.
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+
+{
+	?SYNSET a wn20schema:NounSynset .
+	?SYNSET rdfs:label ?LAB .
+	?SYNSET wn20schema:synsetId ?Id .
+} => {
+	?SYNSET a rdfs:Property ;
+	 rdfs:label ?LAB ;
+	 wn20schema:synsetId ?Id .
+}.	
