@@ -146,108 +146,108 @@ foaf:holdsAccount  rdfs:comment  "Bu varlık tarafından elde tutulan bir hesab�
 foaf:pastProject  rdfs:comment  "Bu kişinin daha önce üzerinde çalıştığı bir projeyi belirtir." ;
         rdfs:label    "Geçmiş Proje" .
 
-foaf:jabberID  rdfs:comment  "A jabber ID for something." ;
+foaf:jabberID  rdfs:comment  "Jabber Kimliği" ;
         rdfs:label    "Jabber ID" .
 
 foaf:OnlineChatAccount
-        rdfs:comment  "An online chat account." ;
-        rdfs:label    "Online Chat Account" .
+        rdfs:comment  "Bir çevrimiçi sohbet hesabı" ;
+        rdfs:label    "Çevrimiçi Sohbet Hesabı" .
 
-foaf:accountName  rdfs:comment  "Indicates the name (identifier) associated with this online account." ;
-        rdfs:label    "Account Name" .
+foaf:accountName  rdfs:comment  "Bu çevrimiçi hesap ile ilişkili adı belirtir." ;
+        rdfs:label    "Hesap Adı" .
 
-foaf:name  rdfs:comment     "A name for some thing." ;
-        rdfs:label          "Name" ;
+foaf:name  rdfs:comment     "Bir şeyin ismi" ;
+        rdfs:label          "Ad" ;
         rdfs:subPropertyOf  rdfs:label .
 
-foaf:OnlineAccount  rdfs:comment  "An online account." ;
-        rdfs:label    "Online Account" .
+foaf:OnlineAccount  rdfs:comment  "Bir çevrimiçi hesap" ;
+        rdfs:label    "Çevrimiçi Hesap" .
 
-foaf:tipjar  rdfs:comment  "A tipjar document for this agent, describing means for payment and reward." ;
-        rdfs:label    "Tipjar" .
+foaf:tipjar  rdfs:comment  "Bu varlık için bir bahşiş kutusu, alınan ödemeler ve ödüller için bir benzetmedir." ;
+        rdfs:label    "Bahşiş Kutusu" .
 
 <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
-        rdfs:label  "Spatial Thing" .
+        rdfs:label  "Uzamsal Şey" .
 
-foaf:primaryTopic  rdfs:comment  "The primary topic of some page or document." ;
-        rdfs:label    "Primary Topic" .
+foaf:primaryTopic  rdfs:comment  "Bir sayfa veya dökümanın birincil konusu" ;
+        rdfs:label    "Birincil Konu" .
 
-foaf:myersBriggs  rdfs:comment  "A Myers Briggs (MBTI) personality classification." ;
+foaf:myersBriggs  rdfs:comment  "Bir Myers Briggs (MBTI) kişilik sınıflandırması." ;
         rdfs:label    "Myers Briggs" .
 
-foaf:age  rdfs:comment  "The age in years of some agent." ;
-        rdfs:label    "Age" .
+foaf:age  rdfs:comment  "Bir varlığın yıl bazında yaşı" ;
+        rdfs:label    "Yaş" .
 
-foaf:Agent  rdfs:comment  "An agent (eg. person, group, software or physical artifact)." ;
-        rdfs:label    "Agent" .
+foaf:Agent  rdfs:comment  "Bir varlık (eg. kişi, grup, yazılım veya fiziksel bir olgu)." ;
+        rdfs:label    "Varlık" .
 
 foaf:OnlineGamingAccount
-        rdfs:comment  "An online gaming account." ;
-        rdfs:label    "Online Gaming Account" .
+        rdfs:comment  "Bir çevrimiçi oyun hesabı" ;
+        rdfs:label    "Çevrimiçi Oyun Hesabı" .
 
 <http://www.w3.org/2000/10/swap/pim/contact#Person>
-        rdfs:label  "Person" .
+        rdfs:label  "Kişi" .
 
-foaf:depiction  rdfs:comment  "A depiction of some thing." ;
-        rdfs:label    "Depiction" .
+foaf:depiction  rdfs:comment  "Bir şeyin betimi, tasviri, çizimi" ;
+        rdfs:label    "Tasvir" .
 
 foaf:workplaceHomepage
-        rdfs:comment  "A workplace homepage of some person; the homepage of an organization they work for." ;
-        rdfs:label    "Workplace Homepage" .
+        rdfs:comment  "Bir kişinin çalıştığı organizasyonun anasayfası" ;
+        rdfs:label    "İş Anasayfası" .
 
-foaf:weblog  rdfs:comment  "A weblog of some thing (whether person, group, company etc.)." ;
+foaf:weblog  rdfs:comment  "Bir şeyin blogu  (kişi, grup, şirket vs.)." ;
         rdfs:label    "Weblog" .
 
-foaf:title  rdfs:comment  "Title (Mr, Mrs, Ms, Dr. etc)" ;
-        rdfs:label    "Title" .
+foaf:title  rdfs:comment  "Unvan (Bay, Bayan, Dr. vs.)" ;
+        rdfs:label    "Unvan" .
 
-foaf:thumbnail  rdfs:comment  "A derived thumbnail image." ;
-        rdfs:label    "Thumbnail" .
+foaf:thumbnail  rdfs:comment  "Türetilmiş küçük resim." ;
+        rdfs:label    "Küçük Resim" .
 
-foaf:Person  rdfs:comment  "A person." ;
-        rdfs:label    "Person" .
+foaf:Person  rdfs:comment  "Bir kişi." ;
+        rdfs:label    "Kişi" .
 
-foaf:nick  rdfs:comment  "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)." ;
-        rdfs:label    "Nickname" .
+foaf:nick  rdfs:comment  "Bir varlığın kısa, resmi olmayan takma adı (kullanıcı adları ve sohbet rumuzları dahildir)." ;
+        rdfs:label    "Takma Ad" .
 
-foaf:made  rdfs:comment  "Something that was made by this agent." ;
-        rdfs:label    "Made" .
+foaf:made  rdfs:comment  "Bu varlık tarafından yapılmış bir şey." ;
+        rdfs:label    "Yapılmış" .
 
-foaf:LabelProperty  rdfs:comment  "A foaf:LabelProperty is any RDF property with textual values that serve as labels." ;
+foaf:LabelProperty  rdfs:comment  "Bir foaf:LabelProperty bir etiket olarak hizmet eden herhangi bir RDF property'sidir." ;
         rdfs:label    "Label Property" .
 
-foaf:based_near  rdfs:comment  "A location that something is based near, for some broadly human notion of near." ;
-        rdfs:label    "Based Near" .
+foaf:based_near  rdfs:comment  "Bir şeylerin yakınlarında bulunduğu bir lokasyon. Göreceli bir insan tanımıdır." ;
+        rdfs:label    "Yakınlarında" .
 
-foaf:surname  rdfs:comment  "The surname of some person." ;
-        rdfs:label    "Surname" .
+foaf:surname  rdfs:comment  "Bir kişinin soyadı." ;
+        rdfs:label    "Soyad" .
 
-foaf:plan  rdfs:comment  "A .plan comment, in the tradition of finger and '.plan' files." ;
+foaf:plan  rdfs:comment  "Bir .plan yorumu, finger veya '.plan' dosyalarındaki gibi." ;
         rdfs:label    "Plan" .
 
-foaf:aimChatID  rdfs:comment  "An AIM chat ID" ;
-        rdfs:label    "AIM Chat ID" .
+foaf:aimChatID  rdfs:comment  "Bir AIM sohbet kimliği" ;
+        rdfs:label    "AIM Sohbet Kimliği" .
 
-foaf:Group  rdfs:comment  "A class of Agents." ;
-        rdfs:label    "Group" .
+foaf:Group  rdfs:comment  "Varlıkların bir kümesi" ;
+        rdfs:label    "Grup" .
 
-foaf:geekcode  rdfs:comment  "A textual geekcode for this person, see http://www.geekcode.com/geek.html" ;
+foaf:geekcode  rdfs:comment  "Bu kişi için bir metin tabanlı geekcode , bkz. http://www.geekcode.com/geek.html" ;
         rdfs:label    "Geekcode" .
 
-foaf:Document  rdfs:comment  "A document." ;
-        rdfs:label    "Document" .
+foaf:Document  rdfs:comment  "Bir belge." ;
+        rdfs:label    "Belge" .
 
-foaf:topic  rdfs:comment  "A topic of some page or document." ;
-        rdfs:label    "Topic" .
+foaf:topic  rdfs:comment  "Bir sayfa veya belgenin konusu." ;
+        rdfs:label    "Konu" .
 
-foaf:family_name  rdfs:comment  "The family name of some person." ;
-        rdfs:label    "Family Name" .
+foaf:family_name  rdfs:comment  "Bir kişinin soyadı." ;
+        rdfs:label    "Soyad" .
 
-foaf:member  rdfs:comment  "Indicates a member of a Group" ;
-        rdfs:label    "Member" .
+foaf:member  rdfs:comment  "Bir grubun bir üyesini belirtir." ;
+        rdfs:label    "Üye" .
 
-foaf:theme  rdfs:comment  "A theme." ;
-        rdfs:label    "Theme" .
+foaf:theme  rdfs:comment  "Bir tema" ;
+        rdfs:label    "Tema" .
 
-foaf:publications  rdfs:comment  "A link to the publications of this person." ;
-        rdfs:label    "Publications" .
+foaf:publications  rdfs:comment  "Bu kişinin yayınlarına bir link." ;
+        rdfs:label    "Yayınlar" .
