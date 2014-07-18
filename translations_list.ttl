@@ -4,8 +4,8 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-# Jean-Marc, don't we need a base URI here?
 
+@base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl#> .
 
 <translation-foaf-en-to-fr>
         a                           lingvoj:Translation ;
@@ -45,3 +45,24 @@
         lingvoj:translatedResource  <rdfs/rdfs.fr.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2014-07-05" .
+
+<translation-foaf-en-to-it>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "???"@it ;
+        lingvoj:originalResource    <http://xmlns.com/foaf/spec> ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/it> ;
+        lingvoj:translatedResource  <foaf/foaf.it.ttl> ;
+        lingvoj:translator          <enridaga> ; # enridaga, please put your FOAF profile URI
+        dcterms:issued  "2014-01-11" .
+
+<wordnet-fr_wolf-ttl>
+        rdfs:label                  "Traduction en RDF du XML de Wolf, le WordNet en français, transformation par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    <https://gforge.inria.fr/frs/download.php/file/33496/wolf-1.0b4.xml.bz2> ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <wordnet/wordnet-synset.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2014-07-10" ;
+	rdfs:seeAlso <http://alpage.inria.fr/~sagot/wolf.html> .
+
