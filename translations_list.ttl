@@ -48,12 +48,22 @@
 
 <translation-foaf-en-to-it>
         a                           lingvoj:Translation ;
-        rdfs:label                  "???"@it ;
+        rdfs:label                  "Traduzione di FOAF in italiano, a cura di Enrico Daga"@it ;
         lingvoj:originalResource    <http://xmlns.com/foaf/spec> ;
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/it> ;
         lingvoj:translatedResource  <foaf/foaf.it.ttl> ;
-        lingvoj:translator          <enridaga> ; # enridaga, please put your FOAF profile URI
+        lingvoj:translator          <http://www.enridaga.net/rdf/foaf.rdf#me> ;
+        dcterms:issued  "2014-01-11" .
+
+<translation-rdfs-en-to-it>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduzione di RDFS in italiano, a cura di Enrico Daga"@it ;
+        lingvoj:originalResource    rdfs: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/it> ;
+        lingvoj:translatedResource  <rdfs/rdfs.it.ttl> ;
+        lingvoj:translator          <http://www.enridaga.net/rdf/foaf.rdf#me> ;
         dcterms:issued  "2014-01-11" .
 
 <wordnet-fr_wolf-ttl>
