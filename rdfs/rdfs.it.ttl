@@ -1,0 +1,32 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+rdfs:Class     rdfs:comment "La classe delle classi."@it.
+rdfs:Class     rdfs:label "Classe"@it.
+rdfs:Container     rdfs:comment "La classe dei contenitori RDF."@it.
+rdfs:Container     rdfs:label "Contenitore"@it.
+rdfs:ContainerMembershipProperty     rdfs:comment "La classe delle proprietà di appertenenza a un contenitore, rdf:_1, rdf:_2, ...  che sono tutte sotto-proprietà di 'member'."@it.
+rdfs:ContainerMembershipProperty     rdfs:label "Proprietà di appartenenza a un contenitore"@it.
+rdfs:Datatype     rdfs:comment "La classe dei tipi dei dati RDF."@it.
+rdfs:Datatype     rdfs:label "Tipo di dato"@it.
+rdfs:Literal     rdfs:comment "La classe dei valori letterali, es. stringhe testuali e interi."@it.
+rdfs:Literal     rdfs:label "Letterale"@it.
+rdfs:Resource     rdfs:comment "La classe delle risorse; ogni cosa."@it.
+rdfs:Resource     rdfs:label "Risorsa"@it.
+rdfs:comment     rdfs:comment "Una descrizione della risorsa al soggetto."@it.
+rdfs:comment     rdfs:label "commento"@it.
+rdfs:domain     rdfs:comment "Il domainio della proprietà al soggetto."@it.
+rdfs:domain     rdfs:label "dominio"@it.
+rdfs:isDefinedBy     rdfs:comment "La definizione della risorse al soggetto."@it.
+rdfs:isDefinedBy     rdfs:label "è definitio da"@it.
+rdfs:label     rdfs:comment "Un nome comprensibile a un umano del soggetto."@it.
+rdfs:label     rdfs:label "etichetta"@it.
+rdfs:member     rdfs:comment "Un membro della risorsa al soggetto."@it.
+rdfs:member     rdfs:label "membro"@it.
+rdfs:range     rdfs:comment "Il codominio della proprietà al soggetto."@it.
+rdfs:range     rdfs:label "codominio"@it.
+rdfs:seeAlso     rdfs:comment "Ulteriori informazioni sulla risorsa al soggetto."@it.
+rdfs:seeAlso     rdfs:label "vedi anche"@it.
+rdfs:subClassOf     rdfs:comment "Il soggetto è una sottoclasse di una classe."@it.
+rdfs:subClassOf     rdfs:label "sottoclasse di"@it.
+rdfs:subPropertyOf     rdfs:comment "Il soggetto è una sottoproprietà di una proprietà."@it.
+rdfs:subPropertyOf     rdfs:label "sottoproprietà di"@it.
