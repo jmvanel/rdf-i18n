@@ -5,7 +5,7 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 
-@base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl#> .
+@base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
 
 <translation-foaf-en-to-fr>
         a                           lingvoj:Translation ;
