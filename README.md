@@ -11,7 +11,7 @@ You may ask: "why bother do this?".
 I see at least 2 use cases:
 
 - for input form and display generated from the vocabulary, I18N
-labels and tooltips are necessary
+labels and tooltips are necessary; see project [semantic\_forms](../semantic_forms)
 - for faceted search, I18N labels are useful
 
 We provide just Turtle files.
