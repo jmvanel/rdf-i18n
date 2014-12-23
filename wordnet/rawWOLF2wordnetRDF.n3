@@ -14,14 +14,13 @@
 { ?S wolf:ID ?ID .
   # _:d e:trace ( "?ID" ?ID).
   ?S  wolf:SYNONYM ?SYN .
-  #    _:d e:trace ( "?SYN" ?SYN).
-     ?SYN wolf:LITERAL ?LIT .
+  # _:d e:trace ( "?SYN" ?SYN).
+  ?SYN wolf:LITERAL ?LIT .
   # _:d e:trace ( "?LIT" ?LIT).
-         ?LIT rdf:value ?LABEL_FR .
-         # ?LIT ?P ?LABEL_FR .
+  ?LIT rdf:value ?LABEL_FR .
   # _:d e:trace ( "?LABEL_FR"  ?LABEL_FR).
 
-  # transform e.g.  "eng-30-08663156-n" into "108663156"
+  # transform e.g.  "eng-30-08663156-n" into "108663156" ( ?SYNSET_ID )
 
   ( ?ID "eng-30-" ) func:substring-after ?ID2 .
   # _:d e:trace ( "?ID2" ?ID2).
@@ -29,13 +28,10 @@
   # _:d e:trace ( "?ID3" ?ID3).
   ( ?ID3 "(.*)-n$" ) string:scrape ?ID4 .
   # _:d e:trace ( "?ID4" ?ID4).
-  # (?ID4) xsd:int ?ID5 .
-  (?ID4 xsd:int) ! log:dtlit e:numeral ?ID5 .
-  # _:d e:trace ( "?ID5" ?ID5).
+  (?ID4 xsd:int) ! log:dtlit e:numeral ?SYNSET_ID .
+  # _:d e:trace ( "?SYNSET_ID" ?SYNSET_ID).
 
-  ?SYNSET wn20schema:synsetId ?ID5 .
-  # ?SYNSET wn20schema:synsetId ?SYNSET_ID .
-  # ?SYNSET_ID math:equalTo ?ID5 .
+  ?SYNSET wn20schema:synsetId ?SYNSET_ID .
   (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
 } => {
   ?SYNSET rdfs:label ?LABEL_FR_FR .

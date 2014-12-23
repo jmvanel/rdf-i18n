@@ -9,7 +9,7 @@ raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~
 The command for Euler is:
 
     /opt/eye/bin/eye.sh --nope --query rawWOLF2wordnetRDF_prolog.n3 wolf-1.0b4.xml.small.ttl \
-	~/data/nlp/wordnet-synset.ttl > wordnet-synset.fr.ttl
+	$HOME/data/nlp/wordnet-synset.ttl > wordnet-synset.fr.ttl
 
 wordnet-synset.ttl comes from here: 
 http://eculture.cs.vu.nl/git/public/?p=vocs/wordnet.git;a=tree;f=rdf;hb=HEAD 
