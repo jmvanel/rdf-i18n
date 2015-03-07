@@ -7,247 +7,247 @@
 
 # FOAF ontoloji dökümantasyonunun Türkçe çevirisi - © Umutcan Şimşek 2014 - Creative Commons lisansı altındadır.
 
-foaf:knows  rdfs:comment  "Bu kişinin tanıdığı bir kişi (taraflar arasında bir seviyede etkileşim belirtir)." ;
-        rdfs:label    "Tanır" .
+foaf:knows  rdfs:comment  "Bu kişinin tanıdığı bir kişi (taraflar arasında bir seviyede etkileşim belirtir)."@tr ;
+        rdfs:label    "Tanır"@tr .
 
-foaf:firstName  rdfs:comment  "Bir kişinin adı" ;
-        rdfs:label    "Ad" .
+foaf:firstName  rdfs:comment  "Bir kişinin adı"@tr ;
+        rdfs:label    "Ad"@tr .
 
-foaf:icqChatID  rdfs:comment  "Bir ICQ sohbet ID'si" ;
-        rdfs:label    "ICQ ID" .
+foaf:icqChatID  rdfs:comment  "Bir ICQ sohbet ID'si"@tr ;
+        rdfs:label    "ICQ ID"@tr .
 
-foaf:birthday  rdfs:comment  "Bu varlığın doğum günü. 'ay-gün'  formatında gösterilir." ;
-        rdfs:label    "Doğum Günü" .
+foaf:birthday  rdfs:comment  "Bu varlığın doğum günü. 'ay-gün'  formatında gösterilir."@tr ;
+        rdfs:label    "Doğum Günü"@tr .
 
-foaf:givenname  rdfs:comment  "Bir kişiye ailesi tarafından verilen ad." ;
-        rdfs:label    "Ad" .
+foaf:givenname  rdfs:comment  "Bir kişiye ailesi tarafından verilen ad."@tr ;
+        rdfs:label    "Ad"@tr .
 
-foaf:focus  rdfs:comment  "SKOS ile tanımlanmış bir kavramın altında yatan veya odaklandığı öge." ;
-        rdfs:label    "Odak" .
+foaf:focus  rdfs:comment  "SKOS ile tanımlanmış bir kavramın altında yatan veya odaklandığı öge."@tr ;
+        rdfs:label    "Odak"@tr .
 
-foaf:phone  rdfs:comment  "Bir telefon , tel özelliği ile belirtilir: URI şeması (referans: http://www.w3.org/Addressing/schemes.html#tel)." ;
-        rdfs:label    "Telefon" .
+foaf:phone  rdfs:comment  "Bir telefon , tel özelliği ile belirtilir: URI şeması (referans: http://www.w3.org/Addressing/schemes.html#tel)."@tr ;
+        rdfs:label    "Telefon"@tr .
 
 foaf:accountServiceHomepage
-        rdfs:comment  "Bu çevrimiçi hesabın servis sağlayıcısının anasayfasını belirtir." ;
-        rdfs:label    "Hesap Servisi Anasayfası" .
+        rdfs:comment  "Bu çevrimiçi hesabın servis sağlayıcısının anasayfasını belirtir."@tr ;
+        rdfs:label    "Hesap Servisi Anasayfası"@tr .
 
-foaf:openid  rdfs:comment  "Bir valığın OpenID'si" ;
-        rdfs:label    "OpenID" .
+foaf:openid  rdfs:comment  "Bir valığın OpenID'si"@tr ;
+        rdfs:label    "OpenID"@tr .
 
 foaf:isPrimaryTopicOf
-        rdfs:comment  "Bu şeyin öncelikli konusu olduğu belge" ;
-        rdfs:label    "Öncelikli Konusu" .
+        rdfs:comment  "Bu şeyin öncelikli konusu olduğu belge"@tr ;
+        rdfs:label    "Öncelikli Konusu"@tr .
 
-foaf:givenName  rdfs:comment  "Bir kişiye ailesi tarafından verilen ad." ;
-        rdfs:label    "Ad" .
+foaf:givenName  rdfs:comment  "Bir kişiye ailesi tarafından verilen ad."@tr ;
+        rdfs:label    "Ad"@tr .
 
-foaf:depicts  rdfs:comment  "Bu gösterimde betimlenen şey" ;
-        rdfs:label    "Betimler" .
+foaf:depicts  rdfs:comment  "Bu gösterimde betimlenen şey"@tr ;
+        rdfs:label    "Betimler"@tr .
 
-foaf:Project  rdfs:comment  "Bir proje" ;
-        rdfs:label    "Proje" .
+foaf:Project  rdfs:comment  "Bir proje"@tr ;
+        rdfs:label    "Proje"@tr .
 
-foaf:account  rdfs:comment  "Bu varlığın sahip olduğu bir hesabı belirtir." ;
-        rdfs:label    "Hesap" .
+foaf:account  rdfs:comment  "Bu varlığın sahip olduğu bir hesabı belirtir."@tr ;
+        rdfs:label    "Hesap"@tr .
 
-foaf:skypeID  rdfs:comment  "Bir Skype kimliği" ;
-        rdfs:label    "Skype Kimliği" .
+foaf:skypeID  rdfs:comment  "Bir Skype kimliği"@tr ;
+        rdfs:label    "Skype Kimliği"@tr .
 
-foaf:Image  rdfs:comment  "Bir görsel." ;
-        rdfs:label    "Görsel" .
+foaf:Image  rdfs:comment  "Bir görsel."@tr ;
+        rdfs:label    "Görsel"@tr .
 
-foaf:page  rdfs:comment  "Bu şey hakkında bir sayfa veya belge." ;
-        rdfs:label    "Sayfa" .
+foaf:page  rdfs:comment  "Bu şey hakkında bir sayfa veya belge."@tr ;
+        rdfs:label    "Sayfa"@tr .
 
 foaf:OnlineEcommerceAccount
-        rdfs:comment  "Bir çevrimiçi e-ticaret hesabı." ;
-        rdfs:label    "Çevrimiçi E-ticaret Hesabı" .
+        rdfs:comment  "Bir çevrimiçi e-ticaret hesabı."@tr ;
+        rdfs:label    "Çevrimiçi E-ticaret Hesabı"@tr .
 
-foaf:lastName  rdfs:comment  "Bir kişinin soyadı." ;
-        rdfs:label    "Soyad" .
+foaf:lastName  rdfs:comment  "Bir kişinin soyadı."@tr ;
+        rdfs:label    "Soyad"@tr .
 
-foaf:yahooChatID  rdfs:comment  "Bir Yahoo Sohbet Kimliği" ;
-        rdfs:label    "Yahoo Sohbet Kimliği" .
+foaf:yahooChatID  rdfs:comment  "Bir Yahoo Sohbet Kimliği"@tr ;
+        rdfs:label    "Yahoo Sohbet Kimliği"@tr .
 
-foaf:membershipClass  rdfs:comment  "Bir Grubun üyesi olan bireylerin sınıfını belirtir." ;
-        rdfs:label    "Üyelik Sınıfı" .
+foaf:membershipClass  rdfs:comment  "Bir Grubun üyesi olan bireylerin sınıfını belirtir."@tr ;
+        rdfs:label    "Üyelik Sınıfı"@tr .
 
-foaf:homepage  rdfs:comment  "Bir şeyin anasayfası." ;
-        rdfs:label    "Anasayfa" .
+foaf:homepage  rdfs:comment  "Bir şeyin anasayfası."@tr ;
+        rdfs:label    "Anasayfa"@tr .
 
-foaf:topic_interest  rdfs:comment  "Bir kişinin ilgilendiği şey." ;
-        rdfs:label    "İlgi Alanı" .
+foaf:topic_interest  rdfs:comment  "Bir kişinin ilgilendiği şey."@tr ;
+        rdfs:label    "İlgi Alanı"@tr .
 
-foaf:dnaChecksum  rdfs:comment  "Bir şeyin DNA'sının özet değeri. Şaka." ;
-        rdfs:label    "DNA Özet Değeri" .
+foaf:dnaChecksum  rdfs:comment  "Bir şeyin DNA'sının özet değeri. Şaka."@tr ;
+        rdfs:label    "DNA Özet Değeri"@tr .
 
-foaf:gender  rdfs:comment  "Bu Varlığın cinsiyeti (genellikle 'erkek' veya 'kadın', fakat şart değil)." ;
-        rdfs:label    "Cinsiyet" .
+foaf:gender  rdfs:comment  "Bu Varlığın cinsiyeti (genellikle 'erkek' veya 'kadın', fakat şart değil)."@tr ;
+        rdfs:label    "Cinsiyet"@tr .
 
-foaf:mbox_sha1sum  rdfs:comment  "Yalnızca bir kişiye ait bir e-posta adresinin SHA1 özet değeri." ;
-        rdfs:label    "kişisel E-posta Adresi SHA1 Özet Değeri" .
+foaf:mbox_sha1sum  rdfs:comment  "Yalnızca bir kişiye ait bir e-posta adresinin SHA1 özet değeri."@tr ;
+        rdfs:label    "kişisel E-posta Adresi SHA1 Özet Değeri"@tr .
 
-foaf:logo  rdfs:comment  "Bir şeyi temsil eden bir logo." ;
-        rdfs:label    "Logo" .
+foaf:logo  rdfs:comment  "Bir şeyi temsil eden bir logo."@tr ;
+        rdfs:label    "Logo"@tr .
 
-foaf:img  rdfs:comment  "Bir şeyi temsil etmek için kullanılabilecek bir görsel. (ör. özellikle bir şeyi temsil eden bir gösterim, ör. bir web sayfasındaki bir kişinin fotoğrafı)." ;
-        rdfs:label    "Görsel" .
+foaf:img  rdfs:comment  "Bir şeyi temsil etmek için kullanılabilecek bir görsel. (ör. özellikle bir şeyi temsil eden bir gösterim, ör. bir web sayfasındaki bir kişinin fotoğrafı)."@tr ;
+        rdfs:label    "Görsel"@tr .
 
-foaf:fundedBy  rdfs:comment  "Bir kişiyi veya bir projeyi finanse eden bir organizasyon" ;
-        rdfs:label    "Finanse Eden" .
+foaf:fundedBy  rdfs:comment  "Bir kişiyi veya bir projeyi finanse eden bir organizasyon"@tr ;
+        rdfs:label    "Finanse Eden"@tr .
 
-foaf:interest  rdfs:comment  "Bir kişinin bir ilgi alanıyla ilgili bir sayfa." ;
-        rdfs:label    "İlgi" .
+foaf:interest  rdfs:comment  "Bir kişinin bir ilgi alanıyla ilgili bir sayfa."@tr ;
+        rdfs:label    "İlgi"@tr .
 
 <http://www.w3.org/2004/02/skos/core#Concept>
-        rdfs:label  "Kavram" .
+        rdfs:label  "Kavram"@tr .
 
-foaf:familyName  rdfs:comment  "Bir kişinin soyadı." ;
-        rdfs:label    "Soyad" .
+foaf:familyName  rdfs:comment  "Bir kişinin soyadı."@tr ;
+        rdfs:label    "Soyad"@tr .
 
-foaf:status  rdfs:comment  "Kişinin o anki aktivitesini insanlara bildirmek için kullanılan ve duygudurumunu gösteren bir metin." ;
-        rdfs:label    "Durum" .
+foaf:status  rdfs:comment  "Kişinin o anki aktivitesini insanlara bildirmek için kullanılan ve duygudurumunu gösteren bir metin."@tr ;
+        rdfs:label    "Durum"@tr .
 
-foaf:msnChatID  rdfs:comment  "Bir MSN sohbet kimliği" ;
-        rdfs:label    "MSN Sohbet Kimliği " .
+foaf:msnChatID  rdfs:comment  "Bir MSN sohbet kimliği"@tr ;
+        rdfs:label    "MSN Sohbet Kimliği "@tr .
 
-foaf:sha1  rdfs:comment  "Hex formatında bir SHA1 özet değeri" ;
-        rdfs:label    "SHA1 Özet Değeri (hex)" .
+foaf:sha1  rdfs:comment  "Hex formatında bir SHA1 özet değeri"@tr ;
+        rdfs:label    "SHA1 Özet Değeri (hex)"@tr .
 
 foaf:PersonalProfileDocument
-        rdfs:comment  "Bir kişinin kişisel profilini içeren RDF belgesi" ;
-        rdfs:label    "Kişisel Profil Belgesi" .
+        rdfs:comment  "Bir kişinin kişisel profilini içeren RDF belgesi"@tr ;
+        rdfs:label    "Kişisel Profil Belgesi"@tr .
 
 foaf:workInfoHomepage
-        rdfs:comment  "Bir kişinin işiyle alakalı bir web sayfası; bir organizasyon için yapılan bir iş ile ilgili sayfa." ;
-        rdfs:label    "İş bilgisi için Web Sayfası" .
+        rdfs:comment  "Bir kişinin işiyle alakalı bir web sayfası; bir organizasyon için yapılan bir iş ile ilgili sayfa."@tr ;
+        rdfs:label    "İş bilgisi için Web Sayfası"@tr .
 
-foaf:currentProject  rdfs:comment  "Bir kişinin üzerinde o an çalıştığı bir proje." ;
-        rdfs:label    "Şu anki Proje" .
+foaf:currentProject  rdfs:comment  "Bir kişinin üzerinde o an çalıştığı bir proje."@tr ;
+        rdfs:label    "Şu anki Proje"@tr .
 
-foaf:mbox  rdfs:comment  " Bir kişisel posta kutusu, ör. sadece bir kişiye, sahip olan ilk kişiye, ait bir e-posta adresi. Bu bir 'static inverse functional property'dir. Yani belirli bir foaf:mbox değerine sahip en fazla bir birey vardır." ;
-        rdfs:label    "Kişisel Posta Kutusu" .
+foaf:mbox  rdfs:comment  " Bir kişisel posta kutusu, ör. sadece bir kişiye, sahip olan ilk kişiye, ait bir e-posta adresi. Bu bir 'static inverse functional property'dir. Yani belirli bir foaf:mbox değerine sahip en fazla bir birey vardır."@tr ;
+        rdfs:label    "Kişisel Posta Kutusu"@tr .
 
-foaf:schoolHomepage  rdfs:comment  "Kişinin gittiği bir okula ait web sayfası." ;
-        rdfs:label    "Okul Web Sayfası" .
+foaf:schoolHomepage  rdfs:comment  "Kişinin gittiği bir okula ait web sayfası."@tr ;
+        rdfs:label    "Okul Web Sayfası"@tr .
 
-owl:Thing  rdfs:label  "Şey" .
+owl:Thing  rdfs:label  "Şey"@tr .
 
-foaf:Organization  rdfs:comment  "Bir organizasyon." ;
-        rdfs:label    "Organizasyon" .
+foaf:Organization  rdfs:comment  "Bir organizasyon."@tr ;
+        rdfs:label    "Organizasyon"@tr .
 
-foaf:maker  rdfs:comment  "Bu şeyi oluşturan varlık." ;
-        rdfs:label    "Oluşturan" .
+foaf:maker  rdfs:comment  "Bu şeyi oluşturan varlık."@tr ;
+        rdfs:label    "Oluşturan"@tr .
 
-foaf:holdsAccount  rdfs:comment  "Bu varlık tarafından elde tutulan bir hesabı belirtir." ;
-        rdfs:label    "Hesap" .
+foaf:holdsAccount  rdfs:comment  "Bu varlık tarafından elde tutulan bir hesabı belirtir."@tr ;
+        rdfs:label    "Hesap"@tr .
 
-foaf:pastProject  rdfs:comment  "Bu kişinin daha önce üzerinde çalıştığı bir projeyi belirtir." ;
-        rdfs:label    "Geçmiş Proje" .
+foaf:pastProject  rdfs:comment  "Bu kişinin daha önce üzerinde çalıştığı bir projeyi belirtir."@tr ;
+        rdfs:label    "Geçmiş Proje"@tr .
 
-foaf:jabberID  rdfs:comment  "Jabber Kimliği" ;
-        rdfs:label    "Jabber ID" .
+foaf:jabberID  rdfs:comment  "Jabber Kimliği"@tr ;
+        rdfs:label    "Jabber ID"@tr .
 
 foaf:OnlineChatAccount
-        rdfs:comment  "Bir çevrimiçi sohbet hesabı" ;
-        rdfs:label    "Çevrimiçi Sohbet Hesabı" .
+        rdfs:comment  "Bir çevrimiçi sohbet hesabı"@tr ;
+        rdfs:label    "Çevrimiçi Sohbet Hesabı"@tr .
 
-foaf:accountName  rdfs:comment  "Bu çevrimiçi hesap ile ilişkili adı belirtir." ;
-        rdfs:label    "Hesap Adı" .
+foaf:accountName  rdfs:comment  "Bu çevrimiçi hesap ile ilişkili adı belirtir."@tr ;
+        rdfs:label    "Hesap Adı"@tr .
 
-foaf:name  rdfs:comment     "Bir şeyin ismi" ;
-        rdfs:label          "Ad" ;
+foaf:name  rdfs:comment     "Bir şeyin ismi"@tr ;
+        rdfs:label          "Ad"@tr ;
         rdfs:subPropertyOf  rdfs:label .
 
-foaf:OnlineAccount  rdfs:comment  "Bir çevrimiçi hesap" ;
-        rdfs:label    "Çevrimiçi Hesap" .
+foaf:OnlineAccount  rdfs:comment  "Bir çevrimiçi hesap"@tr ;
+        rdfs:label    "Çevrimiçi Hesap"@tr .
 
-foaf:tipjar  rdfs:comment  "Bu varlık için bir bahşiş kutusu, alınan ödemeler ve ödüller için bir benzetmedir." ;
-        rdfs:label    "Bahşiş Kutusu" .
+foaf:tipjar  rdfs:comment  "Bu varlık için bir bahşiş kutusu, alınan ödemeler ve ödüller için bir benzetmedir."@tr ;
+        rdfs:label    "Bahşiş Kutusu"@tr .
 
 <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
-        rdfs:label  "Uzamsal Şey" .
+        rdfs:label  "Uzamsal Şey"@tr .
 
-foaf:primaryTopic  rdfs:comment  "Bir sayfa veya dökümanın birincil konusu" ;
-        rdfs:label    "Birincil Konu" .
+foaf:primaryTopic  rdfs:comment  "Bir sayfa veya dökümanın birincil konusu"@tr ;
+        rdfs:label    "Birincil Konu"@tr .
 
-foaf:myersBriggs  rdfs:comment  "Bir Myers Briggs (MBTI) kişilik sınıflandırması." ;
-        rdfs:label    "Myers Briggs" .
+foaf:myersBriggs  rdfs:comment  "Bir Myers Briggs (MBTI) kişilik sınıflandırması."@tr ;
+        rdfs:label    "Myers Briggs"@tr .
 
-foaf:age  rdfs:comment  "Bir varlığın yıl bazında yaşı" ;
-        rdfs:label    "Yaş" .
+foaf:age  rdfs:comment  "Bir varlığın yıl bazında yaşı"@tr ;
+        rdfs:label    "Yaş"@tr .
 
-foaf:Agent  rdfs:comment  "Bir varlık (eg. kişi, grup, yazılım veya fiziksel bir olgu)." ;
-        rdfs:label    "Varlık" .
+foaf:Agent  rdfs:comment  "Bir varlık (eg. kişi, grup, yazılım veya fiziksel bir olgu)."@tr ;
+        rdfs:label    "Varlık"@tr .
 
 foaf:OnlineGamingAccount
-        rdfs:comment  "Bir çevrimiçi oyun hesabı" ;
-        rdfs:label    "Çevrimiçi Oyun Hesabı" .
+        rdfs:comment  "Bir çevrimiçi oyun hesabı"@tr ;
+        rdfs:label    "Çevrimiçi Oyun Hesabı"@tr .
 
 <http://www.w3.org/2000/10/swap/pim/contact#Person>
-        rdfs:label  "Kişi" .
+        rdfs:label  "Kişi"@tr .
 
-foaf:depiction  rdfs:comment  "Bir şeyin betimi, tasviri, çizimi" ;
-        rdfs:label    "Tasvir" .
+foaf:depiction  rdfs:comment  "Bir şeyin betimi, tasviri, çizimi"@tr ;
+        rdfs:label    "Tasvir"@tr .
 
 foaf:workplaceHomepage
-        rdfs:comment  "Bir kişinin çalıştığı organizasyonun anasayfası" ;
-        rdfs:label    "İş Anasayfası" .
+        rdfs:comment  "Bir kişinin çalıştığı organizasyonun anasayfası"@tr ;
+        rdfs:label    "İş Anasayfası"@tr .
 
-foaf:weblog  rdfs:comment  "Bir şeyin blogu  (kişi, grup, şirket vs.)." ;
-        rdfs:label    "Weblog" .
+foaf:weblog  rdfs:comment  "Bir şeyin blogu  (kişi, grup, şirket vs.)."@tr ;
+        rdfs:label    "Weblog"@tr .
 
-foaf:title  rdfs:comment  "Unvan (Bay, Bayan, Dr. vs.)" ;
-        rdfs:label    "Unvan" .
+foaf:title  rdfs:comment  "Unvan (Bay, Bayan, Dr. vs.)"@tr ;
+        rdfs:label    "Unvan"@tr .
 
-foaf:thumbnail  rdfs:comment  "Türetilmiş küçük resim." ;
-        rdfs:label    "Küçük Resim" .
+foaf:thumbnail  rdfs:comment  "Türetilmiş küçük resim."@tr ;
+        rdfs:label    "Küçük Resim"@tr .
 
-foaf:Person  rdfs:comment  "Bir kişi." ;
-        rdfs:label    "Kişi" .
+foaf:Person  rdfs:comment  "Bir kişi."@tr ;
+        rdfs:label    "Kişi"@tr .
 
-foaf:nick  rdfs:comment  "Bir varlığın kısa, resmi olmayan takma adı (kullanıcı adları ve sohbet rumuzları dahildir)." ;
-        rdfs:label    "Takma Ad" .
+foaf:nick  rdfs:comment  "Bir varlığın kısa, resmi olmayan takma adı (kullanıcı adları ve sohbet rumuzları dahildir)."@tr ;
+        rdfs:label    "Takma Ad"@tr .
 
-foaf:made  rdfs:comment  "Bu varlık tarafından yapılmış bir şey." ;
-        rdfs:label    "Yapılmış" .
+foaf:made  rdfs:comment  "Bu varlık tarafından yapılmış bir şey."@tr ;
+        rdfs:label    "Yapılmış"@tr .
 
-foaf:LabelProperty  rdfs:comment  "Bir foaf:LabelProperty bir etiket olarak hizmet eden herhangi bir RDF property'sidir." ;
-        rdfs:label    "Label Property" .
+foaf:LabelProperty  rdfs:comment  "Bir foaf:LabelProperty bir etiket olarak hizmet eden herhangi bir RDF property'sidir."@tr ;
+        rdfs:label    "Label Property"@tr .
 
-foaf:based_near  rdfs:comment  "Bir şeylerin yakınlarında bulunduğu bir lokasyon. Göreceli bir insan tanımıdır." ;
-        rdfs:label    "Yakınlarında" .
+foaf:based_near  rdfs:comment  "Bir şeylerin yakınlarında bulunduğu bir lokasyon. Göreceli bir insan tanımıdır."@tr ;
+        rdfs:label    "Yakınlarında"@tr .
 
-foaf:surname  rdfs:comment  "Bir kişinin soyadı." ;
-        rdfs:label    "Soyad" .
+foaf:surname  rdfs:comment  "Bir kişinin soyadı."@tr ;
+        rdfs:label    "Soyad"@tr .
 
-foaf:plan  rdfs:comment  "Bir .plan yorumu, finger veya '.plan' dosyalarındaki gibi." ;
-        rdfs:label    "Plan" .
+foaf:plan  rdfs:comment  "Bir .plan yorumu, finger veya '.plan' dosyalarındaki gibi."@tr ;
+        rdfs:label    "Plan"@tr .
 
-foaf:aimChatID  rdfs:comment  "Bir AIM sohbet kimliği" ;
-        rdfs:label    "AIM Sohbet Kimliği" .
+foaf:aimChatID  rdfs:comment  "Bir AIM sohbet kimliği"@tr ;
+        rdfs:label    "AIM Sohbet Kimliği"@tr .
 
-foaf:Group  rdfs:comment  "Varlıkların bir kümesi" ;
-        rdfs:label    "Grup" .
+foaf:Group  rdfs:comment  "Varlıkların bir kümesi"@tr ;
+        rdfs:label    "Grup"@tr .
 
-foaf:geekcode  rdfs:comment  "Bu kişi için bir metin tabanlı geekcode , bkz. http://www.geekcode.com/geek.html" ;
-        rdfs:label    "Geekcode" .
+foaf:geekcode  rdfs:comment  "Bu kişi için bir metin tabanlı geekcode , bkz. http://www.geekcode.com/geek.html"@tr ;
+        rdfs:label    "Geekcode"@tr .
 
-foaf:Document  rdfs:comment  "Bir belge." ;
-        rdfs:label    "Belge" .
+foaf:Document  rdfs:comment  "Bir belge."@tr ;
+        rdfs:label    "Belge"@tr .
 
-foaf:topic  rdfs:comment  "Bir sayfa veya belgenin konusu." ;
-        rdfs:label    "Konu" .
+foaf:topic  rdfs:comment  "Bir sayfa veya belgenin konusu."@tr ;
+        rdfs:label    "Konu"@tr .
 
-foaf:family_name  rdfs:comment  "Bir kişinin soyadı." ;
-        rdfs:label    "Soyad" .
+foaf:family_name  rdfs:comment  "Bir kişinin soyadı."@tr ;
+        rdfs:label    "Soyad"@tr .
 
-foaf:member  rdfs:comment  "Bir grubun bir üyesini belirtir." ;
-        rdfs:label    "Üye" .
+foaf:member  rdfs:comment  "Bir grubun bir üyesini belirtir."@tr ;
+        rdfs:label    "Üye"@tr .
 
-foaf:theme  rdfs:comment  "Bir tema" ;
-        rdfs:label    "Tema" .
+foaf:theme  rdfs:comment  "Bir tema"@tr ;
+        rdfs:label    "Tema"@tr .
 
-foaf:publications  rdfs:comment  "Bu kişinin yayınlarına bir link." ;
-        rdfs:label    "Yayınlar" .
+foaf:publications  rdfs:comment  "Bu kişinin yayınlarına bir link."@tr ;
+        rdfs:label    "Yayınlar"@tr .
