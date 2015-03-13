@@ -12,17 +12,13 @@
 @prefix e: <http://eulersharp.sourceforge.net/2003/03swap/log-rules#> . 
 @prefix prolog: <http://eulersharp.sourceforge.net/2003/03swap/prolog#> . 
 
+{ ?WOLF_ITEM wolf:SYNONYM ?SYN .
+  ?SYN wolf:LITERAL ?LIT .
+  ?LIT rdf:value ?LABEL_FR .
 
-{
   ?WOLF_ITEM wolf:itemHasSynsetID ?SYNSET .
-} <= {
-  # transform e.g.  "eng-30-08663156-n" ( wolf:ID ) into "108663156" ( ?SYNSET_ID )
-  ?WOLF_ITEM wolf:ID ("literal"^^prolog:atom ?A1 ?DT)^prolog:univ .
-  ("eng-30-"^^prolog:atom ?A2 ?A1)	prolog:atom_concat true .
-  (?A3 "-n"^^prolog:atom ?A2)		prolog:atom_concat true .
-  ("1"^^prolog:atom ?A3 ?A4)		prolog:atom_concat true .
-  (?A4 ?SYNSET_ID) prolog:atom_number true.
 
-  ?SYNSET wn20schema:synsetId ?SYNSET_ID .
+  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
+} => {
+  ?SYNSET rdfs:label ?LABEL_FR_FR .
 } .
-

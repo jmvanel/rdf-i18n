@@ -8,26 +8,30 @@ raw RDF version of WOLF french WordNet translation from http://alpage.inria.fr/~
 
 The command for Euler is:
 
-    /opt/eye/bin/eye.sh --nope --query rawWOLF2wordnetRDF_prolog.n3 wolf-1.0b4.xml.small.ttl \
-	$HOME/data/nlp/wordnet-synset.ttl > wordnet-synset.fr.ttl
+    /opt/eye/bin/eye.sh --nope --query rawWOLF2wordnetRDF_prolog.q.n3 \
+        rawWOLF2wordnetRDF_prolog.n3 \
+        wolf-1.0b4.xml.small.ttl \
+	$HOME/data/nlp/rdf_wordnet-synset.ttl > wordnet-synset.fr.ttl
 
-wordnet-synset.ttl comes from here: 
+The file wordnet-synset.fr.ttl will then contain the rdfs:label's for the Wordnet synsets.
+The file wordnet-synset.ttl comes from here:
 http://eculture.cs.vu.nl/git/public/?p=vocs/wordnet.git;a=tree;f=rdf;hb=HEAD 
 
-NOTE: the ID is not exactly the same in WOLF french WordNet and in original english WordNet in RDF;
-see 
-[test.ttl](test.ttl)
+NOTES:
+- the ID is not exactly the same in WOLF french WordNet and in original english WordNet in RDF;
+see [test.ttl](test.ttl)
+- wolf-1.0b4.xml.small.ttl just 10% of the real data wolf-1.0b4.xml.ttl , which I had trouble to commit, and anyway it's just a generated file.
 
-WOLF french WordNet in RDF is:
+WOLF french WordNet in RDF looks like:
 
-            [ # ...
-                            <http://alpage.inria.fr/sagot/wolf#DEF>      "the extreme end of something; especially something pointed" ;
-                                        <http://alpage.inria.fr/sagot/wolf#ID>       "eng-30-08663156-n" ;
-                                        <http://alpage.inria.fr/sagot/wolf#SYNONYM>  [ <http://alpage.inria.fr/sagot/wolf#LITERAL>
-                                                          [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
-                                                                    "pointe" ;
-                                                            <http://alpage.inria.fr/sagot/wolf#lnote>  "2/1:fr.roen;gwa2012(0.10332735028424223922);ManVal2012OK"
-                                                          ] ;
+    [ # ...
+     <http://alpage.inria.fr/sagot/wolf#DEF>      "the extreme end of something; especially something pointed" ;
+                 <http://alpage.inria.fr/sagot/wolf#ID>       "eng-30-08663156-n" ;
+                 <http://alpage.inria.fr/sagot/wolf#SYNONYM>  [ <http://alpage.inria.fr/sagot/wolf#LITERAL>
+                                   [ <http://www.w3.org/1999/02/22-rdf-syntax-ns#value>
+                                             "pointe" ;
+                                     <http://alpage.inria.fr/sagot/wolf#lnote>  "2/1:fr.roen;gwa2012(0.10332735028424223922);ManVal2012OK"
+                                   ] ;
 which corresponds in WordNet in RDF to :
 
 	wn30:synset-tip-noun-1 a wn20schema:NounSynset .
