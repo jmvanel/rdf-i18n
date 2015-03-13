@@ -15,10 +15,9 @@
 { ?WOLF_ITEM wolf:SYNONYM ?SYN .
   ?SYN wolf:LITERAL ?LIT .
   ?LIT rdf:value ?LABEL_FR .
+  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
 
   ?WOLF_ITEM wolf:itemHasSynsetID ?SYNSET .
-
-  (?LABEL_FR "FR") func:PlainLiteral-from-string-lang ?LABEL_FR_FR .
 } => {
   ?SYNSET rdfs:label ?LABEL_FR_FR .
 } .

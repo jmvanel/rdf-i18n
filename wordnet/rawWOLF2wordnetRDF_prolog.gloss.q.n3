@@ -1,0 +1,20 @@
+@prefix wolf: <http://alpage.inria.fr/sagot/wolf#>. 
+@prefix wn20schema: <http://www.w3.org/2006/03/wn/wn20/schema/>. 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>. 
+@prefix string: <http://www.w3.org/2000/10/swap/string#>. 
+@prefix fn: <http://www.w3.org/2006/xpath-functions#>. 
+@prefix func: <http://www.w3.org/2007/rif-builtin-function#>. 
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> . 
+@prefix log: <http://www.w3.org/2000/10/swap/log#> . 
+@prefix math: <http://www.w3.org/2000/10/swap/math#> . 
+
+@prefix e: <http://eulersharp.sourceforge.net/2003/03swap/log-rules#> . 
+@prefix prolog: <http://eulersharp.sourceforge.net/2003/03swap/prolog#> . 
+
+{ ?WOLF_ITEM wolf:DEF ?DEF .
+  (?DEF "FR") func:PlainLiteral-from-string-lang ?DEF_FR .
+  ?WOLF_ITEM wolf:itemHasSynsetID ?SYNSET .
+} => {
+  ?SYNSET wn20schema:gloss ?DEF_FR .
+} .

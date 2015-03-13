@@ -13,7 +13,15 @@ The command for Euler is:
         wolf-1.0b4.xml.small.ttl \
 	$HOME/data/nlp/rdf_wordnet-synset.ttl > wordnet-synset.fr.ttl
 
+    /opt/eye/bin/eye.sh --nope --query rawWOLF2wordnetRDF_prolog.gloss.q.n3 \
+        rawWOLF2wordnetRDF_prolog.n3 \
+        wolf-1.0b4.xml.small.ttl \
+	$HOME/data/nlp/rdf_wordnet-synset.ttl > wordnet-glossary.fr.ttl
+
+
 The file wordnet-synset.fr.ttl will then contain the rdfs:label's for the Wordnet synsets.
+The file wordnet-glossary.fr.ttl will then contain the wn20schema:glos (definitions) for the Wordnet synsets. Alas, the majority is in english and taken from the english WordNet.
+
 The file wordnet-synset.ttl comes from here:
 http://eculture.cs.vu.nl/git/public/?p=vocs/wordnet.git;a=tree;f=rdf;hb=HEAD 
 
