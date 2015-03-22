@@ -29,7 +29,7 @@ foaf:geekcode
       rdfs:label "geekcode"@fr .
 foaf:knows
       rdfs:comment "Une personne connue par cette personne ( qui indique un certain niveau d'interaction réciproque entre les parties )."@fr ;
-      rdfs:label "connait"@fr .
+      rdfs:label "connaît"@fr .
 foaf:mbox
       rdfs:comment """Une boîte aux lettres personnelle, c à d. une boîte aux lettres Internet associée à un propriétaire exactement, le propriétaire principal ou unique de cette boîte aux lettres.
 	Il s'agit d'une "propriété statique fonctionnelle inverse", en ce sens qu'il y a (à travers le temps et les changements) au plus un Agent qui a jamais une valeur particulière pour foaf:mbox"""@fr ;
@@ -76,7 +76,7 @@ foaf:age
       rdfs:label "âge"@fr .
 foaf:Project
       rdfs:comment "Un projet (un effort collectif d'un certain type)."@fr ;
-      rdfs:label "projet"@fr .
+      rdfs:label "Projet"@fr .
 foaf:holdsAccount
       rdfs:comment "Indique un compte détenu par cet agent ."@fr ;
       rdfs:label "compte"@fr .
