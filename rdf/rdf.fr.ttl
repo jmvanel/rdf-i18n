@@ -1,0 +1,57 @@
+@prefix : <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+()     :comment "la liste vide, avec aucun élément en elle. Si le reste de la liste est nul alors la liste n'a pas d'autres articles il "@fr ;
+     :label "néant"@fr .
+
+rdf:type     :comment "Le sujet est une instance d'une classe "@fr ;
+     :label "type"@fr .
+
+rdf:Alt     :comment "La classe de récipients de solutions "@fr ;
+     :label "Alt"@fr .
+
+rdf:Bag     :comment "La classe de récipients non ordonnées. "@fr ;
+     :label "Sac"@fr .
+
+rdf:HTML     :comment "Le type de données littéraux RDF stockage des fragments de contenu HTML "@fr ;
+     :label "HTML"@fr .
+
+rdf:List     :comment "La classe de RDF listes. "@fr ;
+     :label "Liste"@fr .
+
+rdf:PlainLiteral     :comment "La classe de lisses (c. non typés) valeurs littérales, comme utilisé dans FRR et OWL 2 "@fr ;
+     :label "PlainLiteral"@fr .
+
+rdf:Property     :comment "La classe de propriétés RDF. "@fr ;
+     :label "Propriété"@fr .
+
+rdf:Seq     :comment "La classe de conteneurs commandés. "@fr ;
+     :label "Seq"@fr .
+
+rdf:Statement     :comment "La classe de déclarations RDF. "@fr ;
+     :label "Déclaration"@fr .
+
+rdf:XMLLiteral     :comment "Le type de données XML des valeurs littérales. "@fr ;
+     :label "XMLLiteral"@fr .
+
+rdf:first     :comment "Le premier point dans la liste RDF de sujet. "@fr ;
+     :label "première"@fr .
+
+rdf:langString     :comment "Le type de données valeurs de chaîne langue marqués "@fr ;
+     :label "LangString"@fr .
+
+rdf:object     :comment "L'objet de le sujet déclaration RDF. "@fr ;
+     :label "objet"@fr .
+
+rdf:predicate     :comment "Le prédicat de le sujet déclaration RDF. "@fr ;
+     :label "prédicat"@fr .
+
+rdf:rest     :comment "Le reste de le sujet liste RDF après le premier point "@fr ;
+     :label "repos"@fr .
+
+rdf:subject     :comment "Le sujet de le sujet déclaration RDF. "@fr ;
+     :label "sujet"@fr .
+
+rdf:value     :comment "bien utilisé idiomatiques pour les valeurs structurées. "@fr ;
+     :label "valeur"@fr .
+

@@ -76,3 +76,12 @@
         dcterms:issued  "2014-07-10" ;
 	rdfs:seeAlso <http://alpage.inria.fr/~sagot/wolf.html> .
 
+<translation-rdf-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de RDF en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    rdf: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <rdf/rdf.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2015-05-10" .
