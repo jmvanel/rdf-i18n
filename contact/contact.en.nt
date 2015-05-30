@@ -1,0 +1,141 @@
+<http://www.w3.org/2000/10/swap/pim/contact> <http://purl.org/dc/elements/1.1/description> "\n To illustrate with examples the creation of a schema of RDF properties\n and classes, but using abstract things for people, rather than strings, etc.\n If you have an \"Assistant's phone number\", then really you have an assitant who has\n a phone number - and that is much more useful in general.\n For example, when data about you and your assietnt in merged,\n you will end up with an \"assistant's email\" and the like.\n" .
+<http://www.w3.org/2000/10/swap/pim/contact> <http://purl.org/dc/elements/1.1/description> "$Id: contact.rdf,v 1.18 2011/02/01 04:13:21 timbl Exp $" .
+<http://www.w3.org/2000/10/swap/pim/contact> <http://purl.org/dc/elements/1.1/title> "Contact: Utility concepts for everyday life" .
+<http://www.w3.org/2000/10/swap/pim/contact> <http://www.w3.org/2000/10/swap/pim/doc#creator> <http://www.w3.org/People/Berners-Lee/card#i> .
+<http://www.w3.org/2000/10/swap/pim/contact> <http://www.w3.org/2000/10/swap/pim/doc#rules> <http://www.w3.org/2000/10/swap/pim/contact-rules> .
+<http://www.w3.org/2000/10/swap/pim/contact#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A place, or mobile situation, with address, phone number, fax, etc. \n    Related to a person by home, office, etc.\n    Note one person's workplace may be another person's home.\n    A person may have more than one home and more than one workplace.\n    (In practice it sometimes maybe useful with restriucted datasets to\n    assume that this is not the case, when extracting data from other ontologies\n    with no concept of ContactLocation).  Strongly related to a person: \n    in some ways a role that a person can be in." .
+<http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> <http://www.w3.org/2000/01/rdf-schema#label> "contact point" .
+<http://www.w3.org/2000/10/swap/pim/contact#Fax> <http://www.w3.org/2000/01/rdf-schema#label> "fax" .
+<http://www.w3.org/2000/10/swap/pim/contact#Fax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/pim/contact#Phone> .
+<http://www.w3.org/2000/10/swap/pim/contact#Female> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#LanguageCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#Male> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#MobilePhone> <http://www.w3.org/2000/01/rdf-schema#label> "mobile" .
+<http://www.w3.org/2000/10/swap/pim/contact#MobilePhone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/pim/contact#Phone> .
+<http://www.w3.org/2000/10/swap/pim/contact#Pager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/pim/contact#Phone> .
+<http://www.w3.org/2000/10/swap/pim/contact#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person in the normal sense of the word." .
+<http://www.w3.org/2000/10/swap/pim/contact#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> .
+<http://www.w3.org/2000/10/swap/pim/contact#Phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#Phone> <http://www.w3.org/2000/01/rdf-schema#comment> "\n    An end-point in the public swiitched telephone system.\n    Anything identified by a URI with tel: scheme is in this class.\n    " .
+<http://www.w3.org/2000/10/swap/pim/contact#Phone> <http://www.w3.org/2000/01/rdf-schema#label> "phone"@en .
+<http://www.w3.org/2000/10/swap/pim/contact#Phone> <http://www.w3.org/2000/01/rdf-schema#label> "tel."@fr .
+<http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "The sort of thing which can have a phone number.\n    Typically a person or an incorporated company, or unincorporated group." .
+<http://www.w3.org/2000/10/swap/pim/contact#_SubjectToChange> <http://www.w3.org/2000/01/rdf-schema#label> "subject to change" .
+<http://www.w3.org/2000/10/swap/pim/contact#_addressProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#address> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en .
+<http://www.w3.org/2000/10/swap/pim/contact#address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#assistant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#assistant> <http://www.w3.org/2000/01/rdf-schema#comment> "A person (or other agent) who is an assistant to the subject." .
+<http://www.w3.org/2000/10/swap/pim/contact#assistant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/2000/10/swap/pim/contact#assistant> <http://www.w3.org/2000/01/rdf-schema#label> "assistant" .
+<http://www.w3.org/2000/10/swap/pim/contact#assistant> <http://www.w3.org/2000/01/rdf-schema#ramge> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/2000/10/swap/pim/contact#birthday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#birthday> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> .
+<http://www.w3.org/2000/10/swap/pim/contact#birthday> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Date> .
+<http://www.w3.org/2000/10/swap/pim/contact#child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#city> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#departmentName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#emailAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3.org/2000/10/swap/pim/contact#emailAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "emailAddress is a string.  Use of this is discouraged. Use :mailbox instead " .
+<http://www.w3.org/2000/10/swap/pim/contact#emailAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> .
+<http://www.w3.org/2000/10/swap/pim/contact#emailAddress> <http://www.w3.org/2000/01/rdf-schema#label> "email" .
+<http://www.w3.org/2000/10/swap/pim/contact#emailAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#_EmailAddress> .
+<http://www.w3.org/2000/10/swap/pim/contact#emergency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#emergency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#emergency> <http://www.w3.org/2000/01/rdf-schema#label> "emergency only" .
+<http://www.w3.org/2000/10/swap/pim/contact#emergency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#familyName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#fax> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#fax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Fax> .
+<http://www.w3.org/2000/10/swap/pim/contact#firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#fullName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#fullName> <http://www.w3.org/2000/01/rdf-schema#label> "full name" .
+<http://www.w3.org/2000/10/swap/pim/contact#givenName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#home> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#home> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#home> <http://www.w3.org/2000/01/rdf-schema#label> "home" .
+<http://www.w3.org/2000/10/swap/pim/contact#home> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#homePage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3.org/2000/10/swap/pim/contact#homePage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/10/swap/pim/contact#webPage> .
+<http://www.w3.org/2000/10/swap/pim/contact#homePage> <http://www.w3.org/2000/10/swap/pim/contact#_addressProperty> <http://www.w3.org/2000/10/swap/pim/contact#homePageAddress> .
+<http://www.w3.org/2000/10/swap/pim/contact#homePageAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3.org/2000/10/swap/pim/contact#homePageAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Use is discouraged" .
+<http://www.w3.org/2000/10/swap/pim/contact#knownAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#knownAs> <http://www.w3.org/2000/01/rdf-schema#comment> "A person may be known as various strings.\n\t For example, an email friendly name string.\n\t If you have an email from someone using a string as the human-readable phrase,\n\t then it is reasonable to assume that there are :knownAs that." .
+<http://www.w3.org/2000/10/swap/pim/contact#knownAs> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<http://www.w3.org/2000/10/swap/pim/contact#lastName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailbox> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailbox> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Mailbox> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailbox> <http://www.w3.org/2000/10/swap/pim/contact#_addressProperty> <http://www.w3.org/2000/10/swap/pim/contact#mailboxURI> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailboxURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailboxURI> <http://www.w3.org/2000/01/rdf-schema#comment> "mailboxURI is a string.  Use of this is discouraged. Use :mailbox instead " .
+<http://www.w3.org/2000/10/swap/pim/contact#mailboxURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#SocialEntity> .
+<http://www.w3.org/2000/10/swap/pim/contact#mailboxURI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#_URI> .
+<http://www.w3.org/2000/10/swap/pim/contact#middleInitial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#middleName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#mobile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#mobile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#mobile> <http://www.w3.org/2000/01/rdf-schema#label> "mobile" .
+<http://www.w3.org/2000/10/swap/pim/contact#mobile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#motherTongue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#motherTongue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#motherTongue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#LanguageCode> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#comment> "?X nearestAirport ?Y locates ?X in an international\n   context; for example, for the purpose of organizing a face-to-face\n   meeting of a W3C working group. This property is intended to mitigate\n   privacy risks of giving out detailed contact info." .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#label> "nearest airport" .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://lists.w3.org/Archives/Public/www-webont-wg/2001Nov/0006.html> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.perceive.net/pages/page/articles/year/2002/month/12#9> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2001/sw/Europe/200303/geo/intro.html> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2001/sw/WebOnt/webont-airports.rdf> .
+<http://www.w3.org/2000/10/swap/pim/contact#nearestAirport> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2001/tag/ilist#httpRange-14> .
+<http://www.w3.org/2000/10/swap/pim/contact#office> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#office> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#office> <http://www.w3.org/2000/01/rdf-schema#label> "work" .
+<http://www.w3.org/2000/10/swap/pim/contact#office> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#organization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#participant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#participant> <http://www.w3.org/2000/01/rdf-schema#comment> "A person (or other agent) who  particpates in an event, meeting, etc." .
+<http://www.w3.org/2000/10/swap/pim/contact#participant> <http://www.w3.org/2000/01/rdf-schema#label> "participant" .
+<http://www.w3.org/2000/10/swap/pim/contact#participant> <http://www.w3.org/2000/01/rdf-schema#ramge> <http://xmlns.com/foaf/0.1/Agent> .
+<http://www.w3.org/2000/10/swap/pim/contact#partner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#partner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#partner> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#personalSuffix> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#personalTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#phone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#phone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#Phone> .
+<http://www.w3.org/2000/10/swap/pim/contact#postalCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://www.w3.org/2000/01/rdf-schema#comment> "A string which is the URI a person, organization, etc, prefers that people use for them." .
+<http://www.w3.org/2000/10/swap/pim/contact#preferredURI> <http://www.w3.org/2000/01/rdf-schema#label> "preferred" .
+<http://www.w3.org/2000/10/swap/pim/contact#publicHomePage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/10/swap/pim/contact#homePage> .
+<http://www.w3.org/2000/10/swap/pim/contact#region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#region> <http://www.w3.org/2000/01/rdf-schema#comment> "The sub-national unit such as state (us),\n province (ca), county (uk), d\u00E9partement (fr), and so on" .
+<http://www.w3.org/2000/10/swap/pim/contact#region> <http://www.w3.org/2000/01/rdf-schema#label> "region" .
+<http://www.w3.org/2000/10/swap/pim/contact#sortName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#sortName> <http://www.w3.org/2000/01/rdf-schema#comment> "re-arranged for lexicographic ordering; ala Doe, John" .
+<http://www.w3.org/2000/10/swap/pim/contact#sortName> <http://www.w3.org/2000/01/rdf-schema#label> "sort name" .
+<http://www.w3.org/2000/10/swap/pim/contact#stateOrProvince> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#street> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#street2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#street3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Address> .
+<http://www.w3.org/2000/10/swap/pim/contact#title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#vacationHome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#vacationHome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+<http://www.w3.org/2000/10/swap/pim/contact#vacationHome> <http://www.w3.org/2000/01/rdf-schema#label> "vacation" .
+<http://www.w3.org/2000/10/swap/pim/contact#vacationHome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/pim/contact#ContactLocation> .
+<http://www.w3.org/2000/10/swap/pim/contact#webPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/10/swap/pim/contact#webPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A related web page" .
+<http://www.w3.org/2000/10/swap/pim/contact#webPage> <http://www.w3.org/2000/01/rdf-schema#label> "web page" .
+<http://www.w3.org/2000/10/swap/pim/contact#zip> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/10/swap/pim/contact#postalCode> .
+<http://www.w3.org/2000/10/swap/pim/doc#persistencePolicy> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/1999/10/nsuri> .

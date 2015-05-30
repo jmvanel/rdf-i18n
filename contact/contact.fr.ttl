@@ -1,0 +1,94 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
+
+con:ContactLocation
+    rdfs:comment "Un lieu, ou situation de mobilité, avec adresse, numéro de téléphone, fax, etc."@fr ;
+    rdfs:label "point de contact"@fr .
+
+con:Fax
+    rdfs:label "fax"@fr .
+
+con:MobilePhone
+    rdfs:label "mobile"@fr .
+
+con:Person
+    rdfs:comment "Une personne dans le sens normal du mot "@fr .
+
+con:Phone
+    rdfs:label "tél."@fr .
+
+con:SocialEntity
+    rdfs:comment "Le genre de chose qui peut avoir un numéro de téléphone."@fr .
+
+con:_SubjectToChange
+    rdfs:label "susceptibles de changer"@fr .
+
+con:address
+    rdfs:label "adresse"@fr .
+
+con:assistant
+    rdfs:comment "Une personne (ou autre agent) qui est un assistant pour le sujet "@fr ;
+    rdfs:label "assistant"@fr .
+
+con:emailAddress
+    rdfs:comment "emailAddress est une chaîne. Son utilisation est déconseillée. Utilisation à la place: con:email "@fr ;
+    rdfs:label "courriel"@fr .
+
+con:emergency
+    rdfs:label "urgence seulement"@fr .
+
+con:fullName
+    rdfs:label "nom complet"@fr .
+
+con:home
+    rdfs:label "à la maison"@fr .
+
+con:homePageAddress
+    rdfs:comment "utilisation est déconseillée"@fr .
+
+con:knownAs
+    rdfs:comment "Une personne peut être connue par diverses expressions."@fr ;
+    rdfs:label "nom"@fr .
+
+con:mailboxURI
+    rdfs:comment "mailboxURI est une chaîne. Cette utilisation est déconseillée. Utilisation à la place: con:email "@fr ;
+    rdfs:label "courriel"@fr .
+
+con:mobile
+    rdfs:label "mobile"@fr .
+
+con:nearestAirport
+    rdfs:comment """ ?X nearestAirport ?Y 
+	localise X dans un contexte international 
+; par exemple, dans le but d'organiser une 
+ réunion d'un groupe de travail du W3C en face-à-face. Cette propriété est destinée à atténuer les risques de donner des informations de contact détaillées 
+ de la vie privée """@fr ;
+    rdfs:label "aéroport le plus proche"@fr .
+
+con:office
+    rdfs:label "travail"@fr .
+
+con:participant
+    rdfs:comment "Une personne (ou autre agent) qui participe dans un événement, réunion, etc. "@fr ;
+    rdfs:label "participant"@fr .
+
+con:preferredURI
+    rdfs:comment "Une chaîne qui est l'URI qu'une personne, organisation, etc, préfère que les gens utilisent pour elle"@fr ;
+    rdfs:label "préféré"@fr .
+
+con:region
+    rdfs:comment "L'unité sub-nationale telle que l'État (États-Unis), la province (CA), le comté (UK), département (FR), et ainsi de suite"@fr ;
+    rdfs:label "région"@fr .
+
+con:sortName
+    rdfs:comment "ré-arrangé pour un ordre lexicographique; du genre Dupond, Jean"@fr ;
+    rdfs:label "nom pour triage"@fr .
+
+con:vacationHome
+    rdfs:label "lieu de vacances"@fr .
+
+con:webPage
+    rdfs:comment "Une page Web connexe"@fr ;
+    rdfs:label "page web"@fr .
+

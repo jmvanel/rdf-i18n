@@ -113,7 +113,7 @@ foaf:sexe
       rdfs:label "genre"@fr .
 foaf:surname
       rdfs:comment "Le nom (de famille) d'une personne ."@fr ;
-      rdfs:label "Nom"@fr .
+      rdfs:label "nom"@fr .
 foaf:mbox_sha1sum
       rdfs:comment "Le SHA-1 de l'URI d'une boîte aux lettres Internet associée à exactement un propriétaire, le principal propriétaire de la boîte aux lettres."@fr ;
       rdfs:label "SHA-1 de l'URI d'une boîte aux lettres personnelle"@fr .
@@ -164,7 +164,7 @@ foaf:Person
       rdfs:label "Personne"@fr .
 foaf:family_name
       rdfs:comment "Le nom de famille d'une personne ."@fr ;
-      rdfs:label "nom_de_famille"@fr .
+      rdfs:label "nom de famille"@fr .
 foaf:skypeID
       rdfs:comment "Une ID Skype";
       rdfs:label "Skype ID"@fr .
@@ -179,7 +179,7 @@ foaf:familyName
       rdfs:label "nom de famille"@fr .
 foaf:lastName
       rdfs:comment "Le nom en dernière position d'une personne (préférer foaf:familyName)."@fr ;
-      rdfs:label "nom famille"@fr .
+      rdfs:label "nom de famille"@fr .
 foaf:membershipClass
       rdfs:comment "Indique la classe des individus qui sont membres d'un groupe"@fr ;
       rdfs:label "membershipClass"@fr .

@@ -4,6 +4,7 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
 
 @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
 
@@ -85,3 +86,13 @@
         lingvoj:translatedResource  <rdf/rdf.fr.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2015-05-10" .
+
+<translation-con-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de PIM contact en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    con: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <contact/contact.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2015-05-30" .
