@@ -120,10 +120,8 @@ foaf:mbox_sha1sum
 foaf:topic_interest
       rdfs:comment "Un sujet d'intérêt pour cette personne ."@fr ;
       rdfs:label "sujet d'intérêt"@fr .
-foaf:nomFamille
-      rdfs:comment "Le nom d'une personne ."@fr ;
-      rdfs:label "nom"@fr .
-foaf:lapage
+
+foaf:page
       rdfs:comment "Une page ou un document sur cette chose ."@fr ;
       rdfs:label "page"@fr .
 foaf:nick

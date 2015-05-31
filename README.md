@@ -26,7 +26,7 @@ For example the file for french canadian for vocabulary SIOC will be in:
 
 	sioc/sioc.fr_CA.ttl
 
-And the actual Turtle can be downloaded (alas without the right HTTP content type) at this URL:
+And (example of URL pattern) the actual Turtle can be downloaded (alas without the right HTTP content type) at this URL:
 	http://github.com/jmvanel/rdf-i18n/raw/master/sioc/sioc.fr_CA.ttl
 
 Currently we have:
