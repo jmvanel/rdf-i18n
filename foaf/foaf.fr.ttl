@@ -1,7 +1,7 @@
 @prefix foaf:    <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 
-# traduction de la documentation du vocabulaire FOAF - © J.M Vanel 2014 - License Creative Commons.
+# traduction de la documentation du vocabulaire FOAF - © J.M. Vanel 2014 - License Creative Commons.
 
 foaf:fundedBy
 rdfs:comment "Une organisation finançant un projet ou une personne ."@fr ;
@@ -10,11 +10,11 @@ foaf:img
       rdfs:comment "Une image qui peut être utilisée pour représenter quelque chose ( celles qui sont particulièrement représentatives, par exemple une photo une page d'accueil)."@fr ;
       rdfs:label "image"@fr .
 foaf:birthday
-      rdfs:comment "L'anniversaire de cette agent, représenté sous forme de chaîne mm-jj, par exemple '12-31' ."@fr ;
+      rdfs:comment "L'anniversaire de cet agent, représenté sous forme de chaîne mm-jj, par exemple '12-31' ."@fr ;
       rdfs:label "anniversaire"@fr .
 foaf:givenName
       rdfs:comment "Le prénom d'une personne ."@fr ;
-      rdfs:label "Prénom"@fr .
+      rdfs:label "prénom"@fr .
 foaf:currentProject
       rdfs:comment "Un projet en cours sur lequel cette personne travaille ."@fr ;
       rdfs:label "projet en cours"@fr .
@@ -108,7 +108,7 @@ foaf:made
 foaf:workplaceHomepage
       rdfs:comment "Une page d'accueil du lieu de travail d'une personne; la page d'accueil de l'organisation pour laquelle elle travaille."@fr ;
       rdfs:label "page d'accueil du lieu de travail"@fr .
-foaf:sexe
+foaf:sex
       rdfs:comment "Le sexe de cet agent (généralement, mais pas nécessairement, 'male' ou 'female' = masculin ou féminin)."@fr ;
       rdfs:label "genre"@fr .
 foaf:surname
