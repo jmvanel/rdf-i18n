@@ -1,16 +1,16 @@
 @prefix : <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
-()     :comment "la liste vide, avec aucun élément en elle. Si le reste de la liste est nul alors la liste n'a pas d'autres articles il "@fr ;
+()     :comment "la liste vide, avec aucun élément en elle. Si le reste de la liste est nil alors la liste n'a pas d'autre élément. "@fr ;
      :label "néant"@fr .
 
 rdf:type     :comment "Le sujet est une instance d'une classe "@fr ;
      :label "type"@fr .
 
-rdf:Alt     :comment "La classe de récipients de solutions "@fr ;
+rdf:Alt     :comment "La classe des conteneurs d'alternatives "@fr ;
      :label "Alt"@fr .
 
-rdf:Bag     :comment "La classe de récipients non ordonnées. "@fr ;
+rdf:Bag     :comment "La classe de conteneurs non ordonnées. "@fr ;
      :label "Sac"@fr .
 
 rdf:HTML     :comment "Le type de données littéraux RDF stockage des fragments de contenu HTML "@fr ;
@@ -46,8 +46,8 @@ rdf:object     :comment "L'objet de le sujet déclaration RDF. "@fr ;
 rdf:predicate     :comment "Le prédicat de le sujet déclaration RDF. "@fr ;
      :label "prédicat"@fr .
 
-rdf:rest     :comment "Le reste de le sujet liste RDF après le premier point "@fr ;
-     :label "repos"@fr .
+rdf:rest     :comment "Le reste du sujet liste RDF après le premier point "@fr ;
+     :label "reste"@fr .
 
 rdf:subject     :comment "Le sujet de le sujet déclaration RDF. "@fr ;
      :label "sujet"@fr .
