@@ -70,7 +70,7 @@ http://www.w3.org/2003/03/Translations/
 
 but this is only for the W3C, and only for "external" documentation. 
 
-## Question on I18N predicates
+## List of I18N translations in Turtle
 
 A related question is: are there established RDF predicates to say :
 
@@ -81,4 +81,11 @@ Indeed there is one vocabulary, called lingvoj (http://www.lingvoj.org/ontology)
 
 And each new translation should be added by the translator person to this document using the lingvoj vocabulary :
 [translations_list.ttl](translations_list.ttl)
+
+## Powered by rdf-i18n
+
+- [semantic_forms](https://github.com/jmvanel/semantic_forms/wiki/User_manual)
+
+Please paste link to yous application here!
+Additionally, you could add a small link "Powered by rdf-i18n" at the bottom of your web pages.
 
