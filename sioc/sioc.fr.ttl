@@ -1,31 +1,31 @@
-<Http://rdfs.org/sioc/ns#Community> <http://www.w3.org/2000/01/rdf-schema#comment> "La communauté est un concept de haut niveau qui définit une communauté en ligne et De quoi il s'agit.
-    <Http://rdfs.org/sioc/ns#Community> <http://www.w3.org/2000/01/rdf-schema#label> "Communauté" @en.
-    <Http://rdfs.org/sioc/ns#Container> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone dans laquelle les éléments de contenu sont contenus." @ Fr.
-    <Http://rdfs.org/sioc/ns#Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container" @en.
-    <Http://rdfs.org/sioc/ns#Forum> <http://www.w3.org/2000/01/rdf-schema#comment> "Un espace de discussion sur lequel les messages ou les entrées sont effectués." @ En.
-    <Http://rdfs.org/sioc/ns#Forum> <http://www.w3.org/2000/01/rdf-schema#label> "Forum" @en.
-    <Http://rdfs.org/sioc/ns#Item> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément est quelque chose qui peut se trouver dans un conteneur." @ En.
-    <Http://rdfs.org/sioc/ns#Item> <http://www.w3.org/2000/01/rdf-schema#label> "Item" @en.
-    <Http://rdfs.org/sioc/ns#Post> <http://www.w3.org/2000/01/rdf-schema#comment> "Un article ou un message qui peut être affiché sur un forum." @en.
-    <Http://rdfs.org/sioc/ns#Post> <http://www.w3.org/2000/01/rdf-schema#label> "Post" @en.
-    <Http://rdfs.org/sioc/ns#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Un rôle est une fonction d'un UserAccount dans une portée d'un Particulier Forum, Site, etc. "@ Fr.
-    <Http://rdfs.org/sioc/ns#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle" @en.
-    <Http://rdfs.org/sioc/ns#Site> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site peut être l'emplacement d'une communauté en ligne ou d'un ensemble de Communautés, avec UserAccounts et Usergroups créer des articles dans un ensemble de conteneurs.Il peut être considéré comme un espace de données accessible sur le Web. "@ Fr.
-    <Http://rdfs.org/sioc/ns#Site> <http://www.w3.org/2000/01/rdf-schema#label> "Site" @en.
-    <Http://rdfs.org/sioc/ns#Space> <http://www.w3.org/2000/01/rdf-schema#comment> "Un espace est un lieu où se trouvent les données, par exemple sur un site Web , Desktop, fileshare, etc. "@ Fr.
-    <Http://rdfs.org/sioc/ns#Space> <http://www.w3.org/2000/01/rdf-schema#label> "Espace" @en.
-    <Http://rdfs.org/sioc/ns#Thread> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur pour une série de messages ou d'éléments de discussion threadés." @en.
-    <Http://rdfs.org/sioc/ns#Thread> <http://www.w3.org/2000/01/rdf-schema#label> "Discussion" @en.
-    <Http://rdfs.org/sioc/ns#User> <http://www.w3.org/2000/01/rdf-schema#comment> "UserAccount est maintenant préféré. Il s'agit d'une classe obsolète pour un utilisateur Dans un site communautaire en ligne. "@ Fr.
-    <Http://rdfs.org/sioc/ns#User> <http://www.w3.org/2000/01/rdf-schema#label> "Utilisateur" @en.
-    <Http://rdfs.org/sioc/ns#UserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte d'utilisateur dans un site de communauté en ligne" @ fr.
-    <Http://rdfs.org/sioc/ns#UserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Compte utilisateur" @en.
-    <Http://rdfs.org/sioc/ns#Usergroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ensemble de UserAccounts dont les propriétaires ont un but ou un intérêt commun. Peut être utilisé pour le contrôle d'accès. "@ Fr.
-    <Http://rdfs.org/sioc/ns#Usergroup> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe d'utilisateurs" @en.
-    <Http://rdfs.org/sioc/ns#about> <http://www.w3.org/2000/01/rdf-schema#comment> "Spécifie que cet élément concerne une ressource particulière, par exemple un message Décrivant un livre, un hôtel, etc.
+<http://rdfs.org/sioc/ns#Community> <http://www.w3.org/2000/01/rdf-schema#comment> "La communauté est un concept de haut niveau qui définit une communauté en ligne et De quoi il s'agit"@fr.
+    <http://rdfs.org/sioc/ns#Community> <http://www.w3.org/2000/01/rdf-schema#label> "Communauté"@fr.
+    <http://rdfs.org/sioc/ns#Container> <http://www.w3.org/2000/01/rdf-schema#comment> "Zone dans laquelle les éléments de contenu sont contenus."@fr.
+    <http://rdfs.org/sioc/ns#Container> <http://www.w3.org/2000/01/rdf-schema#label> "Container"@fr.
+    <http://rdfs.org/sioc/ns#Forum> <http://www.w3.org/2000/01/rdf-schema#comment> "Un espace de discussion sur lequel les messages ou les entrées sont effectués."@fr.
+    <http://rdfs.org/sioc/ns#Forum> <http://www.w3.org/2000/01/rdf-schema#label> "Forum"@fr.
+    <http://rdfs.org/sioc/ns#Item> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément est quelque chose qui peut se trouver dans un conteneur."@fr.
+    <http://rdfs.org/sioc/ns#Item> <http://www.w3.org/2000/01/rdf-schema#label> "Item"@fr.
+    <http://rdfs.org/sioc/ns#Post> <http://www.w3.org/2000/01/rdf-schema#comment> "Un article ou un message qui peut être affiché sur un forum."@fr.
+    <http://rdfs.org/sioc/ns#Post> <http://www.w3.org/2000/01/rdf-schema#label> "Post"@fr.
+    <http://rdfs.org/sioc/ns#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Un rôle est une fonction d'un UserAccount dans une portée d'un Particulier Forum, Site, etc. "@fr.
+    <http://rdfs.org/sioc/ns#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Rôle"@fr.
+    <http://rdfs.org/sioc/ns#Site> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site peut être l'emplacement d'une communauté en ligne ou d'un ensemble de Communautés, avec UserAccounts et Usergroups créer des articles dans un ensemble de conteneurs.Il peut être considéré comme un espace de données accessible sur le Web. "@fr.
+    <http://rdfs.org/sioc/ns#Site> <http://www.w3.org/2000/01/rdf-schema#label> "Site"@fr.
+    <http://rdfs.org/sioc/ns#Space> <http://www.w3.org/2000/01/rdf-schema#comment> "Un espace est un lieu où se trouvent les données, par exemple sur un site Web , Desktop, fileshare, etc. "@fr.
+    <http://rdfs.org/sioc/ns#Space> <http://www.w3.org/2000/01/rdf-schema#label> "Espace"@fr.
+    <http://rdfs.org/sioc/ns#Thread> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur pour une série de messages ou d'éléments de discussion threadés."@fr.
+    <http://rdfs.org/sioc/ns#Thread> <http://www.w3.org/2000/01/rdf-schema#label> "Discussion"@fr.
+    <http://rdfs.org/sioc/ns#User> <http://www.w3.org/2000/01/rdf-schema#comment> "UserAccount est maintenant préféré. Il s'agit d'une classe obsolète pour un utilisateur Dans un site communautaire en ligne. "@fr.
+    <http://rdfs.org/sioc/ns#User> <http://www.w3.org/2000/01/rdf-schema#label> "Utilisateur"@fr.
+    <http://rdfs.org/sioc/ns#UserAccount> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte d'utilisateur dans un site de communauté en ligne"@fr.
+    <http://rdfs.org/sioc/ns#UserAccount> <http://www.w3.org/2000/01/rdf-schema#label> "Compte utilisateur"@fr.
+    <http://rdfs.org/sioc/ns#Usergroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ensemble de UserAccounts dont les propriétaires ont un but ou un intérêt commun. Peut être utilisé pour le contrôle d'accès. "@fr.
+    <http://rdfs.org/sioc/ns#Usergroup> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe d'utilisateurs"@fr.
+    <http://rdfs.org/sioc/ns#about> <http://www.w3.org/2000/01/rdf-schema#comment> "Spécifie que cet élément concerne une ressource particulière, par exemple un message Décrivant un livre, un hôtel, etc"@fr.
 
 <http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#comment>" Article précédent ou Post dans un conteneur donné trié Par date. "@fr.
-<http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#label>" précédent par date "@en .
+<http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#label>" précédent par date "@fr .
 <http://rdfs.org/sioc/ns#previous_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers la révision précédente de cet article ou de cette publication."@fr.
 <http://rdfs.org/sioc/ns#previous_version> <http://www.w3.org/2000/01/rdf-schema#label> "version précédente"@fr.
 <http:/rdfs.org/sioc/ns#reference> <http://www.w3.org/2000/01/rdf-schema#comment> "Les liens créés explicitement ou extraits implicitement sur le niveau HTML de la Poste."@fr.
@@ -42,11 +42,11 @@
 <http://rdfs.org/sioc/ns#space_of> <http://www.w3.org/2000/01/rdf-schema#label> "espace de"@fr.
 <http://rdfs.org/sioc/ns#subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Mot (s) -clé (s) décrivant le sujet du message"@fr .
 <http://rdfs.org/sioc/ns#subject> <http://www.w3.org/2000/01/rdf-schema#label> "sujet"@fr.
-<http://rdfs.org/sioc/ns#subscriber_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur auquel un UserAccount est abonné."@Fr.
+<http://rdfs.org/sioc/ns#subscriber_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur auquel un UserAccount est abonné."@fr.
 <http://rdfs.org/sioc/ns#subscriber_of> <http://www.w3.org/2000/01/rdf-schema#label> "abonné de"@fr.
 <http://rdfs.org/sioc/ns#title> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci est le titre (sujet) de la publication. Que pour un message dans une discussion threaded qui n'a pas de parents, il serait de détail le fil du sujet. "@fr.
 <http://rdfs.org/sioc/ns#title> <http://www.w3.org/2000/01/rdf-schema#label> "title"@fr.
 <http://rdfs.org/sioc/ns#topic> <http://www.w3.org/2000/01/rdf-schema#comment> "Un sujet d'intérêt, liant à l'URI approprié, par exemple dans Le projet Open Directory ou une catégorie SKOS. "@fr.
 <http://rdfs.org/sioc/ns#topic> <http://www.w3.org/2000/01/rdf-schema#label> "topic"@fr.
-<http://rdfs.org/sioc/ns#usergroup_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Espace auquel le groupe d'utilisateurs a accès."@Fr.
+<http://rdfs.org/sioc/ns#usergroup_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Espace auquel le groupe d'utilisateurs a accès."@fr.
 <http://rdfs.org/sioc/ns#usergroup_of> <http://www.w3.org/2000/01/rdf-schema#label> "groupe d'utilisateurs de"@fr.
