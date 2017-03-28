@@ -1,0 +1,70 @@
+<http://purl.org/dsw/> <http://www.w3.org/2000/01/rdf-schema#comment> "Darwin Semantic Web, version 1.0 . Please see https://github.com/darwin-sw/ for full details" .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.obolibrary.org/obo/RO_0002472> <http://www.w3.org/2000/01/rdf-schema#label> "is evidence for" .
+<http://purl.obolibrary.org/obo/RO_0002558> <http://www.w3.org/2000/01/rdf-schema#label> "has evidence" .
+<http://purl.org/dsw/atEvent> <http://www.w3.org/2000/01/rdf-schema#label> "At Event"@en .
+<http://purl.org/dsw/atEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Occurrence instance to an object Event instance."@en .
+<http://purl.org/dsw/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "Derived From"@en .
+<http://purl.org/dsw/derivedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Token instance to an object instance of another Token or an Organism."@en .
+<http://purl.org/dsw/eventOf> <http://www.w3.org/2000/01/rdf-schema#label> "Event Of"@en .
+<http://purl.org/dsw/eventOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Event instance to an object Occurrence instance."@en .
+<http://purl.org/dsw/evidenceFor> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence For"@en .
+<http://purl.org/dsw/evidenceFor> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Token instance to an object Occurrence instance."@en .
+<http://purl.org/dsw/hasDerivative> <http://www.w3.org/2000/01/rdf-schema#label> "Has Derivative"@en .
+<http://purl.org/dsw/hasDerivative> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Organism or Token instance to an object Token instance."@en .
+<http://purl.org/dsw/hasEvidence> <http://www.w3.org/2000/01/rdf-schema#label> "Has Evidence"@en .
+<http://purl.org/dsw/hasEvidence> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Occurrence instance to an object Token instance."@en .
+<http://purl.org/dsw/hasIdentification> <http://www.w3.org/2000/01/rdf-schema#label> "Has Identification"@en .
+<http://purl.org/dsw/hasIdentification> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Organism instance to an object Identification instance."@en .
+<http://purl.org/dsw/hasOccurrence> <http://www.w3.org/2000/01/rdf-schema#label> "Has Occurrence"@en .
+<http://purl.org/dsw/hasOccurrence> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Organism instance to an object Occurrence instance."@en .
+<http://purl.org/dsw/idBasedOn> <http://www.w3.org/2000/01/rdf-schema#label> "ID Based On"@en .
+<http://purl.org/dsw/idBasedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Identification instance to an object Token instance."@en .
+<http://purl.org/dsw/identifies> <http://www.w3.org/2000/01/rdf-schema#label> "Identifies"@en .
+<http://purl.org/dsw/identifies> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Identification instance to an object Organism instance."@en .
+<http://purl.org/dsw/isBasisForId> <http://www.w3.org/2000/01/rdf-schema#label> "Is Basis For ID"@en .
+<http://purl.org/dsw/isBasisForId> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Token instance to an object Identification instance."@en .
+<http://purl.org/dsw/locatedAt> <http://www.w3.org/2000/01/rdf-schema#label> "Located At"@en .
+<http://purl.org/dsw/locatedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Event instance to an object Location instance."@en .
+<http://purl.org/dsw/locates> <http://www.w3.org/2000/01/rdf-schema#label> "Locates"@en .
+<http://purl.org/dsw/locates> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Event instance to an object Locatino instance."@en .
+<http://purl.org/dsw/occurrenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "Occurrence Of"@en .
+<http://purl.org/dsw/occurrenceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Occurrence instance to an object Organism instance."@en .
+<http://purl.org/dsw/taxonOfId> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon Of ID"@en .
+<http://purl.org/dsw/taxonOfId> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Taxon instance to an object Identification instance."@en .
+<http://rs.tdwg.org/dwc/iri/georeferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Georeferenced By"@en .
+<http://rs.tdwg.org/dwc/iri/georeferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Location instance to an object Agent instance that did the georeferencing."@en .
+<http://rs.tdwg.org/dwc/iri/identifiedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Identified By"@en .
+<http://rs.tdwg.org/dwc/iri/identifiedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "People, groups, or organizations who assigned the Taxon to the subject"@en .
+<http://rs.tdwg.org/dwc/iri/recordedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Recorded By"@en .
+<http://rs.tdwg.org/dwc/iri/recordedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "People, groups, or organizations responsible for recording the original Occurrence."@en .
+<http://rs.tdwg.org/dwc/iri/toTaxon> <http://www.w3.org/2000/01/rdf-schema#label> "To Taxon"@en .
+<http://rs.tdwg.org/dwc/iri/toTaxon> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a subject Identification instance to an object Taxon instance."@en .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A spatial region or named place."@en .
+<http://purl.org/dsw/DriedSpecimen> <http://www.w3.org/2000/01/rdf-schema#label> "Dried Specimen"@en .
+<http://purl.org/dsw/DriedSpecimen> <http://www.w3.org/2000/01/rdf-schema#comment> "A specimen preserved by drying."@en .
+<http://purl.org/dsw/IndividualOrganism> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular organism or defined group of organisms considered to be taxonomically homogeneous.  Instances of the Organism class are intended to facilitate linking of one or more Identification instances to one or more Occurrence instances.  Therefore, things that are typically assigned scientific names (such as viruses, hybrids, and lichens) and aggregates whose occurrences are typically recorded (such as packs, clones, and colonies) are included in the scope of this class."@en .
+<http://purl.org/dsw/Specimen> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen"@en .
+<http://purl.org/dsw/SpecimenInAlcohol> <http://www.w3.org/2000/01/rdf-schema#label> "Specimen In Alcohol"@en .
+<http://purl.org/dsw/SpecimenInAlcohol> <http://www.w3.org/2000/01/rdf-schema#comment> "A specimen preserved in alcohol."@en .
+<http://purl.org/dsw/Token> <http://www.w3.org/2000/01/rdf-schema#label> "Token"@en .
+<http://purl.org/dsw/Token> <http://www.w3.org/2000/01/rdf-schema#comment> "A form of evidence derived from a dwc:Organism."@en .
+<http://rs.tdwg.org/dwc/terms/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://rs.tdwg.org/dwc/terms/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An action that occurs at some location during some time."@en .
+<http://rs.tdwg.org/dwc/terms/Identification> <http://www.w3.org/2000/01/rdf-schema#label> "Identification"@en .
+<http://rs.tdwg.org/dwc/terms/Identification> <http://www.w3.org/2000/01/rdf-schema#comment> "A taxonomic determination (e.g., the assignment to a taxon)."@en .
+<http://rs.tdwg.org/dwc/terms/LivingSpecimen> <http://www.w3.org/2000/01/rdf-schema#label> "Living Specimen"@en .
+<http://rs.tdwg.org/dwc/terms/LivingSpecimen> <http://www.w3.org/2000/01/rdf-schema#comment> "A specimen that is alive."@en .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#label> "Occurrence"@en .
+<http://rs.tdwg.org/dwc/terms/Occurrence> <http://www.w3.org/2000/01/rdf-schema#comment> "An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time."@en .
+<http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#label> "Organism"@en .
+<http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular organism or defined group of organisms considered to be taxonomically homogeneous."@en .
+<http://rs.tdwg.org/dwc/terms/PreservedSpecimen> <http://www.w3.org/2000/01/rdf-schema#label> "Preserved Specimen"@en .
+<http://rs.tdwg.org/dwc/terms/PreservedSpecimen> <http://www.w3.org/2000/01/rdf-schema#comment> "A specimen that has been preserved."@en .
+<http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon"@en .
+<http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit."@en .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (eg. person, group, software or physical artifact)."@en .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document"@en .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/2000/01/rdf-schema#comment> "A document."@en .

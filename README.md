@@ -45,8 +45,15 @@ To generate such a file, one way to do, with CWM, for example for SIOC:
 	# look for the URL corresponding to the prefix sioc in prefix.cc
 	cwm http://rdfs.org/sioc/ns --n3=prs > sioc.nt
 	egrep 'rdf-schema#label|rdf-schema#comment' sioc.nt > sioc/sioc.en.nt
+	mkdir sioc
 	rm sioc.nt
 
+To generate such a file, another way to do, with rapper, for example for Darwin-Core:
+```shell
+	rapper -i rdfxml http://purl.org/dsw/dsw.owl -o ntriples > dsw.nt
+	mkdir dsw
+	egrep 'rdf-schema#label|rdf-schema#comment' dsw.nt > dsw/dsw.en.nt
+```
 To generate such a file, another way to do, with EulerGUI + CWM, for example for SIOC:
 
 	eulergui sioc: --query filter_label_and_comment.n3

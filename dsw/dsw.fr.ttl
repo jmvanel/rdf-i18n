@@ -1,0 +1,78 @@
+# NOTE: the status of all these namespaces and prefixes is not clear:
+
+# xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+# xmlns:dwctype="http://rs.tdwg.org/dwc/dwctype/"
+# xmlns:dwcuri="http://rs.tdwg.org/dwc/uri/" 
+
+@prefix dsw: <http://purl.org/dsw/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+
+<http://purl.org/dsw/>  <http://www.w3.org/2000/01/rdf-schema#comment> "Darwin Semantic Web, version 1.0. Voir https://github.com / Darwin-sw / pour plus de détails ".
+ <http://www.w3.org/2000/01/rdf-schema#comment>  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://www.w3.org/2002/07/owl#AnnotationProperty>.
+ <http://purl.obolibrary.org/obo/RO_0002472>  <http://www.w3.org/2000/01/rdf-schema#label> "est une preuve pour".
+ <http://purl.obolibrary.org/obo/RO_0002558>  <http://www.w3.org/2000/01/rdf-schema#label> "a des preuves".
+ <http://purl.org/dsw/atEvent>  <http://www.w3.org/2000/01/rdf-schema#label> "À l'événement"@fr.
+ <http://purl.org/dsw/atEvent>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Occurrence instance à un objet Instance d'événement"@fr.
+ <http://purl.org/dsw/derivedFrom>  <http://www.w3.org/2000/01/rdf-schema#label> "dérivé de"@fr.
+ <http://purl.org/dsw/derivedFrom>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une occurrence de jeton de sujet à une instance d'objet d'un autre jeton ou d'un organisme."@fr.
+ <http://purl.org/dsw/eventOf>  <http://www.w3.org/2000/01/rdf-schema#label> "Événement de"@fr.
+ <http://purl.org/dsw/eventOf>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Instance d'événement à un objet Instance d'occurrence"@fr.
+ <http://purl.org/dsw/evidenceFor>  <http://www.w3.org/2000/01/rdf-schema#label> "Evidence For"@fr.
+ <http://purl.org/dsw/evidenceFor>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Token instance à un objet Occurrence instance."@fr.
+ <http://purl.org/dsw/hasDerivative>  <http://www.w3.org/2000/01/rdf-schema#label> "A dérivé"@fr.
+ <http://purl.org/dsw/hasDerivative>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Organisme ou Token instance à un objet Token instance."@fr.
+ <http://purl.org/dsw/hasEvidence>  <http://www.w3.org/2000/01/rdf-schema#label> "A la preuve"@fr.
+ <http://purl.org/dsw/hasEvidence>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Occurrence instance à un objet Token instance."@fr.
+ <http://purl.org/dsw/hasIdentification>  <http://www.w3.org/2000/01/rdf-schema#label> "A l'identification"@fr.
+ <http://purl.org/dsw/hasIdentification>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une instance d'instance de sujet à une instance d'identification d'objet."@fr.
+ <http://purl.org/dsw/hasOccurrence>  <http://www.w3.org/2000/01/rdf-schema#label> "A lieu"@fr.
+ <http://purl.org/dsw/hasOccurrence>  <http://www.w3.org/2000/01/rdf-schema#comment> "Liaison d'un sujet Organism instance à un objet Occurrence instance."@fr.
+ <http://purl.org/dsw/idBasedOn>  <http://www.w3.org/2000/01/rdf-schema#label> "ID basé sur"@fr.
+ <http://purl.org/dsw/idBasedOn>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet instance d'identification à un objet Token instance."@fr.
+ <http://purl.org/dsw/identifies>  <http://www.w3.org/2000/01/rdf-schema#label> "Identifie"@fr.
+ <http://purl.org/dsw/identifies>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une instance d'identification de sujet à un objet Organism instance."@fr.
+ <http://purl.org/dsw/isBasisForId>  <http://www.w3.org/2000/01/rdf-schema#label> "Est la base pour l'ID"@fr.
+ <http://purl.org/dsw/isBasisForId>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une instance Token objet à une instance d'identification d'objet."@fr.
+ <http://purl.org/dsw/locatedAt>  <http://www.w3.org/2000/01/rdf-schema#label> "Situé à"@fr.
+ <http://purl.org/dsw/locatedAt>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une instance d'objet Event à une instance d'emplacement d'objet."@fr.
+ <http://purl.org/dsw/locates>  <http://www.w3.org/2000/01/rdf-schema#label> "Localise"@fr.
+ <http://purl.org/dsw/locates>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie une occurrence d'objet Event à une instance Locatino d'objet"@fr.
+ <http://purl.org/dsw/occurrenceOf>  <http://www.w3.org/2000/01/rdf-schema#label> "Occurrence Of"@fr.
+ <http://purl.org/dsw/occurrenceOf>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Occurrence instance à un objet Organism instance."@fr.
+ <http://purl.org/dsw/taxonOfId>  <http://www.w3.org/2000/01/rdf-schema#label> "Taxon d'identification"@fr.
+ <http://purl.org/dsw/taxonOfId>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un objet Taxon instance à un objet Identification instance."@fr.
+ <http://rs.tdwg.org/dwc/iri/georeferencedBy>  <http://www.w3.org/2000/01/rdf-schema#label> "Géoréférencé par"@fr.
+ <http://rs.tdwg.org/dwc/iri/georeferencedBy>  <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un sujet Instance de localisation à un objet Agent instance that A fait le géoréférencement. "@fr.
+ <http://rs.tdwg.org/dwc/iri/identifiedBy>  <http://www.w3.org/2000/01/rdf-schema#label> "Identifié par"@fr.
+ <http://rs.tdwg.org/dwc/iri/identifiedBy>  <http://www.w3.org/2000/01/rdf-schema#comment> "Les personnes, les groupes ou les organisations qui ont attribué le Taxon à Le sujet."@fr.
+
+ <http://rs.tdwg.org/dwc/iri/recordedBy>  <http://www.w3.org/2000/01/rdf-schema#label> "Enregistré par"@fr.
+ <http://rs.tdwg.org/dwc/iri/recordedBy>  <http://www.w3.org/2000/01/rdf-schema#comment> "Personnes, groupes ou organisations responsables de l'enregistrement de l'original Occurrence. "@fr.
+ <http://rs.tdwg.org/dwc/iri/toTaxon>  <http://www.w3.org/2000/01/rdf-schema#label> "Pour Taxon"@fr.
+ <http://rs.tdwg.org/dwc/iri/toTaxon>  <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers le sujet"@fr.
+ <http://purl.org/dc/terms/Location>  <http://www.w3.org/2000/01/rdf-schema#label> "Emplacement"@fr.
+ <http://purl.org/dc/terms/Location>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une région spatiale ou un lieu nommé."@fr.
+ <http://purl.org/dsw/DriedSpecimen>  <http://www.w3.org/2000/01/rdf-schema#label> "Echantillon sec"@fr.
+ <http://purl.org/dsw/DriedSpecimen>  <http://www.w3.org/2000/01/rdf-schema#comment> 
+"Un spécimen conservé par séchage."@fr.
+ <http://purl.org/dsw/IndividualOrganism>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une organisation particulière ou un groupe défini d'organismes considérés comme taxonomiquement homogènes. Les classifications d'Organisme sont destinées à faciliter la liaison d'un ou plusieurs identificateurs à une ou plusieurs instances, qui sont typiquement enregistrées (tels que des virus, des hybrides et des lichens) .Comme les paquets, les clones et les colonies sont inclus dans le cadre de cette classe . "@fr.
+ <http://purl.org/dsw/Specimen>  <http://www.w3.org/2000/01/rdf-schema#label> "Specimen"@fr.
+ <http://purl.org/dsw/SpecimenInAlcohol>  <http://www.w3.org/2000/01/rdf-schema#label> "Specimen In Alcohol"@fr.
+ <http://purl.org/dsw/SpecimenInAlcohol>  <http://www.w3.org/2000/01/rdf-schema#comment> "Un spécimen conservé dans l'alcool."@fr.
+ <http://purl.org/dsw/Token>  <http://www.w3.org/2000/01/rdf-schema#label> "Token"@fr.
+ <http://purl.org/dsw/Token>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une forme de preuve d'un dwc: Organism."@fr .
+ <http://rs.tdwg.org/dwc/terms/Event>  <http://www.w3.org/2000/01/rdf-schema#label> "Événement"@fr.
+ <http://rs.tdwg.org/dwc/terms/Event>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une action qui se produit à un certain moment pendant un certain temps. "@fr.
+ <http://rs.tdwg.org/dwc/terms/Identification>  <http://www.w3.org/2000/01/rdf-schema#label> "Identification"@fr.
+ <http://rs.tdwg.org/dwc/terms/Identification>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une détermination taxonomique (par exemple, l'attribution à un taxon )"@fr.
+ <http://rs.tdwg.org/dwc/terms/LivingSpecimen>  <http://www.w3.org/2000/01/rdf-schema#label> "Echantillon vivant"@fr.
+ <http://rs.tdwg.org/dwc/terms/LivingSpecimen>  <http://www.w3.org/2000/01/rdf-schema#comment> "Un spécimen qui est vivant."@fr.
+ <http://rs.tdwg.org/dwc/terms/Occurrence>  <http://www.w3.org/2000/01/rdf-schema#label> "Occurrence"@fr.
+ <http://rs.tdwg.org/dwc/terms/Occurrence>  <http://www.w3.org/2000/01/rdf-schema#comment> "L'existence d'un organisme (sensu http: // Rs.tdwg.org/dwc/terms/Organism) à un endroit particulier à un moment particulier. "@fr.
+ <http://rs.tdwg.org/dwc/terms/Organism>  <http://www.w3.org/2000/01/rdf-schema#label> "Organisme"@fr.
+ <http://rs.tdwg.org/dwc/terms/Organism>  <http://www.w3.org/2000/01/rdf-schema#comment> "Une organisation particulière ou un groupe défini d'organisations considérées comme Taxonomiquement homogène ".
+ <http://rs.tdwg.org/dwc/terms/PreservedSpecimen>  <http://www.w3.org/2000/01/rdf-schema#label> "Préservé Specimen"@fr.
+ <http://rs.tdwg.org/dwc/terms/PreservedSpecimen>  <http://www.w3.org/2000/01/rdf-schema#comment> "Un spécimen qui a été conservé."@fr.
+ <http://rs.tdwg.org/dwc/terms/Taxon>  <http://www.w3.org/2000/01/rdf-schema#label> "Taxon"@fr.
+ <http://rs.tdwg.org/dwc/terms/Taxon>  <http://www.w3.org/2000/01/rdf-schema#comment> "Un groupe d'organismes (sensu http: // purl .obolibrary.org / obo / OBI_0100026) considérés par les taxonomistes pour former une unité homogène"@fr.

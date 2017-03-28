@@ -6,6 +6,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
 @prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix dsw: <http://purl.org/dsw/> .
 
 @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
 
@@ -108,4 +109,13 @@
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2017-02-03" .
 
+<translation-dsw-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Darwin-Core en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    dsw: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <dsw/dsw.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2017-02-03" .
 
