@@ -126,7 +126,7 @@
         lingvoj:originalResource    skos: ;
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
-        lingvoj:translatedResource  <skos/skos.fr.ttl> ;
+        lingvoj:translatedResource  <skos/skos.fr.nt> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2017-04-04" .
 
