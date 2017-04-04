@@ -7,6 +7,7 @@
 @prefix con: <http://www.w3.org/2000/10/swap/pim/contact#> .
 @prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix dsw: <http://purl.org/dsw/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
 
@@ -118,4 +119,14 @@
         lingvoj:translatedResource  <dsw/dsw.fr.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2017-03-28" .
+
+<translation-skos-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de SKOS en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    skos: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <skos/skos.fr.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2017-04-04" .
 

@@ -1,49 +1,49 @@
-<Http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept" @fr.
-<Http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Concept Scheme" @fr.
-<Http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection" @fr.
-<Http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection commandée" @fr.
-<Http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2000/01/rdf-schema#label> "est dans le schéma" @fr.
-<Http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/2000/01/rdf-schema#label> "a le concept principal" @fr.
-<Http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/2000/01/rdf-schema#label> "est le concept principal dans le schéma"@fr.
-<Http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette préférée" @fr.
-<Http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
-<Http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource n'a plus d'un Valeur de skos: prefLabel par tag de langue et pas plus d'une valeur de skos: prefLabel sans balise de langue. "@fr.
-<Http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: prefLabel est La classe des littéraux simples RDF. "@fr.
-<Http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos:prefLabel, skos:altLabel et skos:hiddenLabel sont des paires de propriétés disjointes "@fr.
-<Http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette alternative" @fr.
-<Http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
-<Http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: altLabel est La classe des littéraux simples RDF. "@fr.
-<Http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: prefLabel, skos: altLabel Et skos: hiddenLabel sont des propriétés disjointes par paires "@fr.
-<Http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette cachée" @fr.
-<Http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
-<Http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: hiddenLabel est La classe des littéraux simples RDF. "@fr.
-<Http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: prefLabel, skos: altLabel Et skos: hiddenLabel sont des propriétés disjointes par paires "@fr.
-<Http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#label> "notation" @fr.
-<Http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/2000/01/rdf-schema#label> "note" @fr.
-<Http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/2000/01/rdf-schema#label> "note de modification" @fr.
-<Http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/2000/01/rdf-schema#label> "définition" @fr.
-<Http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/2000/01/rdf-schema#label> "note éditoriale" @fr.
-<Http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/2000/01/rdf-schema#label> "exemple" @fr.
-<Http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/2000/01/rdf-schema#label> "note d'historique" @fr.
-<Http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/2000/01/rdf-schema#label> "note de portée" @fr.
-<Http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "est en relation sémantique avec"@fr.
-<Http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#label> "a plus large" @fr.
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept" @fr.
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Concept Scheme" @fr.
+<http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection" @fr.
+<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection commandée" @fr.
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/2000/01/rdf-schema#label> "est dans le schéma" @fr.
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/2000/01/rdf-schema#label> "a le concept principal" @fr.
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/2000/01/rdf-schema#label> "est le concept principal dans le schéma"@fr.
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette préférée" @fr.
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource n'a plus d'un Valeur de skos: prefLabel par tag de langue et pas plus d'une valeur de skos: prefLabel sans balise de langue. "@fr.
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: prefLabel est La classe des littéraux simples RDF. "@fr.
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos:prefLabel, skos:altLabel et skos:hiddenLabel sont des paires de propriétés disjointes "@fr.
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette alternative" @fr.
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: altLabel est La classe des littéraux simples RDF. "@fr.
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: prefLabel, skos: altLabel Et skos: hiddenLabel sont des propriétés disjointes par paires "@fr.
+<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#label> "étiquette cachée" @fr.
+<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label>.
+<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "La gamme de skos: hiddenLabel est La classe des littéraux simples RDF. "@fr.
+<http://www.w3.org/2004/02/skos/core#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: prefLabel, skos: altLabel Et skos: hiddenLabel sont des propriétés disjointes par paires "@fr.
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/2000/01/rdf-schema#label> "notation" @fr.
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/2000/01/rdf-schema#label> "note" @fr.
+<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/2000/01/rdf-schema#label> "note de modification" @fr.
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/2000/01/rdf-schema#label> "définition" @fr.
+<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/2000/01/rdf-schema#label> "note éditoriale" @fr.
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/2000/01/rdf-schema#label> "exemple" @fr.
+<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/2000/01/rdf-schema#label> "note d'historique" @fr.
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/2000/01/rdf-schema#label> "note de portée" @fr.
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "est en relation sémantique avec"@fr.
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#label> "a plus large" @fr.
 
-<Http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#comment> "Les concepts plus généraux sont généralement rendus en tant que parents Dans une hiérarchie conceptuelle (arbre). "@fr.
-<Http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "a plus étroit" @fr.
-<Http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#comment> "Les concepts plus étroits sont généralement rendus comme des enfants Dans une hiérarchie conceptuelle (arbre). "@fr.
-<Http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#label> "a associé" @fr.
-<Http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: related is disjoint with skos : BroaderTransitive "@fr.
-<Http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "a plus large transitive" @fr.
-<Http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "a un transitif plus étroit" @fr.
-<Http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#label> "a un membre" @fr.
-<Http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#label> "a la liste des membres" @fr.
-<Http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#comment> "Pour toute ressource, chaque élément dans La liste donnée en tant que valeur de la propriété skos:memberList est également une valeur de skos:member. "@fr.
-<Http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#label> "est en relation de cartographie avec"@fr.
-<Http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "Ces relations cartographiques conceptuelles reflètent les relations sémantiques , Et le modèle de données défini ci-dessous est similaire (à l'exception de skos: exactMatch) au modèle de données défini pour les relations sémantiques. Un vocabulaire distinct est fourni pour les relations cartographiques conceptuelles, afin de constituer un moyen pratique de différencier les liens dans un schéma conceptuel de Liens entre les schémas conceptuels. Cependant, ce mode d'utilisation n'est pas une exigence formelle du modèle de données SKOS et repose sur des définitions informelles des meilleures pratiques. "@fr.
-<Http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance plus large" @fr.
-<Http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance plus étroite" @fr.
-<Http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a associé" @fr.
-<Http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance exacte" @fr.
-<Http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: exactMatch est disjoint avec chaque Des propriétés skos: broadMatch et skos: relatedMatch. "@fr.
-<Http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance étroite" @fr.
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#comment> "Les concepts plus généraux sont généralement rendus en tant que parents Dans une hiérarchie conceptuelle (arbre). "@fr.
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "a plus étroit" @fr.
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#comment> "Les concepts plus étroits sont généralement rendus comme des enfants Dans une hiérarchie conceptuelle (arbre). "@fr.
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#label> "a associé" @fr.
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: related is disjoint with skos : BroaderTransitive "@fr.
+<http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "a plus large transitive" @fr.
+<http://www.w3.org/2004/02/skos/core#narrowerTransitive> <http://www.w3.org/2000/01/rdf-schema#label> "a un transitif plus étroit" @fr.
+<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#label> "a un membre" @fr.
+<http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#label> "a la liste des membres" @fr.
+<http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/2000/01/rdf-schema#comment> "Pour toute ressource, chaque élément dans La liste donnée en tant que valeur de la propriété skos:memberList est également une valeur de skos:member. "@fr.
+<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#label> "est en relation de cartographie avec"@fr.
+<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "Ces relations cartographiques conceptuelles reflètent les relations sémantiques , Et le modèle de données défini ci-dessous est similaire (à l'exception de skos: exactMatch) au modèle de données défini pour les relations sémantiques. Un vocabulaire distinct est fourni pour les relations cartographiques conceptuelles, afin de constituer un moyen pratique de différencier les liens dans un schéma conceptuel de Liens entre les schémas conceptuels. Cependant, ce mode d'utilisation n'est pas une exigence formelle du modèle de données SKOS et repose sur des définitions informelles des meilleures pratiques. "@fr.
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance plus large" @fr.
+<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance plus étroite" @fr.
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a associé" @fr.
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance exacte" @fr.
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "skos: exactMatch est disjoint avec chaque Des propriétés skos: broadMatch et skos: relatedMatch. "@fr.
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#label> "a une correspondance étroite" @fr.
