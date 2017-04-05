@@ -24,6 +24,139 @@
     <http://rdfs.org/sioc/ns#Usergroup> <http://www.w3.org/2000/01/rdf-schema#label> "Groupe d'utilisateurs"@fr.
     <http://rdfs.org/sioc/ns#about> <http://www.w3.org/2000/01/rdf-schema#comment> "Spécifie que cet élément concerne une ressource particulière, par exemple un message Décrivant un livre, un hôtel, etc"@fr.
 
+<http://rdfs.org/sioc/ns#about> <http://www.w3.org/2000/01/rdf-schema#label> "about"@fr.
+
+<http://rdfs.org/sioc/ns#account_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Désigne le foaf:Agent ou foaf:Person qui possède ce Sioc:UserAccount."@fr.
+
+<http://rdfs.org/sioc/ns#account_of> <http://www.w3.org/2000/01/rdf-schema#label> "compte de"@fr.
+    <http://rdfs.org/sioc/ns#addressed_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique à qui (par exemple, un compte utilisateur, une adresse e-mail, Etc.), un article particulier est adressé à. "@fr.
+    <http://rdfs.org/sioc/ns#addressed_to> <http://www.w3.org/2000/01/rdf-schema#label> "adressé à"@fr.
+    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site où UserAccount est un administrateur de."@fr.
+    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#label> "administrator of"@fr.
+    <http://rdfs.org/sioc/ns#attachment> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URI d'un fichier joint à un élément."@fr.
+    <http://rdfs.org/sioc/ns#attachment> <http://www.w3.org/2000/01/rdf-schema#label> "attachment"@fr.
+    <http://rdfs.org/sioc/ns#avatar> <http://www.w3.org/2000/01/rdf-schema#comment> "Une image ou une représentation utilisée pour représenter ce compte utilisateur."@fr.
+    <http://rdfs.org/sioc/ns#avatar> <http://www.w3.org/2000/01/rdf-schema#label> "avatar"@fr.
+    <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément que contient ce conteneur."@fr.
+    <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#label> "container of"@fr.
+    <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu de l'élément en format texte brut"@fr .
+    <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#label> "content"@fr.
+    <http://rdfs.org/sioc/ns#content_encoded> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu codé du Post, contenu dans les zones CDATA"@fr.
+    <http://rdfs.org/sioc/ns#content_encoded> <http://www.w3.org/2000/01/rdf-schema#label> "contenu codé"@fr.
+    <http://rdfs.org/sioc/ns#created_at> <http://www.w3.org/2000/01/rdf-schema#comment> "Lorsque cela a été créé, au format ISO 8601."@fr .
+    <http://rdfs.org/sioc/ns#created_at> <http://www.w3.org/2000/01/rdf-schema#label> "créé à"@fr.
+    <http://rdfs.org/sioc/ns#creator_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource que le compte UserAccount est un créateur de."@fr.
+    <http://rdfs.org/sioc/ns#creator_of> <http://www.w3.org/2000/01/rdf-schema#label> "créateur de"@fr.
+    <http://rdfs.org/sioc/ns#description> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu du message"@fr.
+    <http://rdfs.org/sioc/ns#description> <http://www.w3.org/2000/01/rdf-schema#label> "description"@fr.
+    <http://rdfs.org/sioc/ns#earlier_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers une précédente (ancienne) révision de cet article ou poste . "@fr.
+    <http://rdfs.org/sioc/ns#earlier_version> <http://www.w3.org/2000/01/rdf-schema#label> "version précédente"@fr.
+    <http://rdfs.org/sioc/ns#email> <http://www.w3.org/2000/01/rdf-schema#comment> "Une adresse de courrier électronique du compte utilisateur."@fr.
+    <http://rdfs.org/sioc/ns#email> <http://www.w3.org/2000/01/rdf-schema#label> "email"@fr.
+    <http://rdfs.org/sioc/ns#email_sha1> <http://www.w3.org/2000/01/rdf-schema#comment> "Une adresse de courrier électronique du compte utilisateur, encodé à l'aide de SHA1"@fr.
+    <http://rdfs.org/sioc/ns#email_sha1> <http://www.w3.org/2000/01/rdf-schema#label> "email sha1"@fr.
+    <http://rdfs.org/sioc/ns#embeds_knowledge> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci associe les éléments aux déclarations, aux faits et au contenu structuré intégrés"@fr.
+    <http://rdfs.org/sioc/ns#embeds_knowledge> <http://www.w3.org/2000/01/rdf-schema#label> "intègre la connaissance"@fr.
+    <http://rdfs.org/sioc/ns#feed> <http://www.w3.org/2000/01/rdf-schema#comment> "Un flux (p. Ex. RSS, Atom, etc.) concernant Cette ressource (p. Ex. Pour un forum, un site, un compte utilisateur, etc.). "@fr.
+
+<http://rdfs.org/sioc/ns#feed> <http://www.w3.org/2000/01/rdf-schema#label> "feed"@fr.
+    <http://rdfs.org/sioc/ns#first_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Premier nom (réel) de cet utilisateur. Les synonymes contiennent un prénom Ou le nom de chrétien. "@fr.
+    <http://rdfs.org/sioc/ns#first_name> <http://www.w3.org/2000/01/rdf-schema#label> "prénom"@fr.
+    <http://rdfs.org/sioc/ns#follows> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique qu'un compte UserAccount suit un autre MemberAccount (p. Ex. Pour les publications de microblog ou Autres mises à jour des éléments de contenu)."@fr.
+    <http://rdfs.org/sioc/ns#follows> <http://www.w3.org/2000/01/rdf-schema#label> "suit"@fr.
+    <http://rdfs.org/sioc/ns#function_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui a ce rôle."@fr.
+    <http://rdfs.org/sioc/ns#function_of> <http://www.w3.org/2000/01/rdf-schema#label> "fonction de"@fr.
+    <http://rdfs.org/sioc/ns#has_administrator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui est un administrateur de ce site."@fr.
+    <http://rdfs.org/sioc/ns#has_administrator> <http://www.w3.org/2000/01/rdf-schema#label> "a l'administrateur"@fr.
+    <http://rdfs.org/sioc/ns#has_container> <http://www.w3.org/2000/01/rdf-schema#comment> "Le conteneur auquel appartient cet article"@fr.
+    <http://rdfs.org/sioc/ns#has_container> <http://www.w3.org/2000/01/rdf-schema#label> "contient un conteneur"@fr.
+    <http://rdfs.org/sioc/ns#has_creator> <http://www.w3.org/2000/01/rdf-schema#comment> "C'est le compte utilisateur qui a créé cette ressource"@fr.
+    <http://rdfs.org/sioc/ns#has_creator> <http://www.w3.org/2000/01/rdf-schema#label> "a créé"@fr.
+    <http://rdfs.org/sioc/ns#has_discussion> <http://www.w3.org/2000/01/rdf-schema#comment> "La discussion qui est liée à cet élément."@fr.
+    <http://rdfs.org/sioc/ns#has_discussion> <http://www.w3.org/2000/01/rdf-schema#label> "a discussion"@fr.
+    <http://rdfs.org/sioc/ns#has_function> <http://www.w3.org/2000/01/rdf-schema#comment> "Un rôle que ce compte utilisateur a."@fr.
+    <http://rdfs.org/sioc/ns#has_function> <http://www.w3.org/2000/01/rdf-schema#label> "a fonction"@fr.
+    <http://rdfs.org/sioc/ns#has_host> <http://www.w3.org/2000/01/rdf-schema#comment> "Le site qui héberge ce forum"@fr.
+    <http://rdfs.org/sioc/ns#has_host> <http://www.w3.org/2000/01/rdf-schema#label> "a hôte"@fr.
+    <http://rdfs.org/sioc/ns#has_member> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui est membre de ce groupe d'utilisateurs"@fr.
+    <http://rdfs.org/sioc/ns#has_member> <http://www.w3.org/2000/01/rdf-schema#label> "a un membre"@fr.
+    <http://rdfs.org/sioc/ns#has_moderator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui est un modérateur de ce forum"@fr.
+    <http://rdfs.org/sioc/ns#has_moderator> <http://www.w3.org/2000/01/rdf-schema#label> "a modérateur"@fr.
+    <http://rdfs.org/sioc/ns#has_modifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui a modifié cet élément"@fr.
+    <http://rdfs.org/sioc/ns#has_modifier> <http://www.w3.org/2000/01/rdf-schema#label> "a un modificateur"@fr.
+    <http://rdfs.org/sioc/ns#has_owner> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur auquel cette ressource appartient."@fr.
+    <http://rdfs.org/sioc/ns#has_owner> <http://www.w3.org/2000/01/rdf-schema#label> "a le propriétaire"@fr.
+    <http://rdfs.org/sioc/ns#has_parent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur ou un forum sur lequel ce conteneur ou ce forum est un enfant de . "@fr.
+    <http://rdfs.org/sioc/ns#has_parent> <http://www.w3.org/2000/01/rdf-schema#label> "a parent"@fr.
+    <http://rdfs.org/sioc/ns#has_part> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource qui fait partie de ce sujet"@fr.
+    <http://rdfs.org/sioc/ns#has_part> <http://www.w3.org/2000/01/rdf-schema#label> "a une partie"@fr.
+    <http://rdfs.org/sioc/ns#has_reply> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique un élément ou un message qui est une réponse ou une réponse à Cet article ou poste. "@fr.
+    <http://rdfs.org/sioc/ns#has_reply> <http://www.w3.org/2000/01/rdf-schema#label> "a répondu"@fr.
+
+<http://rdfs.org/sioc/ns#has_scope> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource à laquelle ce rôle s'applique."@fr.
+    <http://rdfs.org/sioc/ns#has_scope> <http://www.w3.org/2000/01/rdf-schema#label> "a la portée"@fr.
+    <http://rdfs.org/sioc/ns#has_space> <http://www.w3.org/2000/01/rdf-schema#comment> "Un espace de données dans lequel cette ressource fait partie"@fr.
+    <http://rdfs.org/sioc/ns#has_space> <http://www.w3.org/2000/01/rdf-schema#label> "a de l'espace"@fr.
+    <http://rdfs.org/sioc/ns#has_subscriber> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur qui est abonné à ce conteneur."@fr.
+    <http://rdfs.org/sioc/ns#has_subscriber> <http://www.w3.org/2000/01/rdf-schema#label> "a abonné"@fr.
+    <http://rdfs.org/sioc/ns#has_usergroup> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique un groupe d'utilisateurs ayant un certain accès à cet espace"@fr.
+    <http://rdfs.org/sioc/ns#has_usergroup> <http://www.w3.org/2000/01/rdf-schema#label> "a le groupe d'utilisateurs"@fr.
+    <http://rdfs.org/sioc/ns#host_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un forum hébergé sur ce site."@fr.
+    <http://rdfs.org/sioc/ns#host_of> <http://www.w3.org/2000/01/rdf-schema#label> "hôte de"@fr.
+    <http://rdfs.org/sioc/ns#id> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identifiant d'une instance de concept SIOC. Par exemple, un utilisateur ID. Il doit être unique pour les cas de chaque type de concept SIOC dans le même site. "@fr.
+    <http://rdfs.org/sioc/ns#id> <http://www.w3.org/2000/01/rdf-schema#label> "id"@fr.
+    <http://rdfs.org/sioc/ns#ip_address> <http://www.w3.org/2000/01/rdf-schema#comment> "L'adresse IP utilisée lors de la création de cet élément. Cela peut être associé Avec un créateur. Certains articles wiki énumèrent les adresses IP du créateur ou des modificateurs lorsque les noms d'utilisateur sont absents. "@fr.
+    <http://rdfs.org/sioc/ns#ip_address> <http://www.w3.org/2000/01/rdf-schema#label> "adresse IP"@fr.
+    <http://rdfs.org/sioc/ns#last_activity_date> <http://www.w3.org/2000/01/rdf-schema#comment> "La date et l'heure de la dernière activité associée à un concept SIOC Par exemple, et exprimé au format ISO 8601. Cela pourrait être dû à une réponse Post ou Commentaire, une modification d'un élément, etc. "@fr.
+    <http://rdfs.org/sioc/ns#last_activity_date> <http://www.w3.org/2000/01/rdf-schema#label> "dernière date d'activité"@fr.
+    <http://rdfs.org/sioc/ns#last_item_date> <http://www.w3.org/2000/01/rdf-schema#comment> "La date et l'heure de la dernière publication (ou élément) dans Un forum (ou un conteneur), au format ISO 8601. "@fr.
+    <http://rdfs.org/sioc/ns#last_item_date> <http://www.w3.org/2000/01/rdf-schema#label> "dernière date d'article"@fr.
+    <http://rdfs.org/sioc/ns#last_name> <http://www.w3.org/2000/01/rdf-schema#comment> "Dernier (réel) nom de cet utilisateur. Les synonymes comprennent le nom de famille ou Nom de famille. "@fr.
+    <http://rdfs.org/sioc/ns#last_name> <http://www.w3.org/2000/01/rdf-schema#label> "nom"@fr.
+    <http://rdfs.org/sioc/ns#last_reply_date> <http://www.w3.org/2000/01/rdf-schema#comment> "La date et l'heure de la dernière réponse Post ou Commentaire, qui Pourrait être associé à un élément ou un poste de démarrage ou à un fil et exprimé au format ISO 8601. "@fr.
+    <http://rdfs.org/sioc/ns#last_reply_date> <http://www.w3.org/2000/01/rdf-schema#label> "dernière date de réponse"@fr.
+    <http://rdfs.org/sioc/ns#later_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers une révision ultérieure (plus récente) de cet article ou poste . "@fr.
+    <http://rdfs.org/sioc/ns#later_version> <http://www.w3.org/2000/01/rdf-schema#label> "version ultérieure"@fr.
+    <http://rdfs.org/sioc/ns#latest_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers la dernière révision de cet article ou de cette publication"@fr.
+    <http://rdfs.org/sioc/ns#latest_version> <http://www.w3.org/2000/01/rdf-schema#label> "dernière version"@fr.
+    <http://rdfs.org/sioc/ns#link> <http://www.w3.org/2000/01/rdf-schema#comment> "Un URI d'un document contenant cet objet SIOC"@fr.
+    <http://rdfs.org/sioc/ns#link> <http://www.w3.org/2000/01/rdf-schema#label> "link"@fr.
+    <http://rdfs.org/sioc/ns#links_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens extraits de liens hypertextes dans le cadre d'un concept SIOC, p.ex. poste ou site . "@fr.
+    <http://rdfs.org/sioc/ns#links_to> <http://www.w3.org/2000/01/rdf-schema#label> "liens vers"@fr.
+    <http://rdfs.org/sioc/ns#member_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un groupe d'utilisateurs auquel ce compte utilisateur est membre."@fr.
+    <http://rdfs.org/sioc/ns#member_of> <http://www.w3.org/2000/01/rdf-schema#label> "membre de"@fr.
+
+<http://rdfs.org/sioc/ns#moderator_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un forum dans lequel un compte utilisateur est un modérateur de."@fr.
+    <http://rdfs.org/sioc/ns#moderator_of> <http://www.w3.org/2000/01/rdf-schema#label> "modérateur de"@fr.
+    <http://rdfs.org/sioc/ns#modified_at> <http://www.w3.org/2000/01/rdf-schema#comment> "Lorsque cela a été modifié, au format ISO 8601."@fr .
+    <http://rdfs.org/sioc/ns#modified_at> <http://www.w3.org/2000/01/rdf-schema#label> "modifié à"@fr.
+    <http://rdfs.org/sioc/ns#modifier_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément que ce compte utilisateur a modifié."@fr.
+    <http://rdfs.org/sioc/ns#modifier_of> <http://www.w3.org/2000/01/rdf-schema#label> "modificateur de"@fr.
+    <http://rdfs.org/sioc/ns#name> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nom d'une instance de concept SIOC, par exemple un nom d'utilisateur pour un UserAccount, nom de groupe pour un groupe d'utilisateurs, etc. "@fr.
+    <http://rdfs.org/sioc/ns#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@fr.
+    <http://rdfs.org/sioc/ns#next_by_date> <http://www.w3.org/2000/01/rdf-schema#comment> "Article suivant ou publication dans un conteneur donné triés par date."@fr.
+    <http://rdfs.org/sioc/ns#next_by_date> <http://www.w3.org/2000/01/rdf-schema#label> "next by date"@fr.
+    <http://rdfs.org/sioc/ns#next_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers la prochaine révision de cet article ou poste."@fr.
+    <http://rdfs.org/sioc/ns#next_version> <http://www.w3.org/2000/01/rdf-schema#label> "prochaine version"@fr.
+    <http://rdfs.org/sioc/ns#note> <http://www.w3.org/2000/01/rdf-schema#comment> "Une note associée à cette ressource, par exemple, si elle a A été édité par un compte UserAccount. "@fr.
+    <http://rdfs.org/sioc/ns#note> <http://www.w3.org/2000/01/rdf-schema#label> "note"@fr.
+    <http://rdfs.org/sioc/ns#num_authors> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre d'auteurs uniques (UserAccounts et affiches non enregistrées) qui ont Ont contribué à cet article, Thread, Post, etc. "@fr.
+    <http://rdfs.org/sioc/ns#num_authors> <http://www.w3.org/2000/01/rdf-schema#label> "num authors"@fr.
+    <http://rdfs.org/sioc/ns#num_items> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de messages (ou éléments) dans un forum (ou Un conteneur). "@fr.
+    <http://rdfs.org/sioc/ns#num_items> <http://www.w3.org/2000/01/rdf-schema#label> "num items"@fr.
+    <http://rdfs.org/sioc/ns#num_replies> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de réponses que cet article, Thread, Post, etc. . Est utile pour quand la structure de réponse est absente. "@fr.
+    <http://rdfs.org/sioc/ns#num_replies> <http://www.w3.org/2000/01/rdf-schema#label> "num reply"@fr.
+    <http://rdfs.org/sioc/ns#num_threads> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de discussions (sujets de discussion AKA) dans un forum. "@fr.
+    <http://rdfs.org/sioc/ns#num_threads> <http://www.w3.org/2000/01/rdf-schema#label> "num threads"@fr.
+    <http://rdfs.org/sioc/ns#num_views> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de fois que cet élément, Thread, le profil UserAccount, etc. . A été regardé. "@fr.
+    <http://rdfs.org/sioc/ns#num_views> <http://www.w3.org/2000/01/rdf-schema#label> "num views"@fr.
+    <http://rdfs.org/sioc/ns#owner_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource appartenant à un compte utilisateur particulier, par exemple, un weblog Ou galerie d'images "@fr.
+    <http://rdfs.org/sioc/ns#owner_of> <http://www.w3.org/2000/01/rdf-schema#label> "owner of"@fr.
+    <http://rdfs.org/sioc/ns#parent_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur ou un forum enfant que ce conteneur ou ce forum est un parent De. "@fr.
+    <http://rdfs.org/sioc/ns#parent_of> <http://www.w3.org/2000/01/rdf-schema#label> "parent de"@fr.
+    <http://rdfs.org/sioc/ns#part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource dans laquelle le sujet fait partie"@fr .
+    <http://rdfs.org/sioc/ns#part_of> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@fr.
+
 <http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#comment>" Article précédent ou Post dans un conteneur donné trié Par date. "@fr.
 <http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#label>" précédent par date "@fr .
 <http://rdfs.org/sioc/ns#previous_version> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers la révision précédente de cet article ou de cette publication."@fr.
@@ -34,7 +167,7 @@
 <http://rdfs.org/sioc/ns#related_to> <http://www.w3.org/2000/01/rdf-schema#label> "en rapport avec"@fr.
 <http://rdfs.org/sioc/ns#reply_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Liens vers un article ou un poste dont cet article ou cette publication est un Répondre à. "@fr.
 <http://rdfs.org/sioc/ns#reply_of> <http://www.w3.org/2000/01/rdf-schema#label> "Réponse de"@fr.
-<http://rdfs.org/sioc/ns#scope_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un rôle qui a une portée de cette ressource." .
+<http://rdfs.org/sioc/ns#scope_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un rôle qui a une portée de cette ressource."@fr .
 <http://rdfs.org/sioc/ns#scope_of> <http://www.w3.org/2000/01/rdf-schema#label> "champ d'application"@fr.
 <http://rdfs.org/sioc/ns#sibling> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément peut avoir un frère ou une sœur qui existe dans un (Par exemple, la langue, la catégorie, etc.) Le frère ou la sœur de cet article doit être auto-descriptif (c'est-à-dire, il doit contenir toutes les informations disponibles)"@fr.
 <http://rdfs.org/sioc/ns#sibling> <http://www.w3.org/2000/01/rdf-schema#label> "frère-sœur"@fr.
