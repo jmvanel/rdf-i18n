@@ -31,14 +31,14 @@
 <http://rdfs.org/sioc/ns#account_of> <http://www.w3.org/2000/01/rdf-schema#label> "compte de"@fr.
     <http://rdfs.org/sioc/ns#addressed_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique à qui (par exemple, un compte utilisateur, une adresse e-mail, Etc.), un article particulier est adressé à. "@fr.
     <http://rdfs.org/sioc/ns#addressed_to> <http://www.w3.org/2000/01/rdf-schema#label> "adressé à"@fr.
-    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site où UserAccount est un administrateur de."@fr.
-    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#label> "administrator of"@fr.
+    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un site où UserAccount est un administrateur."@fr.
+    <http://rdfs.org/sioc/ns#administrator_of> <http://www.w3.org/2000/01/rdf-schema#label> "administrateur de"@fr.
     <http://rdfs.org/sioc/ns#attachment> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URI d'un fichier joint à un élément."@fr.
     <http://rdfs.org/sioc/ns#attachment> <http://www.w3.org/2000/01/rdf-schema#label> "attachment"@fr.
     <http://rdfs.org/sioc/ns#avatar> <http://www.w3.org/2000/01/rdf-schema#comment> "Une image ou une représentation utilisée pour représenter ce compte utilisateur."@fr.
     <http://rdfs.org/sioc/ns#avatar> <http://www.w3.org/2000/01/rdf-schema#label> "avatar"@fr.
     <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément que contient ce conteneur."@fr.
-    <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#label> "container of"@fr.
+    <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#label> "conteneur de"@fr.
     <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu de l'élément en format texte brut"@fr .
     <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#label> "content"@fr.
     <http://rdfs.org/sioc/ns#content_encoded> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu codé du Post, contenu dans les zones CDATA"@fr.
@@ -87,7 +87,7 @@
     <http://rdfs.org/sioc/ns#has_owner> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte utilisateur auquel cette ressource appartient."@fr.
     <http://rdfs.org/sioc/ns#has_owner> <http://www.w3.org/2000/01/rdf-schema#label> "a le propriétaire"@fr.
     <http://rdfs.org/sioc/ns#has_parent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur ou un forum sur lequel ce conteneur ou ce forum est un enfant de . "@fr.
-    <http://rdfs.org/sioc/ns#has_parent> <http://www.w3.org/2000/01/rdf-schema#label> "a parent"@fr.
+    <http://rdfs.org/sioc/ns#has_parent> <http://www.w3.org/2000/01/rdf-schema#label> "a un parent"@fr.
     <http://rdfs.org/sioc/ns#has_part> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource qui fait partie de ce sujet"@fr.
     <http://rdfs.org/sioc/ns#has_part> <http://www.w3.org/2000/01/rdf-schema#label> "a une partie"@fr.
     <http://rdfs.org/sioc/ns#has_reply> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique un élément ou un message qui est une réponse ou une réponse à Cet article ou poste. "@fr.
@@ -151,11 +151,11 @@
     <http://rdfs.org/sioc/ns#num_views> <http://www.w3.org/2000/01/rdf-schema#comment> "Le nombre de fois que cet élément, Thread, le profil UserAccount, etc. . A été regardé. "@fr.
     <http://rdfs.org/sioc/ns#num_views> <http://www.w3.org/2000/01/rdf-schema#label> "num views"@fr.
     <http://rdfs.org/sioc/ns#owner_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource appartenant à un compte utilisateur particulier, par exemple, un weblog Ou galerie d'images "@fr.
-    <http://rdfs.org/sioc/ns#owner_of> <http://www.w3.org/2000/01/rdf-schema#label> "owner of"@fr.
+    <http://rdfs.org/sioc/ns#owner_of> <http://www.w3.org/2000/01/rdf-schema#label> "propriétaire de"@fr.
     <http://rdfs.org/sioc/ns#parent_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conteneur ou un forum enfant que ce conteneur ou ce forum est un parent De. "@fr.
     <http://rdfs.org/sioc/ns#parent_of> <http://www.w3.org/2000/01/rdf-schema#label> "parent de"@fr.
     <http://rdfs.org/sioc/ns#part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource dans laquelle le sujet fait partie"@fr .
-    <http://rdfs.org/sioc/ns#part_of> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@fr.
+    <http://rdfs.org/sioc/ns#part_of> <http://www.w3.org/2000/01/rdf-schema#label> "partie de"@fr.
 
 <http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#comment>" Article précédent ou Post dans un conteneur donné trié Par date. "@fr.
 <http://rdfs.org/sioc/ns#previous_by_date> <http://www.w3.org/2000/01/rdf-schema#label>" précédent par date "@fr .
