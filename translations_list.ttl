@@ -9,7 +9,8 @@
 @prefix dsw: <http://purl.org/dsw/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-@base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
+# @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
+@base <https://rawgit.com/jmvanel/rdf-i18n/master/translations_list.ttl/>
 
 <translation-foaf-en-to-fr>
         a                           lingvoj:Translation ;
