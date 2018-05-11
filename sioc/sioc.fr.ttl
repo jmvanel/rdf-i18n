@@ -40,7 +40,7 @@
     <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Un élément que contient ce conteneur."@fr.
     <http://rdfs.org/sioc/ns#container_of> <http://www.w3.org/2000/01/rdf-schema#label> "conteneur de"@fr.
     <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu de l'élément en format texte brut"@fr .
-    <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#label> "content"@fr.
+    <http://rdfs.org/sioc/ns#content> <http://www.w3.org/2000/01/rdf-schema#label> "contenu"@fr.
     <http://rdfs.org/sioc/ns#content_encoded> <http://www.w3.org/2000/01/rdf-schema#comment> "Le contenu codé du Post, contenu dans les zones CDATA"@fr.
     <http://rdfs.org/sioc/ns#content_encoded> <http://www.w3.org/2000/01/rdf-schema#label> "contenu codé"@fr.
     <http://rdfs.org/sioc/ns#created_at> <http://www.w3.org/2000/01/rdf-schema#comment> "Lorsque cela a été créé, au format ISO 8601."@fr .
