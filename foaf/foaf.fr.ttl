@@ -40,7 +40,7 @@ foaf:name
 foaf:sha1
       rdfs:comment "Un hachage SHA-1, en hexadécimal."@fr ;
       rdfs:label "SHA-1 (hexadécimal)"@fr .
-foaf:Organisation
+foaf:Organization
       rdfs:comment "Une organisation ."@fr ;
       rdfs:label "Organisation"@fr .
 foaf:accountServiceHomepage
