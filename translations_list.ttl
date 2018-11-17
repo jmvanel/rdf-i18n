@@ -8,9 +8,10 @@
 @prefix sioc: <http://rdfs.org/sioc/ns#> .
 @prefix dsw: <http://purl.org/dsw/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
 
 # @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
-@base <https://rawgit.com/jmvanel/rdf-i18n/master/>
+@base <https://rawgit.com/jmvanel/rdf-i18n/master/> .
 
 <translation-foaf-en-to-fr>
         a                           lingvoj:Translation ;
@@ -131,3 +132,12 @@
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2017-04-04" .
 
+<translation-dc-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Dublin Core en Français par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    dc: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <dc/dc.fr.nt> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2018-11-17" .

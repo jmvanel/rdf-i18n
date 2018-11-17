@@ -4,6 +4,11 @@ rdf-i18n
 Translations of classical RDF vocabularies
 
 ## Purpose ##
+I know that for W3C recommandations, there is always a link to translations; see also:
+http://www.w3.org/2003/03/Translations/ 
+
+but this is only for the W3C recommendations, and only for "external" documentation, not RDF ontology declarations. 
+
 For those vocabularies and ontologies that have only
 rdfs:label and rdfs:comment in english (internal documentation), we add translations in other languages.
 
@@ -33,26 +38,32 @@ Currently we have:
 http://github.com/jmvanel/rdf-i18n/raw/master/foaf/foaf.fr.ttl
 
 ## Modus operandi ##
+
 It is possible to use Google translate as a starting point.
 When doing this, it's better to use the N-triples syntax; the Google translator would spoil the abbreviated URI's in Turtle.
 
 I you want to contribute with a translation, but don't have the tooling, I can pre-populate the project with a N-triples document in english;
 currently there is:
-[foaf/foaf.en.nt](foaf/foaf.en.nt)
+- [foaf/foaf.en.nt](foaf/foaf.en.nt)
+- sioc
+- dc (Dublin Core)
+- rdf, rdfs
+- skos
+- wordnet
 
 To generate such a file, one way to do, with CWM, for example for SIOC:
 
 	# look for the URL corresponding to the prefix sioc in prefix.cc
 	cwm http://rdfs.org/sioc/ns --n3=prs > sioc.nt
-	egrep 'rdf-schema#label|rdf-schema#comment' sioc.nt > sioc/sioc.en.nt
 	mkdir sioc
+	egrep 'rdf-schema#label|rdf-schema#comment|terms/description' sioc.nt > sioc/sioc.en.nt
 	rm sioc.nt
 
 To generate such a file, another way to do, with rapper, for example for Darwin-Core:
 ```shell
 	rapper -i rdfxml http://purl.org/dsw/dsw.owl -o ntriples > dsw.nt
 	mkdir dsw
-	egrep 'rdf-schema#label|rdf-schema#comment' dsw.nt > dsw/dsw.en.nt
+	egrep 'rdf-schema#label|rdf-schema#comment|terms/description' dsw.nt > dsw/dsw.en.nt
 ```
 To generate such a file, another way to do, with EulerGUI + CWM, for example for SIOC:
 
@@ -72,10 +83,9 @@ The query to filter rdfs:label and rdfs:comment :
 		rdfs:comment ?C .
 	} .
 
-I know that for W3C recommandations, there is always a link to translations; see also:
-http://www.w3.org/2003/03/Translations/ 
+After using Google translate, fix manually tranlation errors, pass his script, and check N-triples syntax.
 
-but this is only for the W3C, and only for "external" documentation. 
+	sed -s '1,$s/@en/@fr/' vocab.fr.nt =
 
 ## List of I18N translations in Turtle
 

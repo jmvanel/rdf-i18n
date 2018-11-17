@@ -1,0 +1,30 @@
+    <http://purl.org/dc/elements/1.1/contributor>     <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making contributions to the resource."@en .
+    <http://purl.org/dc/elements/1.1/contributor>     <http://www.w3.org/2000/01/rdf-schema#label> "Contributor"@en .
+    <http://purl.org/dc/elements/1.1/coverage>     <http://www.w3.org/2000/01/rdf-schema#comment> "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en .
+    <http://purl.org/dc/elements/1.1/coverage>     <http://www.w3.org/2000/01/rdf-schema#label> "Coverage"@en .
+    <http://purl.org/dc/elements/1.1/creator>     <http://www.w3.org/2000/01/rdf-schema#comment> "An entity primarily responsible for making the resource."@en .
+    <http://purl.org/dc/elements/1.1/creator>     <http://www.w3.org/2000/01/rdf-schema#label> "Creator"@en .
+    <http://purl.org/dc/elements/1.1/date>     <http://www.w3.org/2000/01/rdf-schema#comment> "A point or period of time associated with an event in the lifecycle of the resource."@en .
+    <http://purl.org/dc/elements/1.1/date>     <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en .
+    <http://purl.org/dc/elements/1.1/description>     <http://www.w3.org/2000/01/rdf-schema#comment> "An account of the resource."@en .
+    <http://purl.org/dc/elements/1.1/description>     <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en .
+    <http://purl.org/dc/elements/1.1/format>     <http://www.w3.org/2000/01/rdf-schema#comment> "The file format, physical medium, or dimensions of the resource."@en .
+    <http://purl.org/dc/elements/1.1/format>     <http://www.w3.org/2000/01/rdf-schema#label> "Format"@en .
+    <http://purl.org/dc/elements/1.1/identifier>     <http://www.w3.org/2000/01/rdf-schema#comment> "An unambiguous reference to the resource within a given context."@en .
+    <http://purl.org/dc/elements/1.1/identifier>     <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en .
+    <http://purl.org/dc/elements/1.1/language>     <http://www.w3.org/2000/01/rdf-schema#comment> "A language of the resource."@en .
+    <http://purl.org/dc/elements/1.1/language>     <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+    <http://purl.org/dc/elements/1.1/publisher>     <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making the resource available."@en .
+    <http://purl.org/dc/elements/1.1/publisher>     <http://www.w3.org/2000/01/rdf-schema#label> "Publisher"@en .
+    <http://purl.org/dc/elements/1.1/relation>     <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource."@en .
+    <http://purl.org/dc/elements/1.1/relation>     <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@en .
+    <http://purl.org/dc/elements/1.1/rights>     <http://www.w3.org/2000/01/rdf-schema#comment> "Information about rights held in and over the resource."@en .
+    <http://purl.org/dc/elements/1.1/rights>     <http://www.w3.org/2000/01/rdf-schema#label> "Rights"@en .
+    <http://purl.org/dc/elements/1.1/source>     <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource from which the described resource is derived."@en .
+    <http://purl.org/dc/elements/1.1/source>     <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en .
+    <http://purl.org/dc/elements/1.1/subject>     <http://www.w3.org/2000/01/rdf-schema#comment> "The topic of the resource."@en .
+    <http://purl.org/dc/elements/1.1/subject>     <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en .
+    <http://purl.org/dc/elements/1.1/title>     <http://www.w3.org/2000/01/rdf-schema#comment> "A name given to the resource."@en .
+    <http://purl.org/dc/elements/1.1/title>     <http://www.w3.org/2000/01/rdf-schema#label> "Title"@en .
+    <http://purl.org/dc/elements/1.1/type>     <http://www.w3.org/2000/01/rdf-schema#comment> "The nature or genre of the resource."@en .
+    <http://purl.org/dc/elements/1.1/type>     <http://www.w3.org/2000/01/rdf-schema#label> "Type"@en .

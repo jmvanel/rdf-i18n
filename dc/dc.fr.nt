@@ -1,0 +1,31 @@
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Une entité chargée de contribuer à la ressource."@fr.
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Contributeur"@fr.
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Le sujet spatial ou temporel de la ressource, l'applicabilité spatial de la ressource, ou la juridiction sous laquelle la ressource est pertinente. "@fr.
+<http://purl.org/dc/elements/1.1/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Couverture"@fr.
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "Une entité principalement responsable de la création de la ressource."@fr.
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Créateur"@fr.
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Un point ou une période associé à un événement dans le cycle de vie de la ressource. "@fr.
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@fr.
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Une description de la ressource."@fr.
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@fr.
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format du fichier, son support physique ou ses dimensions. ressource. "@fr.
+<http://purl.org/dc/elements/1.1/format> <http://www.w3.org/2000/01/rdf-schema#label> "Format"@fr.
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Référence sans ambiguïté à la ressource dans un contexte donné. "@fr.
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiant"@fr.
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#comment> "Un langage de la ressource."@fr.
+<http://purl.org/dc/elements/1.1/language> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr.
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Entité responsable de la mise à disposition de la ressource."@fr.
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher".
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource connexe."@fr.
+<http://purl.org/dc/elements/1.1/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@fr.
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Informations sur les droits détenus dans et sur la ressource."@fr.
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2000/01/rdf-schema#label> "Droits".
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource connexe à partir de laquelle la ressource décrite est dérivée. "@fr.
+<http://purl.org/dc/elements/1.1/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Le sujet de la ressource."@fr.
+<http://purl.org/dc/elements/1.1/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Sujet"
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom donné à la ressource."@fr.
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2000/01/rdf-schema#label> "Titre"@fr.
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2000/01/rdf-schema#comment> "La nature ou le genre de la ressource."@fr .
+<http://purl.org/dc/elements/1.1/type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@fr.
+
