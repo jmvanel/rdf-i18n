@@ -138,6 +138,6 @@
         lingvoj:originalResource    dc: ;
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
-        lingvoj:translatedResource  <dc/dc.fr.nt> ;
+        lingvoj:translatedResource  <dc/dc.fr.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2018-11-17" .
