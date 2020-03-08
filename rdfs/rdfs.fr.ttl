@@ -1,48 +1,48 @@
 @prefix : <http://www.w3.org/2000/01/rdf-schema#> .
     
-    :Class     :comment "La classe des classes.";
-         :label "classe" .
+    :Class     :comment "La classe des classes."@fr ;
+         :label "classe"@fr .
     
-    :Container     :comment "La classe des conteneurs RDF.";
-         :label "Container" .
+    :Container     :comment "La classe des conteneurs RDF."@fr ;
+         :label "Container"@fr .
     
     :ContainerMembershipProperty     :comment "La classe de propriétés d'appartenance de conteneur, rdf: _1, rdf:. _2, ... qui sont tous des sous-propriétés de «membre» ";
-         :label "propriété d'appartenance de conteneur" .
+         :label "propriété d'appartenance de conteneur"@fr .
     
-    :Datatype     :comment "La classe de types de données RDF.";
-         :label "Type de données" .
+    :Datatype     :comment "La classe de types de données RDF."@fr ;
+         :label "Type de données"@fr .
     
     :Literal     :comment "La classe des valeurs littérales, par exemple, . chaînes et les entiers textuelles. ";
-         :label "littérale" .
+         :label "littérale"@fr .
     
-    :Resource     :comment "La ressource de classe, tout.";
-         :label "ressources" .
+    :Resource     :comment "La ressource de classe, tout."@fr ;
+         :label "ressources"@fr .
     
     :comment     :comment "Une description de la ressource sujet. ";
-         :label "commentaire" .
+         :label "commentaire"@fr .
     
     :domain     :comment "Un domaine de la propriété en question. ";
-         :label "domaine" .
+         :label "domaine"@fr .
     
     :isDefinedBy     :comment "La définition de la ressource sujet. ";
-         :label "est défini par" .
+         :label "est défini par"@fr .
     
-    :label     :comment "Un nom lisible par l'homme.";
-         :label "label" .
+    :label     :comment "Un nom lisible par l'homme."@fr ;
+         :label "label"@fr .
     
     :member     :comment "Un membre de la ressource sujet. ";
-         :label "membre" .
+         :label "membre"@fr .
     
     :range     :comment "Une gamme de la propriété en question. ";
-         :label "gamme" .
+         :label "gamme"@fr .
     
     :seeAlso     :comment "de plus amples informations à propos de la ressource sujet. ";
-         :label "voir aussi" .
+         :label "voir aussi"@fr .
     
     :subClassOf     :comment "Le sujet est une sous-classe d'une classe. ";
-         :label "sous-classe" .
+         :label "sous-classe"@fr .
     
     :subPropertyOf     :comment "Le sujet est une sous-propriété de la propriété. ";
-         :label "sous-propriété de" .
+         :label "sous-propriété de"@fr .
     
 #ENDS
