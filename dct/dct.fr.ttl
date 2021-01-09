@@ -1,31 +1,197 @@
-<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Une entité chargée de contribuer à la ressource."@fr.
-<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Contributeur"@fr.
-<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Le sujet spatial ou temporel de la ressource, l'applicabilité spatial de la ressource, ou la juridiction sous laquelle la ressource est pertinente. "@fr.
-<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Couverture"@fr.
-<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "Une entité principalement responsable de la création de la ressource."@fr.
-<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Créateur"@fr.
-<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Un point ou une période associé à un événement dans le cycle de vie de la ressource. "@fr.
-<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@fr.
-<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Une description de la ressource."@fr.
-<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@fr.
-<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format du fichier, son support physique ou ses dimensions. ressource. "@fr.
-<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#label> "Format"@fr.
-<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Référence sans ambiguïté à la ressource dans un contexte donné. "@fr.
-<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiant"@fr.
-<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#comment> "Un langage de la ressource."@fr.
-<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr.
-<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "Entité responsable de la mise à disposition de la ressource."@fr.
-<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Éditeur"@fr.
-<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource connexe."@fr.
-<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@fr.
-<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Informations sur les droits détenus dans et sur la ressource."@fr.
-<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#label> "Droits"@fr.
-<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource connexe à partir de laquelle la ressource décrite est dérivée. "@fr.
-<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@fr.
-<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Le sujet de la ressource."@fr.
-<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Sujet"@fr .
-<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Nom donné à la ressource."@fr.
-<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "Titre"@fr.
-<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#comment> "La nature ou le genre de la ressource."@fr .
-<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@fr.
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource qui acgit ou a le pouvoir d'agir."@fr .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@fr .
+<http://purl.org/dc/terms/AgentClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Un groupe d'agents."@fr .
+<http://purl.org/dc/terms/AgentClass> <http://www.w3.org/2000/01/rdf-schema#label> "Classe d'agent"@fr .
+<http://purl.org/dc/terms/BibliographicResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Un livre, article, ou une autre ressource documentaire."@fr .
+<http://purl.org/dc/terms/BibliographicResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource bibliographique"@fr .
+<http://purl.org/dc/terms/Box> <http://www.w3.org/2000/01/rdf-schema#comment> "ensemble de régions spatiales définies par coordonnées géographiques selon le Schéma de boîte DCMI."@fr .
+<http://purl.org/dc/terms/Box> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Caisse"@fr .
+<http://purl.org/dc/terms/DCMIType> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de classes a précisé par le DCMI Vocabulaire de Type, utilisé à categorize la nature ou genre de la ressource."@fr .
+<http://purl.org/dc/terms/DCMIType> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Vocabulaire de Type"@fr .
+<http://purl.org/dc/terms/DDC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de ressources conceptuales a précisé par le Dewey Classement Decimal."@fr .
+<http://purl.org/dc/terms/DDC> <http://www.w3.org/2000/01/rdf-schema#label> "DDC"@fr .
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Un format de ressource digitale."@fr .
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Format d'archives"@fr .
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Un taux en lequel quelque chose se répète."@fr .
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Fréquence"@fr .
+<http://purl.org/dc/terms/IMT> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de médias écrit précisé par l'Internet a Assigné Autorité de Nombres."@fr .
+<http://purl.org/dc/terms/IMT> <http://www.w3.org/2000/01/rdf-schema#label> "IMT"@fr .
+<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de codes a listé en ISO 3166-1 pour la représentation de noms de pays."@fr .
+<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 3166"@fr .
+<http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/2000/01/rdf-schema#comment> "Le trois-lettre les codes alphabétiques ils ont listé en ISO639-2 pour la représentation de noms de langues."@fr .
+<http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2"@fr .
+<http://purl.org/dc/terms/ISO639-3> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de codes de trois lettres a listé en ISO 639-3 pour la représentation de noms de langues."@fr .
+<http://purl.org/dc/terms/ISO639-3> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-3"@fr .
+<http://purl.org/dc/terms/Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "L'extension ou gamme de judiciaire, application de loi, ou une autre autorité."@fr .
+<http://purl.org/dc/terms/Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Juridiction"@fr .
+<http://purl.org/dc/terms/LCC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de ressources conceptuales a précisé par la Bibliothèque de Classement de Congrès."@fr .
+<http://purl.org/dc/terms/LCC> <http://www.w3.org/2000/01/rdf-schema#label> "LCC"@fr .
+<http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de labeled les concepts ont précisé par la Bibliothèque du congrès Sujet Headings."@fr .
+<http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#label> "LCSH"@fr .
+<http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un document légal qui donne permission officielle pour faire quelque chose avec une Ressource."@fr .
+<Http://purl.org/dc/Plazos/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Document de Licence"@fr .
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Un système de signaux, symboles, sons, gestes, ou les règles ils ont utilisé en communication."@fr .
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Système linguistique"@fr .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Une région spatiale ou site nommé."@fr .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Emplacement"@fr .
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "Un emplacement, période de temps, ou juridiction."@fr .
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Emplacement, Période, ou Juridiction"@fr .
+<http://purl.org/dc/terms/MESH> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de labeled les concepts ont précisé par le Médecins Sujets Headings."@fr .
+<http://purl.org/dc/terms/MESH> <http://www.w3.org/2000/01/rdf-schema#label> "MALLA"@fr .
+<http://purl.org/dc/terms/MediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Un format d'archives ou moyen physicien."@fr .
+<http://purl.org/dc/terms/MediaType> <http://www.w3.org/2000/01/rdf-schema#label> "Type de médias"@fr .
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un type de médias ou extension."@fr .
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Type de médias ou Extension"@fr .
+<http://purl.org/dc/terms/MethodOfAccrual> <http://www.w3.org/2000/01/rdf-schema#comment> "Un méthode par des quelles ressources est ajouté à une collection."@fr .
+<http://purl.org/dc/terms/MethodOfAccrual> <http://www.w3.org/2000/01/rdf-schema#label> "Méthode de Accrual"@fr .
+<http://purl.org/dc/terms/MethodOfInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Un procès qui a l'habitude de engender connaissance, attitudes, et habilités."@fr .
+<http://purl.org/dc/terms/MethodOfInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Méthode d'Instruction"@fr .
+<http://purl.org/dc/terms/NLM> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de ressources conceptuales a précisé par la Bibliothèque Nationale de Classement de Médecine."@fr .
+<http://purl.org/dc/terms/NLM> <http://www.w3.org/2000/01/rdf-schema#label> "NLM"@fr .
+<http://purl.org/dc/terms/Period> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble d'intervalles de temps a défini par ses limites selon le DCMI Période que Codifica Schéma."@fr .
+<http://purl.org/dc/terms/Period> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Période"@fr .
+<http://purl.org/dc/terms/PeriodOfTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Un intervalle de cronometrar cela est nommé ou défini par son début et des dates de fin."@fr .
+<http://purl.org/dc/terms/PeriodOfTime> <http://www.w3.org/2000/01/rdf-schema#label> "Période de Cronometrar"@fr .
+<http://purl.org/dc/terms/PhysicalMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Un matériel physique ou transporteur."@fr .
+<http://purl.org/dc/terms/PhysicalMedium> <http://www.w3.org/2000/01/rdf-schema#label> "Moyen physicien"@fr .
+<http://purl.org/dc/terms/PhysicalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Une chose matérielle."@fr .
+<http://purl.org/dc/terms/PhysicalResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ressource physique"@fr .
+<http://purl.org/dc/terms/Point> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de points en spatiaux définis par ses coordenadas géographiques selon le DCMI Point que Codifica Schéma."@fr .
+<http://purl.org/dc/terms/Point> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Point"@fr .
+<http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un plan ou cours d'action par une autorité, prétendu pour influencer et déterminer des décisions, actions, et autres sujets."@fr .
+<http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Politique"@fr .
+<Http://purl.org/dc/Plazos/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration de n'importe quels changements en propriété et garde d'une ressource depuis sa création qu'est significatif pour son authenticité, intégrité, et interprétation."@fr .
+<http://purl.org/dc/terms/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance Déclaration"@fr .
+<http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de tags, bâti selon RFC 1766, pour l'identification de langues."@fr .
+<http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 1766"@fr .
+<http://purl.org/dc/terms/RFC3066> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de tags bâti selon RFC 3066 pour l'identification de langues."@fr .
+<http://purl.org/dc/terms/RFC3066> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 3066"@fr .
+<http://purl.org/dc/terms/RFC4646> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de tags bâti selon RFC 4646 pour l'identification de langues."@fr .
+<http://purl.org/dc/terms/RFC4646> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 4646"@fr .
+<http://purl.org/dc/terms/RFC5646> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de tags bâti selon RFC 5646 pour l'identification de langues."@fr .
+<http://purl.org/dc/terms/RFC5646> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 5646"@fr .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration sur les droits de propriété intellectuelle (IPR) a résisté en ou sur une Ressource, un document légal qui donne permission officielle pour faire quelque chose avec une ressource, ou une déclaration environ droite d'accès."@fr .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Déclaration de droits"@fr .
+<http://purl.org/dc/terms/SizeOrDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Une dimension ou extension, ou un temps pris pour jouer ou exécuter."@fr .
+<http://purl.org/dc/terms/SizeOrDuration> <http://www.w3.org/2000/01/rdf-schema#label> "Mesure ou Durée"@fr .
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Une base pour comparaison; un point à l'encontre de référence quelle autres choses ils peuvent être évaluées."@fr .
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard"@fr .
+<http://purl.org/dc/terms/TGN> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de sites a précisé par le Getty Thesaurus de Noms Géographiques."@fr .
+<http://purl.org/dc/terms/TGN> <http://www.w3.org/2000/01/rdf-schema#label> "TGN"@fr .
+<http://purl.org/dc/terms/UDC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de ressources conceptuales a précisé par le Classement Decimal Universel."@fr .
+<http://purl.org/dc/terms/UDC> <http://www.w3.org/2000/01/rdf-schema#label> "UDC"@fr .
+<http://purl.org/dc/terms/URI> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de identificadores a bâti selon la sintaxis générique pour Identificadores de Ressource Uniforme lorsque précisés par la Force de Tâche d'Ingénierie d'Internet."@fr .
+<http://purl.org/dc/terms/URI> <http://www.w3.org/2000/01/rdf-schema#label> "URI"@fr .
+<http://purl.org/dc/terms/W3CDTF> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de dates et temps a bâti selon la Date de W3C et Spécification de Formats du Temps."@fr .
+<http://purl.org/dc/terms/W3CDTF> <http://www.w3.org/2000/01/rdf-schema#label> "W3C-DTF"@fr .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte rendu de la ressource."@fr .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstrait"@fr .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "Information environ qui est-ce qui ils peuvent accéder la ressource ou une indication de son état de sécurité."@fr .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Droits d'accès"@fr .
+<http://purl.org/dc/terms/accrualMethod> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Le méthode par des quels éléments est ajouté à une collection."@fr .
+<http://purl.org/dc/terms/accrualMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Méthode"@fr .
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#comment> "La fréquence avec des quels éléments est ajoutée à une collection."@fr .
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Périodicité"@fr .
+<http://purl.org/dc/terms/accrualPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "La politique qui gouverne l'addition d'éléments à une collection."@fr .
+<http://purl.org/dc/terms/accrualPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Politique"@fr .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nom alternatif pour la ressource."@fr .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#label> "Titre alternatif"@fr .
+<http://purl.org/dc/terms/audience> <http://www.w3.org/2000/01/rdf-schema#comment> "Une classe importante pour qui la ressource est prétendu ou utile."@fr .
+<http://purl.org/dc/terms/audience> <http://www.w3.org/2000/01/rdf-schema#label> "Audience"@fr .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#comment> "Date (souvent une gamme) que la ressource devenait ou il deviendra disponible."@fr .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#label> "La date Disponible"@fr .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#comment> "Une référence bibliographique pour la ressource."@fr .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#label> "Rendez-vous bibliographique"@fr .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Un établi standard auquel la ressource décrite conforme."@fr .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "Il conforme À"@fr .
 
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Un établissement responsable pour faire contributions à la ressource."@fr .
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Collaborateur"@fr .
+<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Le spatial ou temporel thème de la ressource, l'applicabilité spatiale de la ressource, ou la juridiction bas quelle la ressource est pertinente."@fr .
+<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Couverture"@fr .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#comment> "Date de création de la ressource."@fr .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Créé"@fr .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un établissement principalement responsable pour faire la ressource."@fr .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Créateur"@fr .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Un point ou période de cronometrar associé avec un événement en le lifecycle de la ressource."@fr .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@fr .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date d'acceptation de la ressource."@fr .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Accepté"@fr .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date de copyright."@fr .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#label> "Il date Copyrighted"@fr .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date de soumission de la ressource."@fr .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Livré"@fr .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Un compte de la ressource."@fr .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@fr .
+<http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Une classe importante, défini en des termes de progression à travers un éducatif ou en entraînant contexte, à quoi la ressource décrite est prétendu."@fr .
+<http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Niveau d'Éducation de l'audience"@fr .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#comment> "La mesure ou durée de la ressource."@fr .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#label> "Extension"@fr .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format d'archives, moyen physicien, ou dimensions de la ressource."@fr .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#label> "Format"@fr .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est sustancialmente égale comme la ressource décrite preexistente, mais dans un autre format."@fr .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Il a Format"@fr .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qui est compris non plus physiquement ou logiquement dans la ressource décrite."@fr .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Il a Part"@fr .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est une version, édition, ou adaptation de la ressource décrite."@fr .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Il a Version"@fr .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Une référence inequívoca à la ressource dedans d'un contexte donné."@fr .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@fr .
+<http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Un procès, utilisé à engender connaissance, attitudes et habilités, que la ressource décrite est dessiné pour soutenir."@fr .
+<http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Instructional Méthode"@fr .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est sustancialmente égale comme la ressource décrite, mais dans un autre format."@fr .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#label> "Il est Format De"@fr .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée en quelle la ressource décrite est physiquement ou logiquement compris."@fr .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "Il est Part De"@fr .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée que références, rendez-vous, ou otherwise points à la ressource décrite."@fr .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Il est Referenced Par"@fr .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée que supplants, déplace, ou supersedes la ressource décrite."@fr .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Est Remplacé Par"@fr .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qui requiert la ressource décrite pour soutenir sa fonction, livraison, ou cohérence."@fr .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#label> "Il est Requis Par"@fr .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée duquel la ressource décrite est une version, édition, ou adaptation."@fr .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label> "Il est Version De"@fr .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#comment> "Date de formelle issuance (p. ej., Publication) de la ressource."@fr .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Émis"@fr .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#comment> "Une langue de la ressource."@fr .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#label> "Langue"@fr .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#comment> "Un document légal qui donne permission officielle pour faire quelque chose avec la ressource."@fr .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "Licence"@fr .
+<http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un établissement que moyen accès à la ressource et pour qui la ressource est prétendu ou utile."@fr .
+<http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#label> "Médiateur"@fr .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Le transporteur matériel ou physicien de la ressource."@fr .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#label> "Moyen"@fr .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#comment> "La date en quelle la ressource a été changée."@fr .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Modifié"@fr .
+<http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration de n'importe quels changements en propriété et garde de la ressource depuis sa création qu'est significatif pour son authenticité, intégrité, et interprétation."@fr .
+<http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance"@fr .
+<http://purl.org/dc/terms/publisher> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Un établissement responsable pour faire la ressource disponible."@fr .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Éditeur"@fr .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est referenced, cité, ou otherwise visé à par la ressource décrite."@fr .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#label> "Références"@fr .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée."@fr .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@fr .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est supplanted, déplacé, ou superseded par la ressource décrite."@fr .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#label> "Il remplace"@fr .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qui est requis par la ressource décrite pour soutenir sa fonction, livraison, ou cohérence."@fr .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#label> "Il requiert"@fr .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "L'information sur des droits a résisté en et sur la ressource."@fr .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#Label> "Droits"@fr .
+<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Une personne ou l'organisation qui possède ou droits gestionnaires sur la ressource."@fr .
+<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/2000/01/rdf-schema#label> "Titulaire de droits"@fr .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée de quelle la ressource décrite est dérivé."@fr .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@fr .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#comment> "Caractéristiques spatiaux de la ressource."@fr .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Couverture spatiale"@fr .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Le thème de la ressource."@fr .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Sujet"@fr .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#comment> "Une liste de subunits de la ressource."@fr .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#label> "Table De Contenus"@fr .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporel Caractéristiques de la ressource."@fr .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#label> "Temporelle Couverture"@fr .
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nom donné à la ressource."@fr .
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "Titre"@fr .
+<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#comment> "La nature ou genre de la ressource."@fr .
+<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@fr .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "Date (souvent une gamme) de validité d'une ressource."@fr .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#label> "La date Valable"@fr .

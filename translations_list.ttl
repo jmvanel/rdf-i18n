@@ -152,3 +152,24 @@
         lingvoj:translatedResource  <dct/dct.fr.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2021-01-09" .
+
+<translation-dct-en-to-es>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Dublin Core terms en Espagnol par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    dct: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/es> ;
+        lingvoj:translatedResource  <dct/dct.es.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2021-01-09" .
+
+<translation-dct-en-to-it>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Dublin Core terms en Italien par Jean-Marc Vanel"@fr ;
+        lingvoj:originalResource    dct: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/it> ;
+        lingvoj:translatedResource  <dct/dct.it.ttl> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2021-01-09" .
+

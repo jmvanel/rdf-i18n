@@ -1,0 +1,197 @@
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso che atti o ha il potere di agire."@it .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agente"@it .
+<http://purl.org/dc/terms/AgentClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Un gruppo di agenti."@it .
+<http://purl.org/dc/terms/AgentClass> <http://www.w3.org/2000/01/rdf-schema#label> "Classe di agente"@it .
+<http://purl.org/dc/terms/BibliographicResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Un libro, articolo, o un altro ricorso documentale."@it .
+<http://purl.org/dc/terms/BibliographicResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ricorso bibliográfico"@it .
+<http://purl.org/dc/terms/Box> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di regioni in spaziali definiti dalle sue coordenadas geografiche secondo la DCMI Cassa che Codifica Schema."@it .
+<http://purl.org/dc/terms/Box> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Cassa"@it .
+<http://purl.org/dc/terms/DCMIType> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di classi ha specificato dal DCMI Vocabolario di Tipo, utilizzato a categorize la natura o genere del ricorso."@it .
+<http://purl.org/dc/terms/DCMIType> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Vocabolario di Tipo"@it .
+<http://purl.org/dc/terms/DDC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di ricorsi concettuali ha specificato dal Dewey Classifica Decimale."@it .
+<http://purl.org/dc/terms/DDC> <http://www.w3.org/2000/01/rdf-schema#label> "DDC"@it .
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Un formato di ricorso digitale."@it .
+<http://purl.org/dc/terms/FileFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Formato di archiviazione"@it .
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Un indice in che qualcosa recurs."@it .
+<http://purl.org/dc/terms/Frequency> <http://www.w3.org/2000/01/rdf-schema#label> "Frequenza"@it .
+<http://purl.org/dc/terms/IMT> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di mezzi di comunicazione scrive specificato dall'Internet Ha assegnato Autorità di Numeri."@it .
+<http://purl.org/dc/terms/IMT> <http://www.w3.org/2000/01/rdf-schema#label> "IMT"@it .
+<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di codici ha listato in ISO 3166-1 per la rappresentazione di nomi di paesi."@it .
+<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 3166"@it .
+<http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/2000/01/rdf-schema#comment> "La tre-lettera i codici alfabetici hanno listato in ISO639-2 per la rappresentazione di nomi di lenguas."@it .
+<http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-2"@it .
+<http://purl.org/dc/terms/ISO639-3> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di codici di tre lettere ha listato in ISO 639-3 per la rappresentazione di nomi di lenguas."@it .
+<http://purl.org/dc/terms/ISO639-3> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 639-3"@it .
+<http://purl.org/dc/terms/Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "L'estensione o gamma di giudiziaria, applicazione di legge, o un'altra autorità."@it .
+<http://purl.org/dc/terms/Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Giurisdizione"@it .
+<http://purl.org/dc/terms/LCC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di ricorsi concettuali ha specificato dalla Biblioteca di Classifica di Congresso."@it .
+<http://purl.org/dc/terms/LCC> <http://www.w3.org/2000/01/rdf-schema#label> "LCC"@it .
+<http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di labeled i concetti hanno specificato dalla Biblioteca del congresso Soggetto Headings."@it .
+<http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#label> "LCSH"@it .
+<http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un documento legale che dà autorizzazione ufficiale per fare qualcosa con un Ricorso."@it .
+<Http://purl.org/dc/Plazos/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Documento di Licenza"@it .
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Un sistema di segnali, simboli, suoni, gesti, o i principi hanno utilizzato in comunicazione."@it .
+<http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Sistema linguistico"@it .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Una regione spaziale o posto nominato."@it .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Ubicazione"@it .
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'ubicazione, periodo di meteo, o giurisdizione."@it .
+<http://purl.org/dc/terms/LocationPeriodOrJurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Ubicazione, Periodo, o Giurisdizione"@it .
+<http://purl.org/dc/terms/MESH> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di labeled i concetti hanno specificato dai Medici Soggetti Headings."@it .
+<http://purl.org/dc/terms/MESH> <http://www.w3.org/2000/01/rdf-schema#label> "MAGLIA"@it .
+<http://purl.org/dc/terms/MediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Un formato di archiviazione o mezzo fisico."@it .
+<http://purl.org/dc/terms/MediaType> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di mezzi di comunicazione"@it .
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/2000/01/rdf-schema#comment> "Un tipo di mezzi di comunicazione o estensione."@it .
+<http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo di mezzi di comunicazione o Estensione"@it .
+<http://purl.org/dc/terms/MethodOfAccrual> <http://www.w3.org/2000/01/rdf-schema#comment> "Un metodo perché ricorsi è aggiunti a una collezione."@it .
+<http://purl.org/dc/terms/MethodOfAccrual> <http://www.w3.org/2000/01/rdf-schema#label> "Metodo di Accrual"@it .
+<http://purl.org/dc/terms/MethodOfInstruction> <http://www.w3.org/2000/01/rdf-schema#comment> "Un processo che suole engender conoscenza, atteggiamenti, e abilità."@it .
+<http://purl.org/dc/terms/MethodOfInstruction> <http://www.w3.org/2000/01/rdf-schema#label> "Metodo di Istruzione"@it .
+<http://purl.org/dc/terms/NLM> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di ricorsi concettuali ha specificato dalla Biblioteca Nazionale di Classifica di Medicina."@it .
+<http://purl.org/dc/terms/NLM> <http://www.w3.org/2000/01/rdf-schema#label> "NLM"@it .
+<http://purl.org/dc/terms/Period> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di intervalli di meteo ha definito dai suoi limiti secondo il DCMI Periodo che Codifica Schema."@it .
+<http://purl.org/dc/terms/Period> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Periodo"@it .
+<http://purl.org/dc/terms/PeriodOfTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Un intervallo di cronometrar quello è #nominare o definito dal suo inizio e date di fine."@it .
+<http://purl.org/dc/terms/PeriodOfTime> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo di Cronometrar"@it .
+<http://purl.org/dc/terms/PhysicalMedium> <http://www.w3.org/2000/01/rdf-schema#comment> "Una materia fisica o transportista."@it .
+<http://purl.org/dc/terms/PhysicalMedium> <http://www.w3.org/2000/01/rdf-schema#label> "Mezzo fisico"@it .
+<http://purl.org/dc/terms/PhysicalResource> <http://www.w3.org/2000/01/rdf-schema#comment> "Una cosa materiale."@it .
+<http://purl.org/dc/terms/PhysicalResource> <http://www.w3.org/2000/01/rdf-schema#label> "Ricorso fisico"@it .
+<http://purl.org/dc/terms/Point> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di punti in spaziali definiti dai suoi coordenadas geografiche secondo il DCMI Punto che Codifica Schema."@it .
+<http://purl.org/dc/terms/Point> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Punto"@it .
+<http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un piano o corso di azione per un'autorità, preteso per influenzare e determinare decisioni, azioni, e altri affari."@it .
+<http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Politica"@it .
+<Http://purl.org/dc/Plazos/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Una dichiarazione di #qualsiasi cambi in proprietà e affidamento di un ricorso dal suo avviamento che è significativo per la sua autenticità, integrità, e interpretazione."@it .
+<http://purl.org/dc/terms/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance Dichiarazione"@it .
+<http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di tags, costruito secondo RFC 1766, per l'identificazione di lenguas."@it .
+<http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 1766"@it .
+<http://purl.org/dc/terms/RFC3066> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di tags costruito secondo RFC 3066 per l'identificazione di lenguas."@it .
+<http://purl.org/dc/terms/RFC3066> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 3066"@it .
+<http://purl.org/dc/terms/RFC4646> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di tags costruito secondo RFC 4646 per l'identificazione di lenguas."@it .
+<http://purl.org/dc/terms/RFC4646> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 4646"@it .
+<http://purl.org/dc/terms/RFC5646> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di tags costruito secondo RFC 5646 per l'identificazione di lenguas."@it .
+<http://purl.org/dc/terms/RFC5646> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 5646"@it .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Una dichiarazione sui diritti di proprietà intellettuale (IPR) ha tenuto in o su un Ricorso, un documento legale che dà autorizzazione ufficiale per fare qualcosa con un ricorso, o una dichiarazione approssimativamente diritta di accesso."@it .
+<http://purl.org/dc/terms/RightsStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Dichiarazione di diritti"@it .
+<http://purl.org/dc/terms/SizeOrDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Una dimensione o estensione, o una meteo presa per giocare o eseguire."@it .
+<http://purl.org/dc/terms/SizeOrDuration> <http://www.w3.org/2000/01/rdf-schema#label> "Misura o Durata"@it .
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Una base per comparazione; un punto contro di riferimento che un'altra roba possono essere valutate."@it .
+<http://purl.org/dc/terms/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard"@it .
+<http://purl.org/dc/terms/TGN> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di posti ha specificato dal Getty Thesaurus di Nomi Geografici."@it .
+<http://purl.org/dc/terms/TGN> <http://www.w3.org/2000/01/rdf-schema#label> "TGN"@it .
+<http://purl.org/dc/terms/UDC> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di ricorsi concettuali ha specificato dalla Classifica Decimale Universale."@it .
+<http://purl.org/dc/terms/UDC> <http://www.w3.org/2000/01/rdf-schema#label> "UDC"@it .
+<http://purl.org/dc/terms/URI> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di identificadores ha costruito secondo la sintassi generica per Identificadores di Ricorso Uniformi quando specificati dalla Forza di Compito di Ingegneria di Internet."@it .
+<http://purl.org/dc/terms/URI> <http://www.w3.org/2000/01/rdf-schema#label> "URI"@it .
+<http://purl.org/dc/terms/W3CDTF> <http://www.w3.org/2000/01/rdf-schema#comment> "L'insieme di date e meteo ha costruito secondo la Data di W3C e Specificazione di Formati della Meteo."@it .
+<http://purl.org/dc/terms/W3CDTF> <http://www.w3.org/2000/01/rdf-schema#label> "W3C-DTF"@it .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Un riassunto del ricorso."@it .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Astratto"@it .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "Informazione approssimativamente chi possono accedere il ricorso o un'indicazione del suo stato di sicurezza."@it .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Diritti di accesso"@it .
+<http://purl.org/dc/terms/accrualMethod> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Il metodo perché elementi è aggiunti a una collezione."@it .
+<http://purl.org/dc/terms/accrualMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Metodo"@it .
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#comment> "La frequenza con che elementi è aggiunti a una collezione."@it .
+<http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Periodicità"@it .
+<http://purl.org/dc/terms/accrualPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "La politica che governa l'addizione di elementi a una collezione."@it .
+<http://purl.org/dc/terms/accrualPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Politica"@it .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nome alternativo per il ricorso."@it .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#label> "Titolo alternativo"@it .
+<http://purl.org/dc/terms/audience> <http://www.w3.org/2000/01/rdf-schema#comment> "Una classe di entità per chi il ricorso è preteso o utile."@it .
+<http://purl.org/dc/terms/audience> <http://www.w3.org/2000/01/rdf-schema#label> "Audience"@it .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#comment> "Data (spesso una gamma) che il ricorso devenía o devendrá disponibile."@it .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#label> "La data Disponibile"@it .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#comment> "Un riferimento bibliográfica per il ricorso."@it .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#label> "Appuntamento bibliográfica"@it .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Uno stabilito standard a il come il ricorso descritto conforma."@it .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "Conforma A"@it .
+
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'entità responsabile per fare contributi al ricorso."@it .
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Collaboratore"@it .
+<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "Lo spaziale o temporaneo soggetto del ricorso, l'applicabilità spaziale del ricorso, o la giurisdizione sotto che il ricorso è pertinente."@it .
+<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Copertura"@it .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#comment> "Data di avviamento del ricorso."@it .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#label> "La data Ha creato"@it .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'entità principalmente responsabile per fare il ricorso."@it .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Creatore"@it .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#comment> "Un punto o periodo di cronometrar associato con un evento nel lifecycle del ricorso."@it .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#label> "Data"@it .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#comment> "Data di accettazione del ricorso."@it .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#label> "La data Ha accettato"@it .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#comment> "Data di copyright."@it .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#label> "Data Copyrighted"@it .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#comment> "Data di sumisión del ricorso."@it .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#label> "La data Ha consegnato"@it .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#comment> "Un conto del ricorso."@it .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "Descrizione"@it .
+<http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "Una classe di entità, definito in lassi di progressione tramite un educativo o allenando contesto, per che il ricorso descritto è preteso."@it .
+<http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Livello di Educazione dell'audience"@it .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#comment> "La misura o durata del ricorso."@it .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#label> "Estensione"@it .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#comment> "Il formato di archiviazione, mezzo fisico, o dimensioni del ricorso."@it .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#label> "Formato"@it .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è sostanzialmente uguale come il ricorso descritto preexistente, ma in un altro formato."@it .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Ha Formato"@it .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è incluso neanche fisicamente o logicamente nel ricorso descritto."@it .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Ha Parte"@it .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è una versione, edizione, o adattamento del ricorso descritto."@it .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Ha Versione"@it .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Un riferimento inequívoca al ricorso dentro un contesto dato."@it .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@it .
+<http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Un processo, utilizzato ad engender conoscenza, atteggiamenti e abilità, che il ricorso descritto è disegnato per sostenere."@it .
+<http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Instructional Metodo"@it .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è sostanzialmente uguale come il ricorso descritto, ma in un altro formato."@it .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#label> "È Formato Di"@it .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante in che il ricorso descritto è fisicamente o logicamente incluso."@it .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "È Parte Di"@it .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che riferimenti, appuntamento, o otherwise punti al ricorso descritto."@it .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "È Referenced Per"@it .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che supplants, sposta, o supersedes il ricorso descritto."@it .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#label> "È Sostituito Per"@it .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che richiede il ricorso descritto per sostenere la sua funzione, consegna, o coerenza."@it .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#label> "È Richiesto Per"@it .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante del come il ricorso descritto è una versione, edizione, o adattamento."@it .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label> "È Versione Di"@it .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#comment> "Data di formale issuance (p. ej., pubblicazione) del ricorso."@it .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#label> "La data Ha emesso"@it .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lengua del ricorso."@it .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#label> "Lengua"@it .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#comment> "Un documento legale che dà autorizzazione ufficiale per fare qualcosa con il ricorso."@it .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "Licenza"@it .
+<http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#comment> "Un'entità che media accesso al ricorso e per chi il ricorso è preteso o utile."@it .
+<http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#label> "Mediador"@it .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Il transportista materiale o fisico del ricorso."@it .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#label> "Mezzo"@it .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#comment> "La data in che il ricorso fu cambiato."@it .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#label> "La data Ha modificato"@it .
+<http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Una dichiarazione di #qualsiasi cambi in proprietà e affidamento del ricorso dal suo avviamento che è significativo per la sua autenticità, integrità, e interpretazione."@it .
+<http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance"@it .
+<http://purl.org/dc/terms/publisher> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Un'entità responsabile per fare il ricorso disponibile."@it .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Editore"@it .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è referenced, citato, o otherwise puntato a per il ricorso descritto."@it .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#label> "Riferimenti"@it .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante."@it .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relazione"@it .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è supplanted, spostato, o superseded per il ricorso descritto."@it .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#label> "Sostituisce"@it .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante che è richiesto dal ricorso descritto per sostenere la sua funzione, consegna, o coerenza."@it .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#label> "Richiede"@it .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "L'informazione su diritti ha tenuto in e sul ricorso."@it .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#label> "Diritti"@it .
+<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/2000/01/rdf-schema#comment> "Una persona o l'organizzazione che possiede o diritti gestores sul ricorso."@it .
+<http://purl.org/dc/terms/rightsHolder> <http://www.w3.org/2000/01/rdf-schema#label> "Intitolare di diritti"@it .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ricorso riguardante di che il ricorso descritto è derivato."@it .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "Fonte"@it .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#comment> "Caratteristiche spaziali del ricorso."@it .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Copertura spaziale"@it .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "Il soggetto del ricorso."@it .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Soggetto"@it .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#comment> "Un elenco di subunits del ricorso."@it .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#label> "Tavolo Di Contenuti"@it .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporanee Caratteristiche del ricorso."@it .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#label> "Temporanea Copertura"@it .
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Un nome dato al ricorso."@it .
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "Titolo"@it .
+<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#comment> "La natura o genere del ricorso."@it .
+<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#label> "Tipo"@it .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#comment> "Data (spesso una gamma) di validità di un ricorso."@it .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#label> "La data Valida"@it .
