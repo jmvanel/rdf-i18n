@@ -10,6 +10,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc:  <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 
 # @base <https://raw.githubusercontent.com/jmvanel/rdf-i18n/master/translations_list.ttl> .
 @base <https://rawgit.com/jmvanel/rdf-i18n/master/> .
@@ -172,4 +173,17 @@
         lingvoj:translatedResource  <dct/dct.it.ttl> ;
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2021-01-09" .
+
+
+<translation-dwc-en-to-fr>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Darwin Core terms en Français par Jean-Marc Vanel"@fr ;
+        rdfs:comment                "Cela implique de fabriquer un dump global de ce vocabulaire, car il n'y en a aucun !"@fr ;
+        rdfs:seeAlso                <> ;
+	lingvoj:originalResource    dwc: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+        lingvoj:translatedResource  <dwc/dwc.fr.nt> ;
+        lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
+        dcterms:issued  "2021-01-10" .
 
