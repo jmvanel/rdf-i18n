@@ -174,12 +174,11 @@
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2021-01-09" .
 
-
 <translation-dwc-en-to-fr>
         a                           lingvoj:Translation ;
         rdfs:label                  "Traduction de Darwin Core terms en Français par Jean-Marc Vanel"@fr ;
         rdfs:comment                "Cela implique de fabriquer un dump global de ce vocabulaire, car il n'y en a aucun !"@fr ;
-        rdfs:seeAlso                <> ;
+        rdfs:seeAlso                <http://semantic-forms.cc:1952/ldp/1610275429106-13136560385016491> ;
 	lingvoj:originalResource    dwc: ;
         lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
         lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/fr> ;
@@ -187,3 +186,14 @@
         lingvoj:translator          <http://jmvanel.free.fr/jmv.rdf#me> ;
         dcterms:issued  "2021-01-10" .
 
+<translation-dwc-en-to-es>
+        a                           lingvoj:Translation ;
+        rdfs:label                  "Traduction de Darwin Core terms en Espagnol par Jean-Marc Vanel"@es ;
+        rdfs:comment                "Cela implique de fabriquer un dump global de ce vocabulaire, car il n'y en a aucun !"@es ;
+        rdfs:seeAlso                <http://semantic-forms.cc:1952/ldp/1610275429106-13136560385016491> ;
+	lingvoj:originalResource    dwc: ;
+        lingvoj:originalLanguage    <http://id.loc.gov/vocabulary/iso639-1/en> ;
+        lingvoj:targetLanguage      <http://id.loc.gov/vocabulary/iso639-1/es> ;
+        lingvoj:translatedResource  <dwc/dwc.es.nt> ;
+        lingvoj:translator          <http://jmvanel.esee.es/jmv.rdf#me> ;
+        dcterms:issued  "2021-01-10" .
