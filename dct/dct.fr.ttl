@@ -29,7 +29,7 @@
 <http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de labeled les concepts ont précisé par la Bibliothèque du congrès Sujet Headings."@fr .
 <http://purl.org/dc/terms/LCSH> <http://www.w3.org/2000/01/rdf-schema#label> "LCSH"@fr .
 <http://purl.org/dc/terms/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Un document légal qui donne permission officielle pour faire quelque chose avec une Ressource."@fr .
-<Http://purl.org/dc/Plazos/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Document de Licence"@fr .
+<http://purl.org/dc/Plazos/LicenseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Document de Licence"@fr .
 <http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Un système de signaux, symboles, sons, gestes, ou les règles ils ont utilisé en communication."@fr .
 <http://purl.org/dc/terms/LinguisticSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Système linguistique"@fr .
 <http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Une région spatiale ou site nommé."@fr .
@@ -60,7 +60,7 @@
 <http://purl.org/dc/terms/Point> <http://www.w3.org/2000/01/rdf-schema#label> "DCMI Point"@fr .
 <http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#comment> "Un plan ou cours d'action par une autorité, prétendu pour influencer et déterminer des décisions, actions, et autres sujets."@fr .
 <http://purl.org/dc/terms/Policy> <http://www.w3.org/2000/01/rdf-schema#label> "Politique"@fr .
-<Http://purl.org/dc/Plazos/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration de n'importe quels changements en propriété et garde d'une ressource depuis sa création qu'est significatif pour son authenticité, intégrité, et interprétation."@fr .
+<http://purl.org/dc/Plazos/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration de n'importe quels changements en propriété et garde d'une ressource depuis sa création qu'est significatif pour son authenticité, intégrité, et interprétation."@fr .
 <http://purl.org/dc/terms/ProvenanceStatement> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance Déclaration"@fr .
 <http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#comment> "L'ensemble de tags, bâti selon RFC 1766, pour l'identification de langues."@fr .
 <http://purl.org/dc/terms/RFC1766> <http://www.w3.org/2000/01/rdf-schema#label> "RFC 1766"@fr .
@@ -88,7 +88,7 @@
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstrait"@fr .
 <http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "Information environ qui est-ce qui ils peuvent accéder la ressource ou une indication de son état de sécurité."@fr .
 <http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Droits d'accès"@fr .
-<http://purl.org/dc/terms/accrualMethod> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Le méthode par des quels éléments est ajouté à une collection."@fr .
+<http://purl.org/dc/terms/accrualMethod> <http://www.w3.org/2000/01/rdf-schema#comentario> "Le méthode par des quels éléments est ajouté à une collection."@fr .
 <http://purl.org/dc/terms/accrualMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Méthode"@fr .
 <http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#comment> "La fréquence avec des quels éléments est ajoutée à une collection."@fr .
 <http://purl.org/dc/terms/accrualPeriodicity> <http://www.w3.org/2000/01/rdf-schema#label> "Accrual Périodicité"@fr .
@@ -165,7 +165,7 @@
 <http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#label> "La date a Modifié"@fr .
 <http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Une déclaration de n'importe quels changements en propriété et garde de la ressource depuis sa création qu'est significatif pour son authenticité, intégrité, et interprétation."@fr .
 <http://purl.org/dc/terms/provenance> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance"@fr .
-<http://purl.org/dc/terms/publisher> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Un établissement responsable pour faire la ressource disponible."@fr .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#comentario> "Un établissement responsable pour faire la ressource disponible."@fr .
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Éditeur"@fr .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est referenced, cité, ou otherwise visé à par la ressource décrite."@fr .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#label> "Références"@fr .
