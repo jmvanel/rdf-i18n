@@ -22,7 +22,7 @@
 <http://rs.tdwg.org/dwc/terms/identificationID> <http://www.w3.org/2000/01/rdf-schema#label> "Identificación ID"@en .
 <http://rs.tdwg.org/dwc/terms/sampleSizeUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "La unidad de medida de la medida (duración de tiempo, longitud, área, o volumen) de una muestra en un acontecimiento de muestreo."@en .
 <http://rs.tdwg.org/dwc/terms/sampleSizeUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Unidad de Medida de la muestra"@en .
-<http://rs.tdwg.org/dwc/terms/georeferenceProtocol> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Una descripción o la referencia a los métodos utilizó para determinar la huella espacial, coordenadas, e incertidumbres."@en .
+<http://rs.tdwg.org/dwc/terms/georeferenceProtocol> <http://www.w3.org/2000/01/rdf-schema#comentario> "Una descripción o la referencia a los métodos utilizó para determinar la huella espacial, coordenadas, e incertidumbres."@en .
 <http://rs.tdwg.org/dwc/terms/georeferenceProtocol> <http://www.w3.org/2000/01/rdf-schema#label> "Georeference Protocolo"@en .
 <http://rs.tdwg.org/dwc/terms/municipality> <http://www.w3.org/2000/01/rdf-schema#comment> "El lleno, unabbreviated nombre de la región administrativa más pequeña próxima que condado (ciudad, municipio, etc.) en qué la Ubicación ocurre. No utiliza este plazo para un sitio nombrado cercano que no contiene la ubicación real."@en .
 <http://rs.tdwg.org/dwc/terms/municipality> <http://www.w3.org/2000/01/rdf-schema#label> "Municipio"@en .
@@ -43,7 +43,7 @@
 <http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno del más temprano posible geochronologic era o más bajo chronostratigraphic erathem attributable al stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
 <http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem> <http://www.w3.org/2000/01/rdf-schema#label> "Era más temprana O más Bajo Erathem"@en .
 <http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters> <http://www.w3.org/2000/01/rdf-schema#comment> "La distancia menor en una gama de distancia de una superficie de referencia en la dirección vertical, en metros. Uso valores positivos para ubicaciones por encima de la superficie, valores negativos para ubicaciones abajo. Si medidas de profundidad están dadas, la superficie de referencia es la ubicación dado por la profundidad, otherwise la superficie de referencia es la ubicación dado por la elevación."@en .
-<http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters> <Http://www.w3.org/2000/01/rdf-schema#etiqueta> "Distancia Mínima Encima Superficie En Metros"@en .
+<http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters> <http://www.w3.org/2000/01/rdf-schema#etiqueta> "Distancia Mínima Encima Superficie En Metros"@en .
 <http://rs.tdwg.org/dwc/terms/measurementID> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador para el MeasurementOrFact (la información perteneciente a medidas, hechos, características, o aserciones). Puede ser un identificador único global o un identificador específico al conjunto de dato."@en .
 <http://rs.tdwg.org/dwc/terms/measurementID> <http://www.w3.org/2000/01/rdf-schema#label> "Medida ID"@en .
 <http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters> <http://www.w3.org/2000/01/rdf-schema#comment> "La distancia más grande en una gama de distancia de una superficie de referencia en la dirección vertical, en metros. Uso valores positivos para ubicaciones por encima de la superficie, valores negativos para ubicaciones abajo. Si medidas de profundidad están dadas, la superficie de referencia es la ubicación dado por la profundidad, otherwise la superficie de referencia es la ubicación dado por la elevación."@en .
@@ -65,7 +65,7 @@
 <http://rs.tdwg.org/dwc/terms/country> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre del país o la unidad administrativa importante en qué la Ubicación ocurre."@en .
 <http://rs.tdwg.org/dwc/terms/country> <http://www.w3.org/2000/01/rdf-schema#label> "País"@en .
 <http://rs.tdwg.org/dwc/terms/dataGeneralizations> <http://www.w3.org/2000/01/rdf-schema#comment> "Las acciones tomadas para hacer el dato compartido menos específico o completo que en su forma original. Sugiere que el dato alternativo de calidad más alta puede ser disponible a petición."@en .
-<http://rs.tdwg.org/dwc/terms/dataGeneralizations> <Http://www.w3.org/2000/01/rdf-schema#Generalizaciones> "de Dato de la etiqueta"@en .
+<http://rs.tdwg.org/dwc/terms/dataGeneralizations> <http://www.w3.org/2000/01/rdf-schema#Generalizaciones> "de Dato de la etiqueta"@en .
 <http://rs.tdwg.org/dwc/terms/geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#comment> "El elipsoide, geodetic datum, o sistema de referencia espacial (SRS) a qué las coordenadas geográficas dadas en decimalLatitude y decimalLongitude cuando basó."@en .
 <http://rs.tdwg.org/dwc/terms/geodeticDatum> <http://www.w3.org/2000/01/rdf-schema#label> "Geodetic Datum"@en .
 <http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno del más tardío posible geochronologic época o más alto chronostratigraphic serie attributable al stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
@@ -86,7 +86,7 @@
 <http://rs.tdwg.org/dwc/terms/taxonomicStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Taxonomic Estado"@en .
 <http://rs.tdwg.org/dwc/terms/lifeStage> <http://www.w3.org/2000/01/rdf-schema#comment> "La clase de edad o etapa de vida del particular biológico(s) en el tiempo la Ocurrencia estuvo grabada."@en .
 <http://rs.tdwg.org/dwc/terms/lifeStage> <http://www.w3.org/2000/01/rdf-schema#label> "Etapa de vida"@en .
-<http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> <Http://www.w3.org/2000/01/rdf-schema#comentario> "El nombre lleno del más tardío posible geochronologic eon o más alto chrono-stratigraphic eonothem o el nombre informal (\"Precambrian\") attributable al stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
+<http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> <http://www.w3.org/2000/01/rdf-schema#comentario> "El nombre lleno del más tardío posible geochronologic eon o más alto chrono-stratigraphic eonothem o el nombre informal (\"Precambrian\") attributable al stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
 <http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem> <http://www.w3.org/2000/01/rdf-schema#label> "Más tardío Eon O más Alto Eonothem"@en .
 <http://rs.tdwg.org/dwc/terms/nomenclaturalCode> <http://www.w3.org/2000/01/rdf-schema#comment> "El nomenclatural código (o códigos en el caso de un ambiregnal nombre) bajo qué el scientificName está construido."@en .
 <http://rs.tdwg.org/dwc/terms/nomenclaturalCode> <http://www.w3.org/2000/01/rdf-schema#label> "Nomenclatural Código"@en .
@@ -108,7 +108,7 @@
 <http://rs.tdwg.org/dwc/terms/ResourceRelationship> <http://www.w3.org/2000/01/rdf-schema#label> "Relación de recurso"@en .
 <http://rs.tdwg.org/dwc/terms/startDayOfYear> <http://www.w3.org/2000/01/rdf-schema#comment> "El día de entero más temprano del año en qué el Acontecimiento ocurrido (1 para enero 1, 365 para diciembre 31, exceptúa en un año de salto, en qué caso  es 366)."@en .
 <http://rs.tdwg.org/dwc/terms/startDayOfYear> <http://www.w3.org/2000/01/rdf-schema#label> "Día de inicio De Año"@en .
-<Http://rs.tdwg.org/dwc/Plazos/eventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "La fecha-el tiempo o el intervalo durante qué un Acontecimiento ocurrieron. Para ocurrencias, esto es la fecha-cronometrar cuándo el acontecimiento estuvo grabado. No propio para un tiempo en un contexto geológico."@en .
+<http://rs.tdwg.org/dwc/Plazos/eventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "La fecha-el tiempo o el intervalo durante qué un Acontecimiento ocurrieron. Para ocurrencias, esto es la fecha-cronometrar cuándo el acontecimiento estuvo grabado. No propio para un tiempo en un contexto geológico."@en .
 <http://rs.tdwg.org/dwc/terms/eventDate> <http://www.w3.org/2000/01/rdf-schema#label> "Fecha de acontecimiento"@en .
 <http://rs.tdwg.org/dwc/terms/maximumElevationInMeters> <http://www.w3.org/2000/01/rdf-schema#comment> "El límite superior de la gama de elevación (altitud, normalmente encima nivel de mar), en metros."@en .
 <http://rs.tdwg.org/dwc/terms/maximumElevationInMeters> <http://www.w3.org/2000/01/rdf-schema#label> "Elevación máxima En Metros"@en .
@@ -134,7 +134,7 @@
 <http://rs.tdwg.org/dwc/terms/Taxon> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon"@fr .
 <http://rs.tdwg.org/dwc/terms/preparations> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de preparaciones y métodos de preservación para un espécimen."@en .
 <http://rs.tdwg.org/dwc/terms/preparations> <http://www.w3.org/2000/01/rdf-schema#label> "Preparaciones"@en .
-<http://rs.tdwg.org/dwc/terms/phylum> <Http://www.w3.org/2000/01/rdf-schema#comentario> "El nombre científico lleno del phylum o división en qué el taxon está clasificado."@en .
+<http://rs.tdwg.org/dwc/terms/phylum> <http://www.w3.org/2000/01/rdf-schema#comentario> "El nombre científico lleno del phylum o división en qué el taxon está clasificado."@en .
 <http://rs.tdwg.org/dwc/terms/phylum> <http://www.w3.org/2000/01/rdf-schema#label> "Phylum"@en .
 <http://rs.tdwg.org/dwc/terms/day> <http://www.w3.org/2000/01/rdf-schema#comment> "El día de entero del mes en qué el Acontecimiento ocurrió."@en .
 <http://rs.tdwg.org/dwc/terms/day> <http://www.w3.org/2000/01/rdf-schema#label> "Día"@en .
@@ -160,7 +160,7 @@
 <http://rs.tdwg.org/dwc/terms/georeferencedDate> <http://www.w3.org/2000/01/rdf-schema#label> "Georeferenced Fecha"@en .
 <http://rs.tdwg.org/dwc/terms/institutionCode> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre (o acrónimo) en uso por la institución habiendo custodia del objeto(s) o la información refirió a en el registro."@en .
 <http://rs.tdwg.org/dwc/terms/institutionCode> <http://www.w3.org/2000/01/rdf-schema#label> "Código de institución"@en .
-<http://rs.tdwg.org/dwc/terms/nameAccordingTo> <Http://www.w3.org/2000/01/rdf-schema#comentario> "La referencia a la fuente en qué el específico taxon concepto circumscription está definido o implicado - tradicionalmente signified por el latino \"sensu\" o \"sec.\" (De secundum, significando \"según\"). Para taxa que resultado de identificaciones, una referencia a las llaves, monografías, los expertos y otras fuentes tendrían que ser dados."@en .
+<http://rs.tdwg.org/dwc/terms/nameAccordingTo> <http://www.w3.org/2000/01/rdf-schema#comentario> "La referencia a la fuente en qué el específico taxon concepto circumscription está definido o implicado - tradicionalmente signified por el latino \"sensu\" o \"sec.\" (De secundum, significando \"según\"). Para taxa que resultado de identificaciones, una referencia a las llaves, monografías, los expertos y otras fuentes tendrían que ser dados."@en .
 <http://rs.tdwg.org/dwc/terms/nameAccordingTo> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre Según"@en .
 <http://rs.tdwg.org/dwc/terms/locationID> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador para el conjunto de información de ubicación (el dato asociado con dcterms:Ubicación). Puede ser un identificador único global o un identificador específico al conjunto de dato."@en .
 <http://rs.tdwg.org/dwc/terms/locationID> <http://www.w3.org/2000/01/rdf-schema#label> "Ubicación ID"@en .
@@ -180,7 +180,7 @@
 <http://rs.tdwg.org/dwc/terms/decimalLongitude> <http://www.w3.org/2000/01/rdf-schema#label> "Decimal Longitude"@en .
 <http://rs.tdwg.org/dwc/terms/verbatimSRS> <http://www.w3.org/2000/01/rdf-schema#comment> "El elipsoide, geodetic datum, o sistema de referencia espacial (SRS) a qué coordenadas dadas en verbatimLatitude y verbatimLongitude, o verbatimCoordinates está basado."@en .
 <http://rs.tdwg.org/dwc/terms/verbatimSRS> <http://www.w3.org/2000/01/rdf-schema#label> "Verbatim SRS"@en .
-<Http://rs.tdwg.org/dwc/Plazos/acceptedNameUsage> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno, con autoría e información de fecha si sabidos, del actualmente válidos (zoológicos) o aceptados (botánicos) taxon."@en .
+<http://rs.tdwg.org/dwc/Plazos/acceptedNameUsage> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno, con autoría e información de fecha si sabidos, del actualmente válidos (zoológicos) o aceptados (botánicos) taxon."@en .
 <http://rs.tdwg.org/dwc/terms/acceptedNameUsage> <http://www.w3.org/2000/01/rdf-schema#label> "Uso de Nombre aceptado"@en .
 <http://rs.tdwg.org/dwc/terms/associatedTaxa> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de identificadores o nombres de taxa y sus asociaciones con la Ocurrencia."@en .
 <http://rs.tdwg.org/dwc/terms/associatedTaxa> <http://www.w3.org/2000/01/rdf-schema#label> "Asociado Taxa"@en .
@@ -203,7 +203,7 @@
 <http://rs.tdwg.org/dwc/terms/waterBody> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre del cuerpo de agua en qué la Ubicación ocurre."@en .
 <http://rs.tdwg.org/dwc/terms/waterBody> <http://www.w3.org/2000/01/rdf-schema#label> "Cuerpo de agua"@en .
 <http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno del más tardío posible geochronologic periodo o más alto chronostratigraphic sistema attributable al stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
-<Http://rs.tdwg.org/dwc/Plazos/latestPeriodOrHighestSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo más Tardío O Sistema más Alto"@en .
+<http://rs.tdwg.org/dwc/Plazos/latestPeriodOrHighestSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Periodo más Tardío O Sistema más Alto"@en .
 <http://rs.tdwg.org/dwc/terms/sex> <http://www.w3.org/2000/01/rdf-schema#comment> "El sexo del particular biológico(s) representó en la Ocurrencia."@en .
 <http://rs.tdwg.org/dwc/terms/sex> <http://www.w3.org/2000/01/rdf-schema#label> "Sexo"@en .
 <http://rs.tdwg.org/dwc/terms/disposition> <http://www.w3.org/2000/01/rdf-schema#comment> "El estado actual de un espécimen con respetar a la colección identificada en collectionCode o collectionID."@en .
@@ -254,7 +254,7 @@
 <http://rs.tdwg.org/dwc/terms/previousIdentifications> <http://www.w3.org/2000/01/rdf-schema#label> "Identificaciones anteriores"@en .
 <http://rs.tdwg.org/dwc/terms/organismRemarks> <http://www.w3.org/2000/01/rdf-schema#comment> "Comentarios o notas sobre el caso de Organismo."@en .
 <http://rs.tdwg.org/dwc/terms/organismRemarks> <http://www.w3.org/2000/01/rdf-schema#label> "El organismo Remarca"@en .
-<http://rs.tdwg.org/dwc/terms/Organism> <Http://www.w3.org/2000/01/rdf-schema#comentario> "Un organismo particular o el grupo definido de organismos consideró para ser taxonómicamente homogeneous."@en .
+<http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#comentario> "Un organismo particular o el grupo definido de organismos consideró para ser taxonómicamente homogeneous."@en .
 <http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#comment> "Une Organización particulière ou un groupe défini d'organizaciones considérées comme Taxonomiquement homogène " .
 <http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#label> "Organismo"@en .
 <http://rs.tdwg.org/dwc/terms/Organism> <http://www.w3.org/2000/01/rdf-schema#label> "Organisme"@fr .
@@ -276,7 +276,7 @@
 <http://rs.tdwg.org/dwc/terms/resourceRelationshipID> <http://www.w3.org/2000/01/rdf-schema#label> "Relación de recurso ID"@en .
 <http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre lleno del más bajo posible geológico biostratigraphic zona del stratigraphic el horizonte de qué el elemento catalogado estuvo recogido."@en .
 <http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone> <http://www.w3.org/2000/01/rdf-schema#label> "Más bajo Biostratigraphic Zona"@en .
-<http://rs.tdwg.org/dwc/terms/higherGeography> <Http://www.w3.org/2000/01/rdf-schema#Comentar> "Una lista (concatenado y separado) de nombres geográficos menos específicos que la información capturada en el locality plazo."@en .
+<http://rs.tdwg.org/dwc/terms/higherGeography> <http://www.w3.org/2000/01/rdf-schema#Comentar> "Una lista (concatenado y separado) de nombres geográficos menos específicos que la información capturada en el locality plazo."@en .
 <http://rs.tdwg.org/dwc/terms/higherGeography> <http://www.w3.org/2000/01/rdf-schema#label> "Geografía más alta"@en .
 <http://rs.tdwg.org/dwc/terms/endDayOfYear> <http://www.w3.org/2000/01/rdf-schema#comment> "El día de entero más tardío del año en qué el Acontecimiento ocurrido (1 para enero 1, 365 para diciembre 31, exceptúa en un año de salto, en qué caso  es 366)."@en .
 <http://rs.tdwg.org/dwc/terms/endDayOfYear> <http://www.w3.org/2000/01/rdf-schema#label> "Día de fin De Año"@en .
@@ -300,7 +300,7 @@
 <http://rs.tdwg.org/dwc/terms/relationshipOfResource> <http://www.w3.org/2000/01/rdf-schema#label> "Relación De Recurso"@en .
 <http://rs.tdwg.org/dwc/terms/identificationReferences> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de referencias (publicación, identificador único global, URI) utilizó en la Identificación."@en .
 <http://rs.tdwg.org/dwc/terms/identificationReferences> <http://www.w3.org/2000/01/rdf-schema#label> "Referencias de identificación"@en .
-<Http://rs.tdwg.org/dwc/Plazos/stateProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre de la región administrativa más pequeña próxima que país (estado, provincia, lado, departamento, región, etc.) en qué la Ubicación ocurre."@en .
+<http://rs.tdwg.org/dwc/Plazos/stateProvince> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre de la región administrativa más pequeña próxima que país (estado, provincia, lado, departamento, región, etc.) en qué la Ubicación ocurre."@en .
 <http://rs.tdwg.org/dwc/terms/stateProvince> <http://www.w3.org/2000/01/rdf-schema#label> "Provincia estatal"@en .
 <http://rs.tdwg.org/dwc/terms/higherGeographyID> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador para la región geográfica dentro de qué la Ubicación ocurrió."@en .
 <http://rs.tdwg.org/dwc/terms/higherGeographyID> <http://www.w3.org/2000/01/rdf-schema#label> "Geografía más alta ID"@en .
@@ -323,7 +323,7 @@
 <http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters> <http://www.w3.org/2000/01/rdf-schema#comment> "La distancia horizontal (en metros) del dados decimalLatitude y decimalLongitude describiendo el círculo más pequeño que contiene la totalidad de la Ubicación. Dejar el valor vacío si la incertidumbre es desconocida, no puede ser estimado, o no es aplicable (porque no hay ninguna coordenada). El cero no es un valor válido para este plazo."@en .
 <http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters> <http://www.w3.org/2000/01/rdf-schema#label> "Incertidumbre de coordenada En Metros"@en .
 <http://rs.tdwg.org/dwc/terms/associatedMedia> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de identificadores (publicación, identificador único global, URI) de los medios de comunicación asociaron con la Ocurrencia."@en .
-<http://rs.tdwg.org/dwc/terms/associatedMedia> <Http://www.w3.org/2000/01/rdf-schema#Etiquetar> "Medios de comunicación Asociados"@en .
+<http://rs.tdwg.org/dwc/terms/associatedMedia> <http://www.w3.org/2000/01/rdf-schema#Etiquetar> "Medios de comunicación Asociados"@en .
 <http://rs.tdwg.org/dwc/terms/recordedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de nombres de personas, grupos, o las organizaciones responsables para grabar la Ocurrencia original. El coleccionista primario u observador, especialmente uno quién aplica un identificador personal (recordNumber), tendría que ser listado primero."@en .
 <http://rs.tdwg.org/dwc/terms/recordedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Grabado Por"@en .
 <http://rs.tdwg.org/dwc/terms/GeologicalContext> <http://www.w3.org/2000/01/rdf-schema#comment> "Información geológica, como estratigrafía, aquello cualifica una región o sitio."@en .
@@ -346,7 +346,7 @@
 <http://rs.tdwg.org/dwc/terms/scientificNameID> <http://www.w3.org/2000/01/rdf-schema#label> "Nombre científico ID"@en .
 <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Un indicador categórico de la extensión al cual el taxonomic la identificación ha sido verificada para ser correcto."@en .
 <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Estado de Verificación de la identificación"@en .
-<http://rs.tdwg.org/dwc/terms/decimalLatitude> <Http://www.w3.org/2000/01/rdf-schema#comentario> "La latitud geográfica (en grados decimales, utilizando el sistema de referencia espacial dado en geodeticDatum) del centro geográfico de una Ubicación. Los valores positivos son al norte del Ecuador, los valores negativos son al sur de él. Mentira de valores legales entre -90 y 90, inclusive."@en .
+<http://rs.tdwg.org/dwc/terms/decimalLatitude> <http://www.w3.org/2000/01/rdf-schema#comentario> "La latitud geográfica (en grados decimales, utilizando el sistema de referencia espacial dado en geodeticDatum) del centro geográfico de una Ubicación. Los valores positivos son al norte del Ecuador, los valores negativos son al sur de él. Mentira de valores legales entre -90 y 90, inclusive."@en .
 <http://rs.tdwg.org/dwc/terms/decimalLatitude> <http://www.w3.org/2000/01/rdf-schema#label> "Latitud decimal"@en .
 <http://rs.tdwg.org/dwc/terms/recordNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador dado a la Ocurrencia en el tiempo  esté grabado. A menudo sirve como enlace entre notas de campo y un registro de Ocurrencia, como el número de un coleccionista de espécimen."@en .
 <http://rs.tdwg.org/dwc/terms/recordNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Número récord"@en .
@@ -369,7 +369,7 @@
 <http://rs.tdwg.org/dwc/terms/originalNameUsageID> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador para el uso de nombre (significado documentado del nombre según una fuente) en qué el elemento terminal del scientificName era originalmente establecido bajo las reglas del asociados nomenclaturalCode."@en .
 <http://rs.tdwg.org/dwc/terms/originalNameUsageID> <http://www.w3.org/2000/01/rdf-schema#label> "Uso de Nombre original ID"@en .
 <http://rs.tdwg.org/dwc/terms/georeferenceRemarks> <http://www.w3.org/2000/01/rdf-schema#comment> "Notas o comentarios sobre la determinación de descripción espacial, explicando las suposiciones hicieron además u oposición al aquellos formalizados en el método refirió a en georeferenceProtocol."@en .
-<Http://rs.tdwg.org/dwc/Plazos/georeferenceRemarks> <http://www.w3.org/2000/01/rdf-schema#label> "Georeference Comentarios"@en .
+<http://rs.tdwg.org/dwc/Plazos/georeferenceRemarks> <http://www.w3.org/2000/01/rdf-schema#label> "Georeference Comentarios"@en .
 <http://rs.tdwg.org/dwc/terms/kingdom> <http://www.w3.org/2000/01/rdf-schema#comment> "El nombre científico lleno del reino en qué el taxon está clasificado."@en .
 <http://rs.tdwg.org/dwc/terms/kingdom> <http://www.w3.org/2000/01/rdf-schema#label> "Reino"@en .
 <http://rs.tdwg.org/dwc/terms/identificationQualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Una frase breve o un plazo estándar (\"cf.\", \"aff.\") Para expresar el determiner  dudas sobre la Identificación."@en .
@@ -390,7 +390,7 @@
 <http://rs.tdwg.org/dwc/terms/relationshipAccordingTo> <http://www.w3.org/2000/01/rdf-schema#label> "Relación Según"@en .
 <http://rs.tdwg.org/dwc/terms/taxonConceptID> <http://www.w3.org/2000/01/rdf-schema#comment> "Un identificador para el taxonomic concepto al cual el registro refiere - no para el nomenclatural detalles de un taxon."@en .
 <http://rs.tdwg.org/dwc/terms/taxonConceptID> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon Concepto ID"@en .
-<Http://rs.tdwg.org/dwc/terms/year> <http://www.w3.org/2000/01/rdf-schema#comment> "El año de cuatro dígitos en qué el Acontecimiento ocurrió, según el Calendario de Era Común."@en .
+<http://rs.tdwg.org/dwc/terms/year> <http://www.w3.org/2000/01/rdf-schema#comment> "El año de cuatro dígitos en qué el Acontecimiento ocurrió, según el Calendario de Era Común."@en .
 <http://rs.tdwg.org/dwc/terms/year> <http://www.w3.org/2000/01/rdf-schema#label> "Año"@en .
 <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> <http://www.w3.org/2000/01/rdf-schema#comment> "Una lista (concatenado y separado) de anterior o alternar plenamente cualificado catalogar números u otro humanos-utilizó identificadores para la misma Ocurrencia, si en el actual o cualquiera otro conjunto de dato o colección."@en .
 <http://rs.tdwg.org/dwc/terms/otherCatalogNumbers> <http://www.w3.org/2000/01/rdf-schema#label> "Otro Catalogar Números"@en .
