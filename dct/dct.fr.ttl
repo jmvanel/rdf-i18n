@@ -135,8 +135,8 @@
 <http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Il a Part"@fr .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est une version, édition, ou adaptation de la ressource décrite."@fr .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Il a Version"@fr .
-<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Une référence inequívoca à la ressource dedans d'un contexte donné."@fr .
-<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identificador"@fr .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Une référence univoque à la ressource dans un contexte donné."@fr .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifiant"@fr .
 <http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Un procès, utilisé à engender connaissance, attitudes et habilités, que la ressource décrite est dessiné pour soutenir."@fr .
 <http://purl.org/dc/terms/instructionalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "Instructional Méthode"@fr .
 <http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Une ressource liée qu'est sustancialmente égale comme la ressource décrite, mais dans un autre format."@fr .
